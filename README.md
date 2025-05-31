@@ -33,11 +33,11 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
 ## 🔥 About Me:
 
 - 🎓 **Currently Studying:** Computer Science with AI & ML at Atlas SkillTech University
-- 🧠 **Currently Working On:** Machine Learning Models & Time Series Forecasting Projects
-- 📚 **Currently Learning:** Advanced ML Algorithms, Data Science & Deep Learning
-- 🤝 **Looking to Collaborate On:** AI/ML Projects, Data Science Research & Web Development
-- 💬 **Ask Me About:** Python, Machine Learning, Django, Flask, Data Analysis & Software Testing
-- ⚡ **Fun Fact:** I love solving complex problems with data and building intelligent systems! 🤖📊
+- 🧠 **Currently Working On:** Stock Analysis Agent (AI-powered financial analytics) & Excel Liberators (full-stack web app)
+- 📚 **Currently Learning:** Advanced ML Algorithms, Financial Data Science, React TypeScript & Deep Learning
+- 🤝 **Looking to Collaborate On:** AI/ML Projects, FinTech Solutions, Data Science Research & Full-Stack Development
+- 💬 **Ask Me About:** Python, Machine Learning, Stock Market Analysis, React, Django, Flask & Financial Analytics
+- ⚡ **Fun Fact:** I build AI systems that predict stock movements and create tools that make Excel data processing effortless! 📈💻
 
 ---
 
@@ -77,16 +77,36 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
 
 ---
 
+## 🚀 Featured Projects:
+
+### 📈 Stock Analysis Agent
+**Advanced AI-Powered Stock Market Analysis Tool**
+- 🤖 **ML Models**: Time series forecasting with ensemble methods (short, medium, long-term predictions)
+- 📊 **Technical Analysis**: Bollinger Bands, MACD, RSI indicators with automated chart generation
+- 🧠 **AI Features**: LLM-powered sentiment analysis, web search integration, and RAG-based sector insights
+- 🔍 **Data Processing**: Real-time stock data analysis with feature engineering and deep scaling
+- **Tech Stack**: Python, Machine Learning, Data Science, Financial Analytics
+
+### 📊 Excel Liberators
+**Full-Stack Web Application for Excel File Processing**
+- 🎯 **Frontend**: Modern React TypeScript interface with Tailwind CSS
+- ⚙️ **Backend**: Python-based processing engine for Excel operations
+- 📁 **Features**: File upload, password protection, drag-and-drop interface
+- 🔧 **Tools**: Vite, ESLint, PostCSS, custom UI components
+- **Tech Stack**: React, TypeScript, Python, Tailwind CSS, Vite
+
+---
+
 ## 🛠️ Tech Stack & Tools:
 
 ### 📚 Programming Languages & Frameworks:
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </div>
 
 ### 🗄️ Databases:
@@ -100,6 +120,15 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly" />
+</div>
+
+### 🎨 Frontend & Styling:
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 </div>
 
 ### 🛡️ Tools & Technologies:
