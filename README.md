@@ -1,6 +1,10 @@
 # 📊 GitHub Stats:
 
 <div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=parthparmar07" alt="GitHub Trophies" />
+</div>
+
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="GitHub Stats" />
 </div>
 
