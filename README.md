@@ -1,4 +1,6 @@
-# 🧠 CS AI & ML Student | Machine Learning Enthusiast | Web Developer
+# 🧠 CS Student | AI Agent Builder | Machine Learning Specialist | Techie Beyond Code
+
+
 
 <div align="center">
 
