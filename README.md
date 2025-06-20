@@ -28,11 +28,60 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
 
 # 🔥 CS AI & ML Student | Machine Learning Enthusiast | Web Developer
 
+<!-- Professional Badges -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=parthparmar07&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Data Science](https://img.shields.io/badge/Data%20Science-FF6F00?style=for-the-badge&logo=jupyter&logoColor=white)
+![AI](https://img.shields.io/badge/Artificial%20Intelligence-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit%20Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=parthparmar07&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/parthparmar07?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers" />
+  <img src="https://img.shields.io/badge/Focus-Data%20Science-brightgreen?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Lives-India-success?style=for-the-badge" alt="Lives" />
 </div>
 
 ---
+
+## 🏆 GitHub Achievements & Activity:
+
+<div align="center">
+  
+<!-- GitHub Activity Badges -->
+![GitHub Stats](https://img.shields.io/badge/GitHub%20Stats-View%20Profile-brightgreen?style=for-the-badge&logo=github)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-blue?style=for-the-badge&logo=opensourceinitiative)
+![Code Quality](https://img.shields.io/badge/Code%20Quality-High-success?style=for-the-badge&logo=codacy)
+
+<!-- Contribution Activity -->
+![GitHub Contributions](https://img.shields.io/badge/Contributions-Active-brightgreen?style=for-the-badge&logo=github)
+![Projects](https://img.shields.io/badge/Projects-10+-blue?style=for-the-badge&logo=github)
+![Languages](https://img.shields.io/badge/Languages-5+-orange?style=for-the-badge&logo=programming)
+
+<!-- Learning Badges -->
+![Student](https://img.shields.io/badge/Status-Student-yellow?style=for-the-badge&logo=google-scholar)
+![Learning](https://img.shields.io/badge/Always-Learning-ff69b4?style=for-the-badge&logo=academia)
+![Innovation](https://img.shields.io/badge/Focus-Innovation-purple?style=for-the-badge&logo=lightbulb)
+
+</div>
 
 ## 🔥 About Me:
 
