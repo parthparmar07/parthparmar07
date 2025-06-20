@@ -1,34 +1,6 @@
-# 📊 GitHub Stats:
+# � CS AI & ML Student | Machine Learning Enthusiast | Web Developer
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=parthparmar07" alt="GitHub Trophies" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Most Used Languages" />
-</div>
-
----
-
----
-
-# 🌟 Dreaming Big:
-
-I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passionate about developing ML models and working on data-driven projects. I aim to become a skilled **Machine Learning Engineer** and **Data Scientist**, creating impactful solutions through AI and advanced analytics!
-
----
-
-# 🔥 CS AI & ML Student | Machine Learning Enthusiast | Web Developer
-
-<!-- Professional Badges -->
+<!-- Professional Tech Stack Badges - Prominently Displayed -->
 <div align="center">
   
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -53,35 +25,48 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
 
 </div>
 
+<!-- GitHub Activity & Status Badges -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=parthparmar07&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/parthparmar07?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers" />
-  <img src="https://img.shields.io/badge/Focus-Data%20Science-brightgreen?style=for-the-badge" alt="Focus" />
-  <img src="https://img.shields.io/badge/Lives-India-success?style=for-the-badge" alt="Lives" />
+  
+![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&label=Profile%20Views&color=0e75b6&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/parthparmar07?label=Followers&style=for-the-badge&color=blue)
+![Focus](https://img.shields.io/badge/Focus-Data%20Science-brightgreen?style=for-the-badge)
+![Lives](https://img.shields.io/badge/Lives-India-success?style=for-the-badge)
+
+![Student](https://img.shields.io/badge/Status-Student-yellow?style=for-the-badge&logo=google-scholar)
+![Learning](https://img.shields.io/badge/Always-Learning-ff69b4?style=for-the-badge&logo=academia)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-blue?style=for-the-badge&logo=opensourceinitiative)
+![Projects](https://img.shields.io/badge/Projects-10+-purple?style=for-the-badge&logo=github)
+
 </div>
 
 ---
 
-## 🏆 GitHub Achievements & Activity:
+# 🌟 Dreaming Big:
+
+I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passionate about developing ML models and working on data-driven projects. I aim to become a skilled **Machine Learning Engineer** and **Data Scientist**, creating impactful solutions through AI and advanced analytics!
+
+---
+
+# 📊 GitHub Stats:
 
 <div align="center">
-  
-<!-- GitHub Activity Badges -->
-![GitHub Stats](https://img.shields.io/badge/GitHub%20Stats-View%20Profile-brightgreen?style=for-the-badge&logo=github)
-![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-blue?style=for-the-badge&logo=opensourceinitiative)
-![Code Quality](https://img.shields.io/badge/Code%20Quality-High-success?style=for-the-badge&logo=codacy)
-
-<!-- Contribution Activity -->
-![GitHub Contributions](https://img.shields.io/badge/Contributions-Active-brightgreen?style=for-the-badge&logo=github)
-![Projects](https://img.shields.io/badge/Projects-10+-blue?style=for-the-badge&logo=github)
-![Languages](https://img.shields.io/badge/Languages-5+-orange?style=for-the-badge&logo=programming)
-
-<!-- Learning Badges -->
-![Student](https://img.shields.io/badge/Status-Student-yellow?style=for-the-badge&logo=google-scholar)
-![Learning](https://img.shields.io/badge/Always-Learning-ff69b4?style=for-the-badge&logo=academia)
-![Innovation](https://img.shields.io/badge/Focus-Innovation-purple?style=for-the-badge&logo=lightbulb)
-
+  <img src="https://github-profile-trophy.vercel.app/?username=parthparmar07" alt="GitHub Trophies" />
 </div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Most Used Languages" />
+</div>
+
+---
 
 ## 🔥 About Me:
 
