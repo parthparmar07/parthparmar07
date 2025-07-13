@@ -161,23 +161,6 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
   </a>
 </div>
 
----
-
-## 💼 Professional Experience:
-
-### 🤖 Machine Learning Intern | Cognifyz Technologies
-**April 2025 - May 2025**
-- Developing ML models and working on data-driven projects
-- Implementing Time Series Forecasting algorithms
-- Collaborating on AI-powered solutions
-
-### 🔍 Quality Assurance Specialist
-**August 2024 - Present**
-- Manual testing and bug identification & resolution
-- Collaborating with developers to enhance platform performance
-- Improving user experience through systematic testing
-
----
 
 ## 🎓 Education:
 
@@ -187,43 +170,6 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
 - Hands-on experience with data science projects
 - Strong foundation in software development and problem-solving
 
----
-
-## 🚀 Featured Projects:
-
-### 📈 Stock Analysis Agent
-**Advanced AI-Powered Stock Market Analysis Tool**
-- 🤖 **ML Models**: Time series forecasting with ensemble methods (short, medium, long-term predictions)
-- 📊 **Technical Analysis**: Bollinger Bands, MACD, RSI indicators with automated chart generation
-- 🧠 **AI Features**: LLM-powered sentiment analysis, web search integration, and RAG-based sector insights
-- 🔍 **Data Processing**: Real-time stock data analysis with feature engineering and deep scaling
-- **Tech Stack**: Python, Machine Learning, Data Science, Financial Analytics
-
-### 📊 Excel Liberators
-**Full-Stack Web Application for Excel File Processing**
-- 🎯 **Frontend**: Modern React TypeScript interface with Tailwind CSS
-- ⚙️ **Backend**: Python-based processing engine for Excel operations
-- 📁 **Features**: File upload, password protection, drag-and-drop interface
-- 🔧 **Tools**: Vite, ESLint, PostCSS, custom UI components
-- **Tech Stack**: React, TypeScript, Python, Tailwind CSS, Vite
-
-### 🔬 Data Science Internship Portfolio
-**Comprehensive ML Projects Collection**
-- 🌸 **Iris Classification**: 100% accuracy with SVM, comprehensive EDA
-- 📈 **Unemployment Analysis**: COVID-19 impact assessment, interactive dashboards
-- 🚗 **Car Price Prediction**: Random Forest model with 85%+ R² score
-- 💰 **Sales Prediction**: Marketing analytics with ROI optimization
-- **Tech Stack**: Python, Scikit-learn, Pandas, Matplotlib, Statistical Analysis
-
-### 🧠 Machine Learning Internship Project
-**Advanced ML Algorithms Implementation**
-- 🤖 **Models**: Classification, Regression, Clustering algorithms
-- 📊 **Analysis**: Feature engineering, model comparison, hyperparameter tuning
-- 🔍 **Evaluation**: Cross-validation, performance metrics, statistical testing
-- 📈 **Visualization**: Advanced plots, model interpretability
-- **Tech Stack**: Python, TensorFlow, Scikit-learn, Data Visualization
-
----
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6B6B&area=true&hide_border=true" alt="Activity Graph" />
