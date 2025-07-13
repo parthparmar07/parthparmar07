@@ -181,27 +181,6 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
 </div>
 
-
-## 📈 Advanced GitHub Analytics 📈
-
-<div align="center">
-
-### 📊 Detailed Contribution Stats
-![GitHub metrics](https://metrics.lecoq.io/parthparmar07?template=classic&config.timezone=Asia%2FKolkata)
-
-### 🔥 Contribution Streak & Activity
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=parthparmar07&theme=tokyonight" alt="GitHub Profile Summary" />
-
-### 🌟 Repository Performance
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=parthparmar07&theme=tokyonight" alt="Repos per Language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=parthparmar07&theme=tokyonight" alt="Most Commit Language" />
-
-</div>
-
----
-
-<div align="center">
-
 ## 🎯 2025 Goals & Focus Areas 🎯
 
 | Goal | Status | Progress |
