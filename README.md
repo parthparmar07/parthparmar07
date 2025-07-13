@@ -181,17 +181,6 @@ I am a **Computer Science AI & ML Student** at Atlas SkillTech University, passi
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
 </div>
 
----
-
-## 🏆 GitHub Contribution Trophy Case 🏆
-
-<div align="center">
-  
-[![GitHub Contribution Trophy](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=darkhub&no-frame=false&no-bg=false&margin-w=4&row=1&column=6)](https://github.com/parthparmar07)
-
-</div>
-
----
 
 ## 📈 Advanced GitHub Analytics 📈
 
