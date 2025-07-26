@@ -1,0 +1,105 @@
+
+CAR PRICE PREDICTION ANALYSIS REPORT
+=====================================
+
+Dataset Overview:
+- Total Records: 301
+- Features: 10
+- Price Range: Rs.0.10 - Rs.35.00 lakhs
+- Average Price: Rs.4.66 lakhs
+
+Key Insights:
+1. Data Quality: No missing values found in the dataset
+2. Price Distribution: Mean price is Rs.4.66 lakhs with std Rs.5.08 lakhs
+3. Car Age Impact: Strong negative correlation between car age and selling price
+4. Present Price Correlation: High positive correlation (0.879) with selling price
+
+Feature Engineering Results:
+- Created 7 new features
+- Key engineered features: Car_Age, Depreciation_Rate, Brand_Popularity
+- Feature selection reduced dimensionality while maintaining predictive power
+
+Model Performance Results:
+==========================
+Best Model: Random Forest
+- Test R² Score: 0.9898
+- Test MAE: Rs.0.27 lakhs
+- Test RMSE: Rs.0.49 lakhs
+- Cross-Validation R²: 0.9559 ± 0.0377
+
+Model Comparison Summary:
+
+Linear Regression:
+  - Test R²: 0.9898
+  - Test MAE: Rs.0.26 lakhs
+  - CV Score: 0.9925 ± 0.0056
+
+Ridge Regression:
+  - Test R²: 0.9891
+  - Test MAE: Rs.0.28 lakhs
+  - CV Score: 0.9912 ± 0.0055
+
+Lasso Regression:
+  - Test R²: 0.9869
+  - Test MAE: Rs.0.33 lakhs
+  - CV Score: 0.9869 ± 0.0077
+
+Decision Tree:
+  - Test R²: 0.9875
+  - Test MAE: Rs.0.37 lakhs
+  - CV Score: 0.8603 ± 0.0967
+
+Random Forest:
+  - Test R²: 0.9898
+  - Test MAE: Rs.0.27 lakhs
+  - CV Score: 0.9559 ± 0.0377
+
+Gradient Boosting:
+  - Test R²: 0.9865
+  - Test MAE: Rs.0.28 lakhs
+  - CV Score: 0.9663 ± 0.0269
+
+Support Vector Regression:
+  - Test R²: 0.8021
+  - Test MAE: Rs.0.79 lakhs
+  - CV Score: 0.6655 ± 0.2512
+
+K-Nearest Neighbors:
+  - Test R²: 0.9609
+  - Test MAE: Rs.0.69 lakhs
+  - CV Score: 0.8496 ± 0.0430
+
+Top 10 Most Important Features:
+  7. num__Price_per_Year: 0.5684
+  10. num__Present_Age_Ratio: 0.3743
+  2. num__Present_Price: 0.0383
+  9. num__Age_Mileage_Interaction: 0.0036
+  8. num__Brand_Popularity: 0.0028
+  1. num__Year: 0.0027
+  5. num__Car_Age: 0.0024
+  3. num__Driven_kms: 0.0023
+  13. cat__Selling_type_Individual: 0.0023
+  6. num__Depreciation_Rate: 0.0017
+
+Key Findings:
+=============
+1. The Random Forest achieved the best performance with R² = 0.9898
+2. Present price is the strongest predictor of selling price
+3. Car age and depreciation rate are crucial factors in price determination
+4. Model can predict car prices with average error of Rs.0.27 lakhs
+
+Business Implications:
+======================
+1. Age Depreciation: Cars depreciate significantly with age, following predictable patterns
+2. Brand Value: Some brands maintain value better than others
+3. Mileage Impact: High mileage vehicles show greater depreciation
+4. Market Trends: The model can help in fair price estimation for buyers and sellers
+
+Recommendations:
+================
+1. Use the Random Forest for production price predictions
+2. Regularly retrain the model with new market data
+3. Consider additional features like service history, accident records
+4. Implement confidence intervals for price predictions
+
+Analysis completed on: 2025-05-25 11:51:36

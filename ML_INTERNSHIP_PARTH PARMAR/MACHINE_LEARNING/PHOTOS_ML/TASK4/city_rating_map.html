@@ -1,0 +1,3329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_333b2c04be1ff47ff70c8a7e965fcb75 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_333b2c04be1ff47ff70c8a7e965fcb75" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_333b2c04be1ff47ff70c8a7e965fcb75 = L.map(
+                "map_333b2c04be1ff47ff70c8a7e965fcb75",
+                {
+                    center: [25.854380700074756, 64.12657446168706],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6f83adff61211cea6d0a9c78d53fdc58 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6f83adff61211cea6d0a9c78d53fdc58.addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+            var circle_marker_8384af155597806e669381173ba8e9d0 = L.circleMarker(
+                [24.4642687255, 54.405998419499994],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_d0204055186e948d2b691dafa9a31527 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bbceb328c6adb05fe8642b796d8fe750 = $(`<div id="html_bbceb328c6adb05fe8642b796d8fe750" style="width: 100.0%; height: 100.0%;"><b>Abu Dhabi</b><br>Restaurants: 20.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_d0204055186e948d2b691dafa9a31527.setContent(html_bbceb328c6adb05fe8642b796d8fe750);
+            
+        
+
+        circle_marker_8384af155597806e669381173ba8e9d0.bindPopup(popup_d0204055186e948d2b691dafa9a31527)
+        ;
+
+        
+    
+    
+            var circle_marker_b7ba48f005184947d650da67adc37be1 = L.circleMarker(
+                [19.0166831185, 54.6228302765],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_9d0cbdc1ecca49d48f1512e1fcddc2cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b451335c43e0a903356f84b55316338f = $(`<div id="html_b451335c43e0a903356f84b55316338f" style="width: 100.0%; height: 100.0%;"><b>Agra</b><br>Restaurants: 20.0<br>Average Rating: 3.96/5</div>`)[0];
+                popup_9d0cbdc1ecca49d48f1512e1fcddc2cb.setContent(html_b451335c43e0a903356f84b55316338f);
+            
+        
+
+        circle_marker_b7ba48f005184947d650da67adc37be1.bindPopup(popup_9d0cbdc1ecca49d48f1512e1fcddc2cb)
+        ;
+
+        
+    
+    
+            var circle_marker_d63bab71c59510ca6fda55bca903560d = L.circleMarker(
+                [23.03690963714286, 72.53132398952381],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_16df28cc8ea0554248b37375203b4d1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9fd7e97a34bebac5fd120a7a93883aa = $(`<div id="html_b9fd7e97a34bebac5fd120a7a93883aa" style="width: 100.0%; height: 100.0%;"><b>Ahmedabad</b><br>Restaurants: 21.0<br>Average Rating: 4.16/5</div>`)[0];
+                popup_16df28cc8ea0554248b37375203b4d1d.setContent(html_b9fd7e97a34bebac5fd120a7a93883aa);
+            
+        
+
+        circle_marker_d63bab71c59510ca6fda55bca903560d.bindPopup(popup_16df28cc8ea0554248b37375203b4d1d)
+        ;
+
+        
+    
+    
+            var circle_marker_d88e72515a187bef427130c006ae9106 = L.circleMarker(
+                [31.60296343, -84.18659204000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_dbd202578308bdafa72e514f75ccdef4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a242d8d6fc254d5b36dc98412ad6a35c = $(`<div id="html_a242d8d6fc254d5b36dc98412ad6a35c" style="width: 100.0%; height: 100.0%;"><b>Albany</b><br>Restaurants: 20.0<br>Average Rating: 3.55/5</div>`)[0];
+                popup_dbd202578308bdafa72e514f75ccdef4.setContent(html_a242d8d6fc254d5b36dc98412ad6a35c);
+            
+        
+
+        circle_marker_d88e72515a187bef427130c006ae9106.bindPopup(popup_dbd202578308bdafa72e514f75ccdef4)
+        ;
+
+        
+    
+    
+            var circle_marker_86a812f1594bdaea5fcae63c3085df7d = L.circleMarker(
+                [19.0893709845, 61.3787931605],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_0a95a29c784751aa692ca1cac11a6039 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_42cd3764bddf9cf75614854b4464309a = $(`<div id="html_42cd3764bddf9cf75614854b4464309a" style="width: 100.0%; height: 100.0%;"><b>Allahabad</b><br>Restaurants: 20.0<br>Average Rating: 3.40/5</div>`)[0];
+                popup_0a95a29c784751aa692ca1cac11a6039.setContent(html_42cd3764bddf9cf75614854b4464309a);
+            
+        
+
+        circle_marker_86a812f1594bdaea5fcae63c3085df7d.bindPopup(popup_0a95a29c784751aa692ca1cac11a6039)
+        ;
+
+        
+    
+    
+            var circle_marker_4be7b53c873bde59b621e022e82ffab7 = L.circleMarker(
+                [25.611152856666667, 60.61309755],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_c5ec25f22582d617e6cfa79ce86ec430 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4f91882bcc1594f1fd76500ff2d384d = $(`<div id="html_c4f91882bcc1594f1fd76500ff2d384d" style="width: 100.0%; height: 100.0%;"><b>Amritsar</b><br>Restaurants: 21.0<br>Average Rating: 3.69/5</div>`)[0];
+                popup_c5ec25f22582d617e6cfa79ce86ec430.setContent(html_c4f91882bcc1594f1fd76500ff2d384d);
+            
+        
+
+        circle_marker_4be7b53c873bde59b621e022e82ffab7.bindPopup(popup_c5ec25f22582d617e6cfa79ce86ec430)
+        ;
+
+        
+    
+    
+            var circle_marker_6776ca1240e51669fedc88d0c7635050 = L.circleMarker(
+                [39.906428855, 32.824276161],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_dd9368037131df7fcb5c05bd890874be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a200de9de29a4091564037d64ebc6f87 = $(`<div id="html_a200de9de29a4091564037d64ebc6f87" style="width: 100.0%; height: 100.0%;"><b>Ankara</b><br>Restaurants: 20.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_dd9368037131df7fcb5c05bd890874be.setContent(html_a200de9de29a4091564037d64ebc6f87);
+            
+        
+
+        circle_marker_6776ca1240e51669fedc88d0c7635050.bindPopup(popup_dd9368037131df7fcb5c05bd890874be)
+        ;
+
+        
+    
+    
+            var circle_marker_c596129d677f8b8413f009278084255d = L.circleMarker(
+                [-30.5147169, 151.6688792],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_69e571d201616983539b6196cbf72f60 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b581798a428eec751bb92f66719a284 = $(`<div id="html_3b581798a428eec751bb92f66719a284" style="width: 100.0%; height: 100.0%;"><b>Armidale</b><br>Restaurants: 1.0<br>Average Rating: 3.50/5</div>`)[0];
+                popup_69e571d201616983539b6196cbf72f60.setContent(html_3b581798a428eec751bb92f66719a284);
+            
+        
+
+        circle_marker_c596129d677f8b8413f009278084255d.bindPopup(popup_69e571d201616983539b6196cbf72f60)
+        ;
+
+        
+    
+    
+            var circle_marker_1becd3ea44fff7659343159767e02b0a = L.circleMarker(
+                [33.95380841, -83.38049078],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f39d431fc54644addaade783ee169c79 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_32f4bf80064ed27647e54697e7355896 = $(`<div id="html_32f4bf80064ed27647e54697e7355896" style="width: 100.0%; height: 100.0%;"><b>Athens</b><br>Restaurants: 20.0<br>Average Rating: 4.20/5</div>`)[0];
+                popup_f39d431fc54644addaade783ee169c79.setContent(html_32f4bf80064ed27647e54697e7355896);
+            
+        
+
+        circle_marker_1becd3ea44fff7659343159767e02b0a.bindPopup(popup_f39d431fc54644addaade783ee169c79)
+        ;
+
+        
+    
+    
+            var circle_marker_51a5aa945e4c277311d844610a63d215 = L.circleMarker(
+                [-35.018806837, 174.76193619],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_ab71aff8b28fe22bb0af6fcbd3f21fa7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_454b0a2de04f7bd8a5eba4ac2a6fe1c0 = $(`<div id="html_454b0a2de04f7bd8a5eba4ac2a6fe1c0" style="width: 100.0%; height: 100.0%;"><b>Auckland</b><br>Restaurants: 20.0<br>Average Rating: 4.28/5</div>`)[0];
+                popup_ab71aff8b28fe22bb0af6fcbd3f21fa7.setContent(html_454b0a2de04f7bd8a5eba4ac2a6fe1c0);
+            
+        
+
+        circle_marker_51a5aa945e4c277311d844610a63d215.bindPopup(popup_ab71aff8b28fe22bb0af6fcbd3f21fa7)
+        ;
+
+        
+    
+    
+            var circle_marker_6c76931a48f4e3ccbd6e0789adfe3230 = L.circleMarker(
+                [33.48917119, -82.053204815],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_dea2083b81f2f118ab30357ff6da00ae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2259498e3ea58e08b38782796cc2ad69 = $(`<div id="html_2259498e3ea58e08b38782796cc2ad69" style="width: 100.0%; height: 100.0%;"><b>Augusta</b><br>Restaurants: 20.0<br>Average Rating: 4.13/5</div>`)[0];
+                popup_dea2083b81f2f118ab30357ff6da00ae.setContent(html_2259498e3ea58e08b38782796cc2ad69);
+            
+        
+
+        circle_marker_6c76931a48f4e3ccbd6e0789adfe3230.bindPopup(popup_dea2083b81f2f118ab30357ff6da00ae)
+        ;
+
+        
+    
+    
+            var circle_marker_69528dc6e1ec39f3965ae0e78f7f5bfa = L.circleMarker(
+                [15.901220759500001, 60.27382031449999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_3c11fd0ee342b0bb0446f236438eabb6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_756455fab91794b728bbbb15771876af = $(`<div id="html_756455fab91794b728bbbb15771876af" style="width: 100.0%; height: 100.0%;"><b>Aurangabad</b><br>Restaurants: 20.0<br>Average Rating: 3.38/5</div>`)[0];
+                popup_3c11fd0ee342b0bb0446f236438eabb6.setContent(html_756455fab91794b728bbbb15771876af);
+            
+        
+
+        circle_marker_69528dc6e1ec39f3965ae0e78f7f5bfa.bindPopup(popup_3c11fd0ee342b0bb0446f236438eabb6)
+        ;
+
+        
+    
+    
+            var circle_marker_bd0e984c843fada59221dc8b3b4f66ff = L.circleMarker(
+                [-33.7845269, 115.9844924],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_ff340b0400d59bdb2ce8206be9bd131c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a064e3d9277ac5dfd7a054ed0305be92 = $(`<div id="html_a064e3d9277ac5dfd7a054ed0305be92" style="width: 100.0%; height: 100.0%;"><b>Balingup</b><br>Restaurants: 1.0<br>Average Rating: 3.20/5</div>`)[0];
+                popup_ff340b0400d59bdb2ce8206be9bd131c.setContent(html_a064e3d9277ac5dfd7a054ed0305be92);
+            
+        
+
+        circle_marker_bd0e984c843fada59221dc8b3b4f66ff.bindPopup(popup_ff340b0400d59bdb2ce8206be9bd131c)
+        ;
+
+        
+    
+    
+            var circle_marker_edab49aaa86ace83926ee780b2ec0964 = L.circleMarker(
+                [-6.887057501, 107.6127895],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f4c2a54a4ac6c3569ecd9c30e45d33ba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c20f8214f45cb0d5441c04cdd5a83660 = $(`<div id="html_c20f8214f45cb0d5441c04cdd5a83660" style="width: 100.0%; height: 100.0%;"><b>Bandung</b><br>Restaurants: 1.0<br>Average Rating: 4.20/5</div>`)[0];
+                popup_f4c2a54a4ac6c3569ecd9c30e45d33ba.setContent(html_c20f8214f45cb0d5441c04cdd5a83660);
+            
+        
+
+        circle_marker_edab49aaa86ace83926ee780b2ec0964.bindPopup(popup_f4c2a54a4ac6c3569ecd9c30e45d33ba)
+        ;
+
+        
+    
+    
+            var circle_marker_60b4e7b7c5ebbd4bdfc7e248de4ffdbd = L.circleMarker(
+                [12.955034355499999, 77.6344059925],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_e6fc1c1196923020d3f5de7cdaffb559 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_475dcbe7c433e7ee87a484d9e6a7bf56 = $(`<div id="html_475dcbe7c433e7ee87a484d9e6a7bf56" style="width: 100.0%; height: 100.0%;"><b>Bangalore</b><br>Restaurants: 20.0<br>Average Rating: 4.38/5</div>`)[0];
+                popup_e6fc1c1196923020d3f5de7cdaffb559.setContent(html_475dcbe7c433e7ee87a484d9e6a7bf56);
+            
+        
+
+        circle_marker_60b4e7b7c5ebbd4bdfc7e248de4ffdbd.bindPopup(popup_e6fc1c1196923020d3f5de7cdaffb559)
+        ;
+
+        
+    
+    
+            var circle_marker_3b7c63daef28eccfef67617064e8c587 = L.circleMarker(
+                [-36.360439, 146.685852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a71dae02bbd72a268c43ffd0b2a78624 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dccb7b748a99fbb8f3bc07356716c2cf = $(`<div id="html_dccb7b748a99fbb8f3bc07356716c2cf" style="width: 100.0%; height: 100.0%;"><b>Beechworth</b><br>Restaurants: 1.0<br>Average Rating: 4.60/5</div>`)[0];
+                popup_a71dae02bbd72a268c43ffd0b2a78624.setContent(html_dccb7b748a99fbb8f3bc07356716c2cf);
+            
+        
+
+        circle_marker_3b7c63daef28eccfef67617064e8c587.bindPopup(popup_a71dae02bbd72a268c43ffd0b2a78624)
+        ;
+
+        
+    
+    
+            var circle_marker_955ebc3d5ab2d20187ba25866eada114 = L.circleMarker(
+                [16.2603727335, 54.191667947999996],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_40bd7e10bb294f2c76658823078b784d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9443fbfb16b8c0617142815a7f279847 = $(`<div id="html_9443fbfb16b8c0617142815a7f279847" style="width: 100.0%; height: 100.0%;"><b>Bhopal</b><br>Restaurants: 20.0<br>Average Rating: 3.95/5</div>`)[0];
+                popup_40bd7e10bb294f2c76658823078b784d.setContent(html_9443fbfb16b8c0617142815a7f279847);
+            
+        
+
+        circle_marker_955ebc3d5ab2d20187ba25866eada114.bindPopup(popup_40bd7e10bb294f2c76658823078b784d)
+        ;
+
+        
+    
+    
+            var circle_marker_64da20dfd98d96550c9b58137a5ec6b7 = L.circleMarker(
+                [16.453016752857145, 69.47785703666666],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_39eb1e2f3a5e1925b0778950d66be6e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f291b8b11e09a922d708c3c8bf32c9d0 = $(`<div id="html_f291b8b11e09a922d708c3c8bf32c9d0" style="width: 100.0%; height: 100.0%;"><b>Bhubaneshwar</b><br>Restaurants: 21.0<br>Average Rating: 3.98/5</div>`)[0];
+                popup_39eb1e2f3a5e1925b0778950d66be6e6.setContent(html_f291b8b11e09a922d708c3c8bf32c9d0);
+            
+        
+
+        circle_marker_64da20dfd98d96550c9b58137a5ec6b7.bindPopup(popup_39eb1e2f3a5e1925b0778950d66be6e6)
+        ;
+
+        
+    
+    
+            var circle_marker_621a92342f421287ece55897a3334a8b = L.circleMarker(
+                [52.4752764005, -1.9016762061],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_41db34cd5d0a90dcd070d51318840f35 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aecb90abc64b7ed50a947175064a3096 = $(`<div id="html_aecb90abc64b7ed50a947175064a3096" style="width: 100.0%; height: 100.0%;"><b>Birmingham</b><br>Restaurants: 20.0<br>Average Rating: 3.68/5</div>`)[0];
+                popup_41db34cd5d0a90dcd070d51318840f35.setContent(html_aecb90abc64b7ed50a947175064a3096);
+            
+        
+
+        circle_marker_621a92342f421287ece55897a3334a8b.bindPopup(popup_41db34cd5d0a90dcd070d51318840f35)
+        ;
+
+        
+    
+    
+            var circle_marker_01a44fa0afdb477b65c3d38c25561c15 = L.circleMarker(
+                [-6.591747397, 106.80907565],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_859a18567c11c70ade873339bea47b22 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de118900c6dae619098c57e33dc29841 = $(`<div id="html_de118900c6dae619098c57e33dc29841" style="width: 100.0%; height: 100.0%;"><b>Bogor</b><br>Restaurants: 2.0<br>Average Rating: 3.85/5</div>`)[0];
+                popup_859a18567c11c70ade873339bea47b22.setContent(html_de118900c6dae619098c57e33dc29841);
+            
+        
+
+        circle_marker_01a44fa0afdb477b65c3d38c25561c15.bindPopup(popup_859a18567c11c70ade873339bea47b22)
+        ;
+
+        
+    
+    
+            var circle_marker_fcaae978f099881039c1c220f205c438 = L.circleMarker(
+                [43.610375145, -116.2418823],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_d712e950aee5954872dc72ffbebc37c2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6ae02afa77d93ecda5a49a7f8109b2ea = $(`<div id="html_6ae02afa77d93ecda5a49a7f8109b2ea" style="width: 100.0%; height: 100.0%;"><b>Boise</b><br>Restaurants: 20.0<br>Average Rating: 4.26/5</div>`)[0];
+                popup_d712e950aee5954872dc72ffbebc37c2.setContent(html_6ae02afa77d93ecda5a49a7f8109b2ea);
+            
+        
+
+        circle_marker_fcaae978f099881039c1c220f205c438.bindPopup(popup_d712e950aee5954872dc72ffbebc37c2)
+        ;
+
+        
+    
+    
+            var circle_marker_e9168fba3462434d4057d2271a389c57 = L.circleMarker(
+                [-15.8075752835, -47.9159082735],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_6225ff683f1e418a683432740586168d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de86661c55a8da86c0445b68ea1d1a59 = $(`<div id="html_de86661c55a8da86c0445b68ea1d1a59" style="width: 100.0%; height: 100.0%;"><b>Bras�_lia</b><br>Restaurants: 20.0<br>Average Rating: 3.50/5</div>`)[0];
+                popup_6225ff683f1e418a683432740586168d.setContent(html_de86661c55a8da86c0445b68ea1d1a59);
+            
+        
+
+        circle_marker_e9168fba3462434d4057d2271a389c57.bindPopup(popup_6225ff683f1e418a683432740586168d)
+        ;
+
+        
+    
+    
+            var circle_marker_746af2af457a2e20c2485f68141c293a = L.circleMarker(
+                [-33.927229892999996, 18.4251830925],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_fa0fbded541e673546a0febb72f8b144 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_47cec93cb6f98922576e05589debb98b = $(`<div id="html_47cec93cb6f98922576e05589debb98b" style="width: 100.0%; height: 100.0%;"><b>Cape Town</b><br>Restaurants: 20.0<br>Average Rating: 4.11/5</div>`)[0];
+                popup_fa0fbded541e673546a0febb72f8b144.setContent(html_47cec93cb6f98922576e05589debb98b);
+            
+        
+
+        circle_marker_746af2af457a2e20c2485f68141c293a.bindPopup(popup_fa0fbded541e673546a0febb72f8b144)
+        ;
+
+        
+    
+    
+            var circle_marker_fbf51b2d5979f35d1095871830519fad = L.circleMarker(
+                [41.820305785, -91.58551136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_37013d855cfe8caa62a1e2e24c3db246 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1988fcae5e8b762a4c898448d68bd1e4 = $(`<div id="html_1988fcae5e8b762a4c898448d68bd1e4" style="width: 100.0%; height: 100.0%;"><b>Cedar Rapids/Iowa City</b><br>Restaurants: 20.0<br>Average Rating: 4.17/5</div>`)[0];
+                popup_37013d855cfe8caa62a1e2e24c3db246.setContent(html_1988fcae5e8b762a4c898448d68bd1e4);
+            
+        
+
+        circle_marker_fbf51b2d5979f35d1095871830519fad.bindPopup(popup_37013d855cfe8caa62a1e2e24c3db246)
+        ;
+
+        
+    
+    
+            var circle_marker_4f9efb2fc501b71bb508ac295ec12a77 = L.circleMarker(
+                [30.72020503333333, 76.78993902222221],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_0259a3b5ffa84b9761b33d702a63ba3a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27355b08b47dac910d5711be9e149f76 = $(`<div id="html_27355b08b47dac910d5711be9e149f76" style="width: 100.0%; height: 100.0%;"><b>Chandigarh</b><br>Restaurants: 18.0<br>Average Rating: 4.05/5</div>`)[0];
+                popup_0259a3b5ffa84b9761b33d702a63ba3a.setContent(html_27355b08b47dac910d5711be9e149f76);
+            
+        
+
+        circle_marker_4f9efb2fc501b71bb508ac295ec12a77.bindPopup(popup_0259a3b5ffa84b9761b33d702a63ba3a)
+        ;
+
+        
+    
+    
+            var circle_marker_81bbe63be06e1ba8545a7a450db104a2 = L.circleMarker(
+                [42.397683, -82.188438],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_1d7474c8de59e79e2e23ed832e29f59e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_19b4f8a5fbaa77fbb8cdb0df9f1efe59 = $(`<div id="html_19b4f8a5fbaa77fbb8cdb0df9f1efe59" style="width: 100.0%; height: 100.0%;"><b>Chatham-Kent</b><br>Restaurants: 1.0<br>Average Rating: 3.70/5</div>`)[0];
+                popup_1d7474c8de59e79e2e23ed832e29f59e.setContent(html_19b4f8a5fbaa77fbb8cdb0df9f1efe59);
+            
+        
+
+        circle_marker_81bbe63be06e1ba8545a7a450db104a2.bindPopup(popup_1d7474c8de59e79e2e23ed832e29f59e)
+        ;
+
+        
+    
+    
+            var circle_marker_4cb0c8f6d21309058a1e3798dda53231 = L.circleMarker(
+                [13.034892899499999, 80.23815012],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_b4e5a0fa82e674ae3ac69ac22fc4253e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7827a0110230c0fb7a5530e8df0b33c1 = $(`<div id="html_7827a0110230c0fb7a5530e8df0b33c1" style="width: 100.0%; height: 100.0%;"><b>Chennai</b><br>Restaurants: 20.0<br>Average Rating: 4.31/5</div>`)[0];
+                popup_b4e5a0fa82e674ae3ac69ac22fc4253e.setContent(html_7827a0110230c0fb7a5530e8df0b33c1);
+            
+        
+
+        circle_marker_4cb0c8f6d21309058a1e3798dda53231.bindPopup(popup_b4e5a0fa82e674ae3ac69ac22fc4253e)
+        ;
+
+        
+    
+    
+            var circle_marker_999c1714923743c7de692730affa173b = L.circleMarker(
+                [46.126967, -123.368151],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_0f9defa7447b77272ad0b81b5b5a3619 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a1c5295a00b4bbc649591a16340a237 = $(`<div id="html_0a1c5295a00b4bbc649591a16340a237" style="width: 100.0%; height: 100.0%;"><b>Clatskanie</b><br>Restaurants: 1.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_0f9defa7447b77272ad0b81b5b5a3619.setContent(html_0a1c5295a00b4bbc649591a16340a237);
+            
+        
+
+        circle_marker_999c1714923743c7de692730affa173b.bindPopup(popup_0f9defa7447b77272ad0b81b5b5a3619)
+        ;
+
+        
+    
+    
+            var circle_marker_ec0ff3322b52319d022e735be12c303e = L.circleMarker(
+                [51.183934, -114.472474],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_b8708e8bfd667309c06f1ea5a92a9174 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_271e83b2f9868eeb0320a7a14751e7a6 = $(`<div id="html_271e83b2f9868eeb0320a7a14751e7a6" style="width: 100.0%; height: 100.0%;"><b>Cochrane</b><br>Restaurants: 1.0<br>Average Rating: 3.10/5</div>`)[0];
+                popup_b8708e8bfd667309c06f1ea5a92a9174.setContent(html_271e83b2f9868eeb0320a7a14751e7a6);
+            
+        
+
+        circle_marker_ec0ff3322b52319d022e735be12c303e.bindPopup(popup_b8708e8bfd667309c06f1ea5a92a9174)
+        ;
+
+        
+    
+    
+            var circle_marker_4a6ea7a1a6e4437cf3a7b319f859e39b = L.circleMarker(
+                [11.009894047, 76.9781705205],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f0ea3219b86ff61ee108b60054411cb6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5d66cc03d8b5e36d4822295f10f313f9 = $(`<div id="html_5d66cc03d8b5e36d4822295f10f313f9" style="width: 100.0%; height: 100.0%;"><b>Coimbatore</b><br>Restaurants: 20.0<br>Average Rating: 4.13/5</div>`)[0];
+                popup_f0ea3219b86ff61ee108b60054411cb6.setContent(html_5d66cc03d8b5e36d4822295f10f313f9);
+            
+        
+
+        circle_marker_4a6ea7a1a6e4437cf3a7b319f859e39b.bindPopup(popup_f0ea3219b86ff61ee108b60054411cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_66e5d0b80891ec839129b8289dd19346 = L.circleMarker(
+                [6.5591492343499995, 75.8679495815],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_76224095d9ba625737804207f2d6f380 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0cdc536e6d50564953f89f7ae4b11c46 = $(`<div id="html_0cdc536e6d50564953f89f7ae4b11c46" style="width: 100.0%; height: 100.0%;"><b>Colombo</b><br>Restaurants: 20.0<br>Average Rating: 3.87/5</div>`)[0];
+                popup_76224095d9ba625737804207f2d6f380.setContent(html_0cdc536e6d50564953f89f7ae4b11c46);
+            
+        
+
+        circle_marker_66e5d0b80891ec839129b8289dd19346.bindPopup(popup_76224095d9ba625737804207f2d6f380)
+        ;
+
+        
+    
+    
+            var circle_marker_244a53d610e8d591a1c111ec19c7471c = L.circleMarker(
+                [32.51937822, -84.96644000500001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f7c03882b48514a9aaf0da0e5c6f5020 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c9cbad4153fb90490be465d9ee43558 = $(`<div id="html_8c9cbad4153fb90490be465d9ee43558" style="width: 100.0%; height: 100.0%;"><b>Columbus</b><br>Restaurants: 20.0<br>Average Rating: 4.03/5</div>`)[0];
+                popup_f7c03882b48514a9aaf0da0e5c6f5020.setContent(html_8c9cbad4153fb90490be465d9ee43558);
+            
+        
+
+        circle_marker_244a53d610e8d591a1c111ec19c7471c.bindPopup(popup_f7c03882b48514a9aaf0da0e5c6f5020)
+        ;
+
+        
+    
+    
+            var circle_marker_7e04011047a06e2e714fa81ed1dd3399 = L.circleMarker(
+                [52.0082889, -110.7746994],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_10052f1a8becdafe9af26585ef4a458e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d82ec0a233eaeadef318a0cc195feddb = $(`<div id="html_d82ec0a233eaeadef318a0cc195feddb" style="width: 100.0%; height: 100.0%;"><b>Consort</b><br>Restaurants: 1.0<br>Average Rating: 3.00/5</div>`)[0];
+                popup_10052f1a8becdafe9af26585ef4a458e.setContent(html_d82ec0a233eaeadef318a0cc195feddb);
+            
+        
+
+        circle_marker_7e04011047a06e2e714fa81ed1dd3399.bindPopup(popup_10052f1a8becdafe9af26585ef4a458e)
+        ;
+
+        
+    
+    
+            var circle_marker_dc85cbadbdef7e5dc08192fa9fe9d3fe = L.circleMarker(
+                [34.775855074999996, -85.056923845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_5402c1f5634c5479b41366fb58f78926 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9a70ecca3ce6c5e55ba2b6a5f07dbeb = $(`<div id="html_b9a70ecca3ce6c5e55ba2b6a5f07dbeb" style="width: 100.0%; height: 100.0%;"><b>Dalton</b><br>Restaurants: 20.0<br>Average Rating: 4.11/5</div>`)[0];
+                popup_5402c1f5634c5479b41366fb58f78926.setContent(html_b9a70ecca3ce6c5e55ba2b6a5f07dbeb);
+            
+        
+
+        circle_marker_dc85cbadbdef7e5dc08192fa9fe9d3fe.bindPopup(popup_5402c1f5634c5479b41366fb58f78926)
+        ;
+
+        
+    
+    
+            var circle_marker_86da8554cedeb8553c84c0ebd7a9c942 = L.circleMarker(
+                [41.561015592000004, -90.543069471],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_1cf879a019b78f170474b2e8dd27db2e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_efbfbaa58f1f03d880d8a02aec3ba2af = $(`<div id="html_efbfbaa58f1f03d880d8a02aec3ba2af" style="width: 100.0%; height: 100.0%;"><b>Davenport</b><br>Restaurants: 20.0<br>Average Rating: 3.71/5</div>`)[0];
+                popup_1cf879a019b78f170474b2e8dd27db2e.setContent(html_efbfbaa58f1f03d880d8a02aec3ba2af);
+            
+        
+
+        circle_marker_86da8554cedeb8553c84c0ebd7a9c942.bindPopup(popup_1cf879a019b78f170474b2e8dd27db2e)
+        ;
+
+        
+    
+    
+            var circle_marker_09bbc4a9b87a96f44f134cad39f985a7 = L.circleMarker(
+                [19.724805089500002, 50.738920994],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f2ca409159b38414811d063fae8772f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_224e411278a129aa339ba6c5409630de = $(`<div id="html_224e411278a129aa339ba6c5409630de" style="width: 100.0%; height: 100.0%;"><b>Dehradun</b><br>Restaurants: 20.0<br>Average Rating: 4.05/5</div>`)[0];
+                popup_f2ca409159b38414811d063fae8772f7.setContent(html_224e411278a129aa339ba6c5409630de);
+            
+        
+
+        circle_marker_09bbc4a9b87a96f44f134cad39f985a7.bindPopup(popup_f2ca409159b38414811d063fae8772f7)
+        ;
+
+        
+    
+    
+            var circle_marker_ad85aa9eb74db71c3f674cf80f7ae830 = L.circleMarker(
+                [41.63989198, -93.662813285],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_592ef645a3c5072adee9b158750df038 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b07aa819a0aecdd9c3e40d85ebcb1648 = $(`<div id="html_b07aa819a0aecdd9c3e40d85ebcb1648" style="width: 100.0%; height: 100.0%;"><b>Des Moines</b><br>Restaurants: 20.0<br>Average Rating: 4.24/5</div>`)[0];
+                popup_592ef645a3c5072adee9b158750df038.setContent(html_b07aa819a0aecdd9c3e40d85ebcb1648);
+            
+        
+
+        circle_marker_ad85aa9eb74db71c3f674cf80f7ae830.bindPopup(popup_592ef645a3c5072adee9b158750df038)
+        ;
+
+        
+    
+    
+            var circle_marker_5f29644e5657e92d37675903ef7e2699 = L.circleMarker(
+                [-26.783576, 153.137401],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_3cf8779d142511d3813b7b30f01af2bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9a3b4e730246d90d68f3a3851245f38 = $(`<div id="html_d9a3b4e730246d90d68f3a3851245f38" style="width: 100.0%; height: 100.0%;"><b>Dicky Beach</b><br>Restaurants: 1.0<br>Average Rating: 3.60/5</div>`)[0];
+                popup_3cf8779d142511d3813b7b30f01af2bf.setContent(html_d9a3b4e730246d90d68f3a3851245f38);
+            
+        
+
+        circle_marker_5f29644e5657e92d37675903ef7e2699.bindPopup(popup_3cf8779d142511d3813b7b30f01af2bf)
+        ;
+
+        
+    
+    
+            var circle_marker_8bc2a0e6764730ec9aaeb4d8c8d90cbb = L.circleMarker(
+                [25.2862045005, 51.512866177],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_cce89d44e4c545cf7cfdb8a982b03cbc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8d3108919d0fe6793f18aef85bdbc1e = $(`<div id="html_d8d3108919d0fe6793f18aef85bdbc1e" style="width: 100.0%; height: 100.0%;"><b>Doha</b><br>Restaurants: 20.0<br>Average Rating: 4.06/5</div>`)[0];
+                popup_cce89d44e4c545cf7cfdb8a982b03cbc.setContent(html_d8d3108919d0fe6793f18aef85bdbc1e);
+            
+        
+
+        circle_marker_8bc2a0e6764730ec9aaeb4d8c8d90cbb.bindPopup(popup_cce89d44e4c545cf7cfdb8a982b03cbc)
+        ;
+
+        
+    
+    
+            var circle_marker_bebbf0f033602047c873c12f7507cba4 = L.circleMarker(
+                [25.1980205835, 55.274324102],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_ecb70d70f40cd9273a2eab69b794f61f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8f387c4b376a0750f6a4f6434accb03f = $(`<div id="html_8f387c4b376a0750f6a4f6434accb03f" style="width: 100.0%; height: 100.0%;"><b>Dubai</b><br>Restaurants: 20.0<br>Average Rating: 4.37/5</div>`)[0];
+                popup_ecb70d70f40cd9273a2eab69b794f61f.setContent(html_8f387c4b376a0750f6a4f6434accb03f);
+            
+        
+
+        circle_marker_bebbf0f033602047c873c12f7507cba4.bindPopup(popup_ecb70d70f40cd9273a2eab69b794f61f)
+        ;
+
+        
+    
+    
+            var circle_marker_c5948d446d9a724e6e5972abd3e9797f = L.circleMarker(
+                [42.501024285, -90.678075315],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_6668926acdb8d4fb03ad3af6976eac04 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9431833645eb1eb7f2c2cac3a6a00e7b = $(`<div id="html_9431833645eb1eb7f2c2cac3a6a00e7b" style="width: 100.0%; height: 100.0%;"><b>Dubuque</b><br>Restaurants: 20.0<br>Average Rating: 3.54/5</div>`)[0];
+                popup_6668926acdb8d4fb03ad3af6976eac04.setContent(html_9431833645eb1eb7f2c2cac3a6a00e7b);
+            
+        
+
+        circle_marker_c5948d446d9a724e6e5972abd3e9797f.bindPopup(popup_6668926acdb8d4fb03ad3af6976eac04)
+        ;
+
+        
+    
+    
+            var circle_marker_819c689570ca2ee2ad9bf27a0cfbdc8d = L.circleMarker(
+                [-28.862663, 153.593331],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_1deb9dc5686976266ce43aa63f82d839 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6851fddae3dddf8752d1402fb9f42f6b = $(`<div id="html_6851fddae3dddf8752d1402fb9f42f6b" style="width: 100.0%; height: 100.0%;"><b>East Ballina</b><br>Restaurants: 1.0<br>Average Rating: 4.10/5</div>`)[0];
+                popup_1deb9dc5686976266ce43aa63f82d839.setContent(html_6851fddae3dddf8752d1402fb9f42f6b);
+            
+        
+
+        circle_marker_819c689570ca2ee2ad9bf27a0cfbdc8d.bindPopup(popup_1deb9dc5686976266ce43aa63f82d839)
+        ;
+
+        
+    
+    
+            var circle_marker_bab08211a8f4f7c967de70b6ff55d8cf = L.circleMarker(
+                [55.953480328, -3.19199994995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_1dc89222f397cb23d10b1dd766adb130 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2669057e96f95900f0d76da9d26f1887 = $(`<div id="html_2669057e96f95900f0d76da9d26f1887" style="width: 100.0%; height: 100.0%;"><b>Edinburgh</b><br>Restaurants: 20.0<br>Average Rating: 4.09/5</div>`)[0];
+                popup_1dc89222f397cb23d10b1dd766adb130.setContent(html_2669057e96f95900f0d76da9d26f1887);
+            
+        
+
+        circle_marker_bab08211a8f4f7c967de70b6ff55d8cf.bindPopup(popup_1dc89222f397cb23d10b1dd766adb130)
+        ;
+
+        
+    
+    
+            var circle_marker_e949e7b22862b68bbe619e35db5c0bd2 = L.circleMarker(
+                [25.941119397689242, 70.53537124298805],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.02, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_fc7ad39e972de01652ac12793de19ea3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b37239d7a962d8cf2049560e3c45e8fb = $(`<div id="html_b37239d7a962d8cf2049560e3c45e8fb" style="width: 100.0%; height: 100.0%;"><b>Faridabad</b><br>Restaurants: 251.0<br>Average Rating: 1.87/5</div>`)[0];
+                popup_fc7ad39e972de01652ac12793de19ea3.setContent(html_b37239d7a962d8cf2049560e3c45e8fb);
+            
+        
+
+        circle_marker_e949e7b22862b68bbe619e35db5c0bd2.bindPopup(popup_fc7ad39e972de01652ac12793de19ea3)
+        ;
+
+        
+    
+    
+            var circle_marker_194748a369fa5d31a80637b234ae9399 = L.circleMarker(
+                [39.607515, -119.252694],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_48567123b3daca05a2625d8c5279dfb9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_daa01437b32643497e181f64af656493 = $(`<div id="html_daa01437b32643497e181f64af656493" style="width: 100.0%; height: 100.0%;"><b>Fernley</b><br>Restaurants: 1.0<br>Average Rating: 3.70/5</div>`)[0];
+                popup_48567123b3daca05a2625d8c5279dfb9.setContent(html_daa01437b32643497e181f64af656493);
+            
+        
+
+        circle_marker_194748a369fa5d31a80637b234ae9399.bindPopup(popup_48567123b3daca05a2625d8c5279dfb9)
+        ;
+
+        
+    
+    
+            var circle_marker_8b3b54d2d8407814f012b471ec3196a9 = L.circleMarker(
+                [-26.6521332, 152.8771473],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_6f8055fa4c128ce2d5fde9a0627a1cf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d101131b6a84b160f975795069e7c3f = $(`<div id="html_9d101131b6a84b160f975795069e7c3f" style="width: 100.0%; height: 100.0%;"><b>Flaxton</b><br>Restaurants: 1.0<br>Average Rating: 3.50/5</div>`)[0];
+                popup_6f8055fa4c128ce2d5fde9a0627a1cf1.setContent(html_9d101131b6a84b160f975795069e7c3f);
+            
+        
+
+        circle_marker_8b3b54d2d8407814f012b471ec3196a9.bindPopup(popup_6f8055fa4c128ce2d5fde9a0627a1cf1)
+        ;
+
+        
+    
+    
+            var circle_marker_d413b5054fcca7a0b70b28ed50c6ea67 = L.circleMarker(
+                [-38.517292, 143.714315],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_44732a5f7e6761203b0480b46c5601b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60d81167a1025420af8d24cb3e1b3f0d = $(`<div id="html_60d81167a1025420af8d24cb3e1b3f0d" style="width: 100.0%; height: 100.0%;"><b>Forrest</b><br>Restaurants: 1.0<br>Average Rating: 3.70/5</div>`)[0];
+                popup_44732a5f7e6761203b0480b46c5601b2.setContent(html_60d81167a1025420af8d24cb3e1b3f0d);
+            
+        
+
+        circle_marker_d413b5054fcca7a0b70b28ed50c6ea67.bindPopup(popup_44732a5f7e6761203b0480b46c5601b2)
+        ;
+
+        
+    
+    
+            var circle_marker_5f0c53156a3f17175f50b043d81c4f73 = L.circleMarker(
+                [34.422646199999996, -83.8516563],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_02d450e966c98c216397b9d54cd2da45 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d5066f319a2aa225ccbd764c445b9dc6 = $(`<div id="html_d5066f319a2aa225ccbd764c445b9dc6" style="width: 100.0%; height: 100.0%;"><b>Gainesville</b><br>Restaurants: 20.0<br>Average Rating: 4.04/5</div>`)[0];
+                popup_02d450e966c98c216397b9d54cd2da45.setContent(html_d5066f319a2aa225ccbd764c445b9dc6);
+            
+        
+
+        circle_marker_5f0c53156a3f17175f50b043d81c4f73.bindPopup(popup_02d450e966c98c216397b9d54cd2da45)
+        ;
+
+        
+    
+    
+            var circle_marker_7f24ee66070eb10f48a729ad1c6b9b1c = L.circleMarker(
+                [28.637474781199998, 77.3624697844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_34bc156a24041e660295d97c29158e25 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5ba56f31b066a612986bacdbfafbb611 = $(`<div id="html_5ba56f31b066a612986bacdbfafbb611" style="width: 100.0%; height: 100.0%;"><b>Ghaziabad</b><br>Restaurants: 25.0<br>Average Rating: 2.85/5</div>`)[0];
+                popup_34bc156a24041e660295d97c29158e25.setContent(html_5ba56f31b066a612986bacdbfafbb611);
+            
+        
+
+        circle_marker_7f24ee66070eb10f48a729ad1c6b9b1c.bindPopup(popup_34bc156a24041e660295d97c29158e25)
+        ;
+
+        
+    
+    
+            var circle_marker_c919870441e686bcad00d1d2e04d762e = L.circleMarker(
+                [13.178196682500001, 62.7225063],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_e017a6229ff502f3c34bea53c9358049 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_53272971e8d9731cf5d2201cdde9f2eb = $(`<div id="html_53272971e8d9731cf5d2201cdde9f2eb" style="width: 100.0%; height: 100.0%;"><b>Goa</b><br>Restaurants: 20.0<br>Average Rating: 4.25/5</div>`)[0];
+                popup_e017a6229ff502f3c34bea53c9358049.setContent(html_53272971e8d9731cf5d2201cdde9f2eb);
+            
+        
+
+        circle_marker_c919870441e686bcad00d1d2e04d762e.bindPopup(popup_e017a6229ff502f3c34bea53c9358049)
+        ;
+
+        
+    
+    
+            var circle_marker_1e86c7e25de5dfbc69c9d12e0aa762d0 = L.circleMarker(
+                [27.244717907808585, 73.76257232096602],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_8c5b01a71ff23faf26b5cc0d9569a7ae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e9c626626a1c938638e884fda000c76 = $(`<div id="html_0e9c626626a1c938638e884fda000c76" style="width: 100.0%; height: 100.0%;"><b>Gurgaon</b><br>Restaurants: 1118.0<br>Average Rating: 2.65/5</div>`)[0];
+                popup_8c5b01a71ff23faf26b5cc0d9569a7ae.setContent(html_0e9c626626a1c938638e884fda000c76);
+            
+        
+
+        circle_marker_1e86c7e25de5dfbc69c9d12e0aa762d0.bindPopup(popup_8c5b01a71ff23faf26b5cc0d9569a7ae)
+        ;
+
+        
+    
+    
+            var circle_marker_e8dbac4b04f4c8aaf3bc1e4e5c454cc2 = L.circleMarker(
+                [18.694813485714285, 65.55042233190477],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_ea02e0bdf64a70f4af32bb1fdf6a70dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_491a0326c145f82b961d67c8a94e5cc2 = $(`<div id="html_491a0326c145f82b961d67c8a94e5cc2" style="width: 100.0%; height: 100.0%;"><b>Guwahati</b><br>Restaurants: 21.0<br>Average Rating: 4.19/5</div>`)[0];
+                popup_ea02e0bdf64a70f4af32bb1fdf6a70dc.setContent(html_491a0326c145f82b961d67c8a94e5cc2);
+            
+        
+
+        circle_marker_e8dbac4b04f4c8aaf3bc1e4e5c454cc2.bindPopup(popup_ea02e0bdf64a70f4af32bb1fdf6a70dc)
+        ;
+
+        
+    
+    
+            var circle_marker_d08ab8e72c9b5e92476528ba83f1722b = L.circleMarker(
+                [-37.293910350000004, 144.12438170000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_555aecd0a456ee59a4717d7ffecb41c2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62f0b91e96beefd10f42e979b04b975b = $(`<div id="html_62f0b91e96beefd10f42e979b04b975b" style="width: 100.0%; height: 100.0%;"><b>Hepburn Springs</b><br>Restaurants: 2.0<br>Average Rating: 3.80/5</div>`)[0];
+                popup_555aecd0a456ee59a4717d7ffecb41c2.setContent(html_62f0b91e96beefd10f42e979b04b975b);
+            
+        
+
+        circle_marker_d08ab8e72c9b5e92476528ba83f1722b.bindPopup(popup_555aecd0a456ee59a4717d7ffecb41c2)
+        ;
+
+        
+    
+    
+            var circle_marker_fd81d48349ba930f9ec7724079e7e025 = L.circleMarker(
+                [-35.0388698, 150.6710743],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_493fb543f43f203f36a7475f022dbc1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25ec0ccf69d825e6b3351915e5e1e51f = $(`<div id="html_25ec0ccf69d825e6b3351915e5e1e51f" style="width: 100.0%; height: 100.0%;"><b>Huskisson</b><br>Restaurants: 1.0<br>Average Rating: 4.10/5</div>`)[0];
+                popup_493fb543f43f203f36a7475f022dbc1d.setContent(html_25ec0ccf69d825e6b3351915e5e1e51f);
+            
+        
+
+        circle_marker_fd81d48349ba930f9ec7724079e7e025.bindPopup(popup_493fb543f43f203f36a7475f022dbc1d)
+        ;
+
+        
+    
+    
+            var circle_marker_1e8be1c568868573530d4919a3e77b43 = L.circleMarker(
+                [17.432760579444444, 78.39625728611111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_e9ef1edd412cf9dbead1921a6ea550e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cb9be08beb3571b88f8f17c8e0e0454f = $(`<div id="html_cb9be08beb3571b88f8f17c8e0e0454f" style="width: 100.0%; height: 100.0%;"><b>Hyderabad</b><br>Restaurants: 18.0<br>Average Rating: 4.34/5</div>`)[0];
+                popup_e9ef1edd412cf9dbead1921a6ea550e5.setContent(html_cb9be08beb3571b88f8f17c8e0e0454f);
+            
+        
+
+        circle_marker_1e8be1c568868573530d4919a3e77b43.bindPopup(popup_e9ef1edd412cf9dbead1921a6ea550e5)
+        ;
+
+        
+    
+    
+            var circle_marker_bbcccfd25d8937c395d3a5c5758bba59 = L.circleMarker(
+                [22.736774547, 75.888196957],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f7d38eb6395c7699a7127fdcad29744c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad677e97cb930a81f9c7a181432fa212 = $(`<div id="html_ad677e97cb930a81f9c7a181432fa212" style="width: 100.0%; height: 100.0%;"><b>Indore</b><br>Restaurants: 20.0<br>Average Rating: 3.97/5</div>`)[0];
+                popup_f7d38eb6395c7699a7127fdcad29744c.setContent(html_ad677e97cb930a81f9c7a181432fa212);
+            
+        
+
+        circle_marker_bbcccfd25d8937c395d3a5c5758bba59.bindPopup(popup_f7d38eb6395c7699a7127fdcad29744c)
+        ;
+
+        
+    
+    
+            var circle_marker_59bab5961d369d3970859ce79daf0cb5 = L.circleMarker(
+                [-26.2051845, 28.0460275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_57069126e002cb968079531ec2bbd83d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_666173c3239df0631adaca4729ad4f4f = $(`<div id="html_666173c3239df0631adaca4729ad4f4f" style="width: 100.0%; height: 100.0%;"><b>Inner City</b><br>Restaurants: 2.0<br>Average Rating: 4.90/5</div>`)[0];
+                popup_57069126e002cb968079531ec2bbd83d.setContent(html_666173c3239df0631adaca4729ad4f4f);
+            
+        
+
+        circle_marker_59bab5961d369d3970859ce79daf0cb5.bindPopup(popup_57069126e002cb968079531ec2bbd83d)
+        ;
+
+        
+    
+    
+            var circle_marker_6548ee2ee40421d29ae754005adea69c = L.circleMarker(
+                [-38.6347458, 145.7287133],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_872f8090a00759f06fc6a24c0a03d748 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_feaf8476c445e59bca130f163239ed8e = $(`<div id="html_feaf8476c445e59bca130f163239ed8e" style="width: 100.0%; height: 100.0%;"><b>Inverloch</b><br>Restaurants: 1.0<br>Average Rating: 3.70/5</div>`)[0];
+                popup_872f8090a00759f06fc6a24c0a03d748.setContent(html_feaf8476c445e59bca130f163239ed8e);
+            
+        
+
+        circle_marker_6548ee2ee40421d29ae754005adea69c.bindPopup(popup_872f8090a00759f06fc6a24c0a03d748)
+        ;
+
+        
+    
+    
+            var circle_marker_c019826b5350cb4d0426fce083e11a72 = L.circleMarker(
+                [26.895980518, 75.7944745645],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a9ffcbf5027baa4b2dafd95c0de7cb6f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d280ea377ba72bfcb0ca76a64232c1a = $(`<div id="html_1d280ea377ba72bfcb0ca76a64232c1a" style="width: 100.0%; height: 100.0%;"><b>Jaipur</b><br>Restaurants: 20.0<br>Average Rating: 4.13/5</div>`)[0];
+                popup_a9ffcbf5027baa4b2dafd95c0de7cb6f.setContent(html_1d280ea377ba72bfcb0ca76a64232c1a);
+            
+        
+
+        circle_marker_c019826b5350cb4d0426fce083e11a72.bindPopup(popup_a9ffcbf5027baa4b2dafd95c0de7cb6f)
+        ;
+
+        
+    
+    
+            var circle_marker_ac7c9bc5fd648bf01b93ae2d48671152 = L.circleMarker(
+                [-5.8136495419375, 100.1433017375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_6deff44956ba967d0ead2ecc938649d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6dad3f854cdfd6875cc7e0f4ca764bb4 = $(`<div id="html_6dad3f854cdfd6875cc7e0f4ca764bb4" style="width: 100.0%; height: 100.0%;"><b>Jakarta</b><br>Restaurants: 16.0<br>Average Rating: 4.36/5</div>`)[0];
+                popup_6deff44956ba967d0ead2ecc938649d0.setContent(html_6dad3f854cdfd6875cc7e0f4ca764bb4);
+            
+        
+
+        circle_marker_ac7c9bc5fd648bf01b93ae2d48671152.bindPopup(popup_6deff44956ba967d0ead2ecc938649d0)
+        ;
+
+        
+    
+    
+            var circle_marker_86337603616bfddac58eec0716b83132 = L.circleMarker(
+                [-26.14171512333333, 28.020861240000002],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_95e4fad2a56b8ee09401e39d46cab356 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_510a589791a4b3c8104eb4f7bb0baf80 = $(`<div id="html_510a589791a4b3c8104eb4f7bb0baf80" style="width: 100.0%; height: 100.0%;"><b>Johannesburg</b><br>Restaurants: 6.0<br>Average Rating: 4.20/5</div>`)[0];
+                popup_95e4fad2a56b8ee09401e39d46cab356.setContent(html_510a589791a4b3c8104eb4f7bb0baf80);
+            
+        
+
+        circle_marker_86337603616bfddac58eec0716b83132.bindPopup(popup_95e4fad2a56b8ee09401e39d46cab356)
+        ;
+
+        
+    
+    
+            var circle_marker_e1bc405c5cf26f141eae11ef7de4b66e = L.circleMarker(
+                [23.829682314499998, 72.297590821],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_588862b9d8d20d9a6142fd7992838764 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1487a0bc7817bc83bdf36c5feca7e5ed = $(`<div id="html_1487a0bc7817bc83bdf36c5feca7e5ed" style="width: 100.0%; height: 100.0%;"><b>Kanpur</b><br>Restaurants: 20.0<br>Average Rating: 3.81/5</div>`)[0];
+                popup_588862b9d8d20d9a6142fd7992838764.setContent(html_1487a0bc7817bc83bdf36c5feca7e5ed);
+            
+        
+
+        circle_marker_e1bc405c5cf26f141eae11ef7de4b66e.bindPopup(popup_588862b9d8d20d9a6142fd7992838764)
+        ;
+
+        
+    
+    
+            var circle_marker_4f442f144227e1a9e8ee06c134c590c5 = L.circleMarker(
+                [9.9928681392, 76.301188904],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_c3f9148ef26b3ba4b3bb0257b15ee520 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e11fa24ae01719e06e9b9394e65978a0 = $(`<div id="html_e11fa24ae01719e06e9b9394e65978a0" style="width: 100.0%; height: 100.0%;"><b>Kochi</b><br>Restaurants: 20.0<br>Average Rating: 4.08/5</div>`)[0];
+                popup_c3f9148ef26b3ba4b3bb0257b15ee520.setContent(html_e11fa24ae01719e06e9b9394e65978a0);
+            
+        
+
+        circle_marker_4f442f144227e1a9e8ee06c134c590c5.bindPopup(popup_c3f9148ef26b3ba4b3bb0257b15ee520)
+        ;
+
+        
+    
+    
+            var circle_marker_f412baf979c049015d6d60731a484e9e = L.circleMarker(
+                [22.541205974, 88.3724881635],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_2e1962e90cbb2bed9ef6b1aff837ace5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c836d026e480c2b941a2574edb91b9af = $(`<div id="html_c836d026e480c2b941a2574edb91b9af" style="width: 100.0%; height: 100.0%;"><b>Kolkata</b><br>Restaurants: 20.0<br>Average Rating: 4.25/5</div>`)[0];
+                popup_2e1962e90cbb2bed9ef6b1aff837ace5.setContent(html_c836d026e480c2b941a2574edb91b9af);
+            
+        
+
+        circle_marker_f412baf979c049015d6d60731a484e9e.bindPopup(popup_2e1962e90cbb2bed9ef6b1aff837ace5)
+        ;
+
+        
+    
+    
+            var circle_marker_ae500546acbe99f504c25d4af85e1866 = L.circleMarker(
+                [-37.8783865, 147.9942247],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_8ae93032fff30bb0d9cc576337363957 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8134485bbedcbbdbdf716d5b45f0c1d = $(`<div id="html_f8134485bbedcbbdbdf716d5b45f0c1d" style="width: 100.0%; height: 100.0%;"><b>Lakes Entrance</b><br>Restaurants: 1.0<br>Average Rating: 3.80/5</div>`)[0];
+                popup_8ae93032fff30bb0d9cc576337363957.setContent(html_f8134485bbedcbbdbdf716d5b45f0c1d);
+            
+        
+
+        circle_marker_ae500546acbe99f504c25d4af85e1866.bindPopup(popup_8ae93032fff30bb0d9cc576337363957)
+        ;
+
+        
+    
+    
+            var circle_marker_fc4d0f28ac2c02675056e9e2b0dc7f2f = L.circleMarker(
+                [42.1885, -120.3458],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_538872ebd57a42adb2da3203484b46c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f61ca08ed94d08c1bfb84483933a55db = $(`<div id="html_f61ca08ed94d08c1bfb84483933a55db" style="width: 100.0%; height: 100.0%;"><b>Lakeview</b><br>Restaurants: 1.0<br>Average Rating: 3.60/5</div>`)[0];
+                popup_538872ebd57a42adb2da3203484b46c4.setContent(html_f61ca08ed94d08c1bfb84483933a55db);
+            
+        
+
+        circle_marker_fc4d0f28ac2c02675056e9e2b0dc7f2f.bindPopup(popup_538872ebd57a42adb2da3203484b46c4)
+        ;
+
+        
+    
+    
+            var circle_marker_9d64d1edab415f5df8d7915cfa032a40 = L.circleMarker(
+                [40.8143, -96.7072],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_0e49f4fa23c8271a5db748b1ec6addef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_247d0e623a3a767f7fca421b9f73e4c6 = $(`<div id="html_247d0e623a3a767f7fca421b9f73e4c6" style="width: 100.0%; height: 100.0%;"><b>Lincoln</b><br>Restaurants: 1.0<br>Average Rating: 4.50/5</div>`)[0];
+                popup_0e49f4fa23c8271a5db748b1ec6addef.setContent(html_247d0e623a3a767f7fca421b9f73e4c6);
+            
+        
+
+        circle_marker_9d64d1edab415f5df8d7915cfa032a40.bindPopup(popup_0e49f4fa23c8271a5db748b1ec6addef)
+        ;
+
+        
+    
+    
+            var circle_marker_955ff402e387018ed8f79c513554b6a1 = L.circleMarker(
+                [51.512015611, -0.13108822225],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a80d03276c569c23afac3585268e5922 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_baa1c04ae5ffdfbd957e0e53d497e1da = $(`<div id="html_baa1c04ae5ffdfbd957e0e53d497e1da" style="width: 100.0%; height: 100.0%;"><b>London</b><br>Restaurants: 20.0<br>Average Rating: 4.54/5</div>`)[0];
+                popup_a80d03276c569c23afac3585268e5922.setContent(html_baa1c04ae5ffdfbd957e0e53d497e1da);
+            
+        
+
+        circle_marker_955ff402e387018ed8f79c513554b6a1.bindPopup(popup_a80d03276c569c23afac3585268e5922)
+        ;
+
+        
+    
+    
+            var circle_marker_4f8eab14c9060b648015938b1d2aa466 = L.circleMarker(
+                [-32.728097, 151.558475],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_ac695be57ef612fbbb234e32cc8640bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cdf3c08fb8f89b61de495c9018d36c83 = $(`<div id="html_cdf3c08fb8f89b61de495c9018d36c83" style="width: 100.0%; height: 100.0%;"><b>Lorn</b><br>Restaurants: 1.0<br>Average Rating: 3.60/5</div>`)[0];
+                popup_ac695be57ef612fbbb234e32cc8640bc.setContent(html_cdf3c08fb8f89b61de495c9018d36c83);
+            
+        
+
+        circle_marker_4f8eab14c9060b648015938b1d2aa466.bindPopup(popup_ac695be57ef612fbbb234e32cc8640bc)
+        ;
+
+        
+    
+    
+            var circle_marker_e29116a830cf6a9c2eb54082cd6fa3fa = L.circleMarker(
+                [21.73813946047619, 65.55336541047619],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f3d82b6ca5eb10b55fefe7da604dc506 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9da38275e7205c990f32195484116011 = $(`<div id="html_9da38275e7205c990f32195484116011" style="width: 100.0%; height: 100.0%;"><b>Lucknow</b><br>Restaurants: 21.0<br>Average Rating: 4.20/5</div>`)[0];
+                popup_f3d82b6ca5eb10b55fefe7da604dc506.setContent(html_9da38275e7205c990f32195484116011);
+            
+        
+
+        circle_marker_e29116a830cf6a9c2eb54082cd6fa3fa.bindPopup(popup_f3d82b6ca5eb10b55fefe7da604dc506)
+        ;
+
+        
+    
+    
+            var circle_marker_cef8346b45b3a446287b7609228a36dd = L.circleMarker(
+                [27.804749478500003, 68.2379063675],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_e2620027ddc173b5acccec6dd72f85e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c3c866d030249625ebde1b6e683f2307 = $(`<div id="html_c3c866d030249625ebde1b6e683f2307" style="width: 100.0%; height: 100.0%;"><b>Ludhiana</b><br>Restaurants: 20.0<br>Average Rating: 3.98/5</div>`)[0];
+                popup_e2620027ddc173b5acccec6dd72f85e6.setContent(html_c3c866d030249625ebde1b6e683f2307);
+            
+        
+
+        circle_marker_cef8346b45b3a446287b7609228a36dd.bindPopup(popup_e2620027ddc173b5acccec6dd72f85e6)
+        ;
+
+        
+    
+    
+            var circle_marker_91ec366e85b964751723dd6e94fafe55 = L.circleMarker(
+                [-37.423189, 144.564174],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_1ae0f60cd451c792e7da6706d8fba7c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c764f56e43f434bbc7c850f9a3817046 = $(`<div id="html_c764f56e43f434bbc7c850f9a3817046" style="width: 100.0%; height: 100.0%;"><b>Macedon</b><br>Restaurants: 1.0<br>Average Rating: 3.50/5</div>`)[0];
+                popup_1ae0f60cd451c792e7da6706d8fba7c5.setContent(html_c764f56e43f434bbc7c850f9a3817046);
+            
+        
+
+        circle_marker_91ec366e85b964751723dd6e94fafe55.bindPopup(popup_1ae0f60cd451c792e7da6706d8fba7c5)
+        ;
+
+        
+    
+    
+            var circle_marker_41df4e6c7f28f04038d57aa6beb1eacf = L.circleMarker(
+                [32.730632594999996, -83.66086994999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_fe91728b53bbd33a3aa6d4705424b6fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3634c500a52b578975bb6a5d6d703bd2 = $(`<div id="html_3634c500a52b578975bb6a5d6d703bd2" style="width: 100.0%; height: 100.0%;"><b>Macon</b><br>Restaurants: 20.0<br>Average Rating: 4.12/5</div>`)[0];
+                popup_fe91728b53bbd33a3aa6d4705424b6fc.setContent(html_3634c500a52b578975bb6a5d6d703bd2);
+            
+        
+
+        circle_marker_41df4e6c7f28f04038d57aa6beb1eacf.bindPopup(popup_fe91728b53bbd33a3aa6d4705424b6fc)
+        ;
+
+        
+    
+    
+            var circle_marker_df7dd6635e60c44b2a46683b209cfaf4 = L.circleMarker(
+                [14.559575500000001, 121.02081799999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_e7e6e68aa03eb30bb8107aebfc0f6d2c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d67dce53f2edab1abb6e6bd7729688ce = $(`<div id="html_d67dce53f2edab1abb6e6bd7729688ce" style="width: 100.0%; height: 100.0%;"><b>Makati City</b><br>Restaurants: 2.0<br>Average Rating: 4.65/5</div>`)[0];
+                popup_e7e6e68aa03eb30bb8107aebfc0f6d2c.setContent(html_d67dce53f2edab1abb6e6bd7729688ce);
+            
+        
+
+        circle_marker_df7dd6635e60c44b2a46683b209cfaf4.bindPopup(popup_e7e6e68aa03eb30bb8107aebfc0f6d2c)
+        ;
+
+        
+    
+    
+            var circle_marker_3e90f5c025382ff955708f58262cccb4 = L.circleMarker(
+                [53.4782088995, -2.23903381655],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_b3a3f6ac0f963112ced09b715d3e747a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98a0e31ec307fc8dd56980b5b5252a58 = $(`<div id="html_98a0e31ec307fc8dd56980b5b5252a58" style="width: 100.0%; height: 100.0%;"><b>Manchester</b><br>Restaurants: 20.0<br>Average Rating: 4.04/5</div>`)[0];
+                popup_b3a3f6ac0f963112ced09b715d3e747a.setContent(html_98a0e31ec307fc8dd56980b5b5252a58);
+            
+        
+
+        circle_marker_3e90f5c025382ff955708f58262cccb4.bindPopup(popup_b3a3f6ac0f963112ced09b715d3e747a)
+        ;
+
+        
+    
+    
+            var circle_marker_e4c47fbe6f8c7d64b3eed67ee1d28ece = L.circleMarker(
+                [14.583734, 121.056782],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_da3640ff8e2ddce1b25fcc201370dc97 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3290a5a03a1afb0dc7c443234df42e1 = $(`<div id="html_e3290a5a03a1afb0dc7c443234df42e1" style="width: 100.0%; height: 100.0%;"><b>Mandaluyong City</b><br>Restaurants: 4.0<br>Average Rating: 4.62/5</div>`)[0];
+                popup_da3640ff8e2ddce1b25fcc201370dc97.setContent(html_e3290a5a03a1afb0dc7c443234df42e1);
+            
+        
+
+        circle_marker_e4c47fbe6f8c7d64b3eed67ee1d28ece.bindPopup(popup_da3640ff8e2ddce1b25fcc201370dc97)
+        ;
+
+        
+    
+    
+            var circle_marker_d7150192575e2d35a9262f0aa155fb4d = L.circleMarker(
+                [7.081714164499999, 41.1676893885],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f0374c978c347c4ae1c2d18960bb27bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_700149bcc872d84a95718a6738ea0492 = $(`<div id="html_700149bcc872d84a95718a6738ea0492" style="width: 100.0%; height: 100.0%;"><b>Mangalore</b><br>Restaurants: 20.0<br>Average Rating: 3.75/5</div>`)[0];
+                popup_f0374c978c347c4ae1c2d18960bb27bf.setContent(html_700149bcc872d84a95718a6738ea0492);
+            
+        
+
+        circle_marker_d7150192575e2d35a9262f0aa155fb4d.bindPopup(popup_f0374c978c347c4ae1c2d18960bb27bf)
+        ;
+
+        
+    
+    
+            var circle_marker_a205ef5f6705cfd2920b999c3cae23b5 = L.circleMarker(
+                [-32.899178, 151.7343832],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_1f9c0b66902539111018dcc3a1034f01 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e46dda7db26399b89220f030d2a00d67 = $(`<div id="html_e46dda7db26399b89220f030d2a00d67" style="width: 100.0%; height: 100.0%;"><b>Mayfield</b><br>Restaurants: 1.0<br>Average Rating: 2.90/5</div>`)[0];
+                popup_1f9c0b66902539111018dcc3a1034f01.setContent(html_e46dda7db26399b89220f030d2a00d67);
+            
+        
+
+        circle_marker_a205ef5f6705cfd2920b999c3cae23b5.bindPopup(popup_1f9c0b66902539111018dcc3a1034f01)
+        ;
+
+        
+    
+    
+            var circle_marker_017aa59525764e51f50980d68d662f54 = L.circleMarker(
+                [46.3718, -85.7363],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a7e7736dc6178efbe6041666012ce26a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b65e8dca34e6a00dd569316982e542db = $(`<div id="html_b65e8dca34e6a00dd569316982e542db" style="width: 100.0%; height: 100.0%;"><b>Mc Millan</b><br>Restaurants: 1.0<br>Average Rating: 2.40/5</div>`)[0];
+                popup_a7e7736dc6178efbe6041666012ce26a.setContent(html_b65e8dca34e6a00dd569316982e542db);
+            
+        
+
+        circle_marker_017aa59525764e51f50980d68d662f54.bindPopup(popup_a7e7736dc6178efbe6041666012ce26a)
+        ;
+
+        
+    
+    
+            var circle_marker_d83b3da11d83d799ba7b0e35a77d24dd = L.circleMarker(
+                [-35.025861, 117.917166],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_3781037e161a64f18d566b8041327795 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_746d1d6ebb0c1c786740438b0ac98ea4 = $(`<div id="html_746d1d6ebb0c1c786740438b0ac98ea4" style="width: 100.0%; height: 100.0%;"><b>Middleton Beach</b><br>Restaurants: 1.0<br>Average Rating: 3.80/5</div>`)[0];
+                popup_3781037e161a64f18d566b8041327795.setContent(html_746d1d6ebb0c1c786740438b0ac98ea4);
+            
+        
+
+        circle_marker_d83b3da11d83d799ba7b0e35a77d24dd.bindPopup(popup_3781037e161a64f18d566b8041327795)
+        ;
+
+        
+    
+    
+            var circle_marker_9b5703c5744bc44bc0fa19f393491c46 = L.circleMarker(
+                [44.5158, -98.9891],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_4b9f4b8e0878418baba7682def86c2d4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ced2547a86625f26380c939643246873 = $(`<div id="html_ced2547a86625f26380c939643246873" style="width: 100.0%; height: 100.0%;"><b>Miller</b><br>Restaurants: 1.0<br>Average Rating: 3.40/5</div>`)[0];
+                popup_4b9f4b8e0878418baba7682def86c2d4.setContent(html_ced2547a86625f26380c939643246873);
+            
+        
+
+        circle_marker_9b5703c5744bc44bc0fa19f393491c46.bindPopup(popup_4b9f4b8e0878418baba7682def86c2d4)
+        ;
+
+        
+    
+    
+            var circle_marker_a26249b5750566566f962a3e6f4bef02 = L.circleMarker(
+                [30.6955506, 76.7187888],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_48c81d08fd1c105bebada129d5df9759 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef0711391db82b1187e468f7215c5dc0 = $(`<div id="html_ef0711391db82b1187e468f7215c5dc0" style="width: 100.0%; height: 100.0%;"><b>Mohali</b><br>Restaurants: 1.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_48c81d08fd1c105bebada129d5df9759.setContent(html_ef0711391db82b1187e468f7215c5dc0);
+            
+        
+
+        circle_marker_a26249b5750566566f962a3e6f4bef02.bindPopup(popup_48c81d08fd1c105bebada129d5df9759)
+        ;
+
+        
+    
+    
+            var circle_marker_b6753ceb1514b4610b9e28d2df0cf494 = L.circleMarker(
+                [42.606306, -89.653487],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_00086e43ff384d29f414d7e6cd7f97a2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ce82e4dd968533ae1d1b71fc18048c82 = $(`<div id="html_ce82e4dd968533ae1d1b71fc18048c82" style="width: 100.0%; height: 100.0%;"><b>Monroe</b><br>Restaurants: 1.0<br>Average Rating: 3.60/5</div>`)[0];
+                popup_00086e43ff384d29f414d7e6cd7f97a2.setContent(html_ce82e4dd968533ae1d1b71fc18048c82);
+            
+        
+
+        circle_marker_b6753ceb1514b4610b9e28d2df0cf494.bindPopup(popup_00086e43ff384d29f414d7e6cd7f97a2)
+        ;
+
+        
+    
+    
+            var circle_marker_d4ad11fcbc3ca49da01737b10f87b3d2 = L.circleMarker(
+                [-26.690462, 152.893735],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_d30bf8c0eb1b8f2193c9724db6682541 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_70cfd2711600ab2638cfbb5fda609729 = $(`<div id="html_70cfd2711600ab2638cfbb5fda609729" style="width: 100.0%; height: 100.0%;"><b>Montville</b><br>Restaurants: 1.0<br>Average Rating: 2.40/5</div>`)[0];
+                popup_d30bf8c0eb1b8f2193c9724db6682541.setContent(html_70cfd2711600ab2638cfbb5fda609729);
+            
+        
+
+        circle_marker_d4ad11fcbc3ca49da01737b10f87b3d2.bindPopup(popup_d30bf8c0eb1b8f2193c9724db6682541)
+        ;
+
+        
+    
+    
+            var circle_marker_c7455271054efcb79219ec11ac3361c1 = L.circleMarker(
+                [19.1143873445, 72.848456371],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_9e72fe3567d8581ac2b360b04dfacefe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_086c697bbac958aca1c2fa547870f0e7 = $(`<div id="html_086c697bbac958aca1c2fa547870f0e7" style="width: 100.0%; height: 100.0%;"><b>Mumbai</b><br>Restaurants: 20.0<br>Average Rating: 4.08/5</div>`)[0];
+                popup_9e72fe3567d8581ac2b360b04dfacefe.setContent(html_086c697bbac958aca1c2fa547870f0e7);
+            
+        
+
+        circle_marker_c7455271054efcb79219ec11ac3361c1.bindPopup(popup_9e72fe3567d8581ac2b360b04dfacefe)
+        ;
+
+        
+    
+    
+            var circle_marker_15e87fd4cbad9672e390d1adf2695f48 = L.circleMarker(
+                [11.703185705, 72.80035181150001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_76bc90120d941177215e3b9648437ba9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8da03e9f1603b75c31dd97c58d6b0570 = $(`<div id="html_8da03e9f1603b75c31dd97c58d6b0570" style="width: 100.0%; height: 100.0%;"><b>Mysore</b><br>Restaurants: 20.0<br>Average Rating: 3.70/5</div>`)[0];
+                popup_76bc90120d941177215e3b9648437ba9.setContent(html_8da03e9f1603b75c31dd97c58d6b0570);
+            
+        
+
+        circle_marker_15e87fd4cbad9672e390d1adf2695f48.bindPopup(popup_76bc90120d941177215e3b9648437ba9)
+        ;
+
+        
+    
+    
+            var circle_marker_619301b4ac427de9c216c0651e419507 = L.circleMarker(
+                [20.08041178, 75.11540361600001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_db05169d56b4c1611a10c7493aa55997 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_585e01f5498ba25f357eb06896fe3fd7 = $(`<div id="html_585e01f5498ba25f357eb06896fe3fd7" style="width: 100.0%; height: 100.0%;"><b>Nagpur</b><br>Restaurants: 20.0<br>Average Rating: 3.96/5</div>`)[0];
+                popup_db05169d56b4c1611a10c7493aa55997.setContent(html_585e01f5498ba25f357eb06896fe3fd7);
+            
+        
+
+        circle_marker_619301b4ac427de9c216c0651e419507.bindPopup(popup_db05169d56b4c1611a10c7493aa55997)
+        ;
+
+        
+    
+    
+            var circle_marker_44f6078c3408055adf00f5a05948fe91 = L.circleMarker(
+                [14.002308699, 51.6304818025],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f65a377f370b983ef1abd95524c4a7ef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3769362bea9e623a1db208070b0a6e48 = $(`<div id="html_3769362bea9e623a1db208070b0a6e48" style="width: 100.0%; height: 100.0%;"><b>Nashik</b><br>Restaurants: 20.0<br>Average Rating: 3.52/5</div>`)[0];
+                popup_f65a377f370b983ef1abd95524c4a7ef.setContent(html_3769362bea9e623a1db208070b0a6e48);
+            
+        
+
+        circle_marker_44f6078c3408055adf00f5a05948fe91.bindPopup(popup_f65a377f370b983ef1abd95524c4a7ef)
+        ;
+
+        
+    
+    
+            var circle_marker_b1d967ac2420c3da78bbe27c4904f0ed = L.circleMarker(
+                [27.398205435768315, 73.90379162546502],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a2530ce731133ca6e7be0f7f4a19c48b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_32e10a3ebacef5c501012d19fc0cf882 = $(`<div id="html_32e10a3ebacef5c501012d19fc0cf882" style="width: 100.0%; height: 100.0%;"><b>New Delhi</b><br>Restaurants: 5473.0<br>Average Rating: 2.44/5</div>`)[0];
+                popup_a2530ce731133ca6e7be0f7f4a19c48b.setContent(html_32e10a3ebacef5c501012d19fc0cf882);
+            
+        
+
+        circle_marker_b1d967ac2420c3da78bbe27c4904f0ed.bindPopup(popup_a2530ce731133ca6e7be0f7f4a19c48b)
+        ;
+
+        
+    
+    
+            var circle_marker_dbf97f4fb6f5cb3a9786f2396588010b = L.circleMarker(
+                [26.106910491296297, 70.62713066021297],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_eca124761517b01b3739a01663ee5713 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b61715f6120cdd67be8b3ae5f311d04 = $(`<div id="html_3b61715f6120cdd67be8b3ae5f311d04" style="width: 100.0%; height: 100.0%;"><b>Noida</b><br>Restaurants: 1080.0<br>Average Rating: 2.04/5</div>`)[0];
+                popup_eca124761517b01b3739a01663ee5713.setContent(html_3b61715f6120cdd67be8b3ae5f311d04);
+            
+        
+
+        circle_marker_dbf97f4fb6f5cb3a9786f2396588010b.bindPopup(popup_eca124761517b01b3739a01663ee5713)
+        ;
+
+        
+    
+    
+            var circle_marker_25e0aa58c24205e913686f86c0cce7b4 = L.circleMarker(
+                [36.313638, -106.057666],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f49c109cb9c99c13af53562559a48ba3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_303172e67dfd90c9ab152f638007bcb2 = $(`<div id="html_303172e67dfd90c9ab152f638007bcb2" style="width: 100.0%; height: 100.0%;"><b>Ojo Caliente</b><br>Restaurants: 1.0<br>Average Rating: 3.60/5</div>`)[0];
+                popup_f49c109cb9c99c13af53562559a48ba3.setContent(html_303172e67dfd90c9ab152f638007bcb2);
+            
+        
+
+        circle_marker_25e0aa58c24205e913686f86c0cce7b4.bindPopup(popup_f49c109cb9c99c13af53562559a48ba3)
+        ;
+
+        
+    
+    
+            var circle_marker_31948cb743200ad7d8f430fd2a34ddb2 = L.circleMarker(
+                [28.524832394999997, -81.41628769500001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_3629b0718f23f8cefb62ff9f70555e43 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_03025d9a831e7ecd3d5bb7d264c80c6c = $(`<div id="html_03025d9a831e7ecd3d5bb7d264c80c6c" style="width: 100.0%; height: 100.0%;"><b>Orlando</b><br>Restaurants: 20.0<br>Average Rating: 4.47/5</div>`)[0];
+                popup_3629b0718f23f8cefb62ff9f70555e43.setContent(html_03025d9a831e7ecd3d5bb7d264c80c6c);
+            
+        
+
+        circle_marker_31948cb743200ad7d8f430fd2a34ddb2.bindPopup(popup_3629b0718f23f8cefb62ff9f70555e43)
+        ;
+
+        
+    
+    
+            var circle_marker_809c92a0663cc0af1567791c5b24cec9 = L.circleMarker(
+                [-16.748083, 145.670768],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_eb65ffba43a699dfe43a480282694686 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef23e2cfe298a070769cc07e3c050421 = $(`<div id="html_ef23e2cfe298a070769cc07e3c050421" style="width: 100.0%; height: 100.0%;"><b>Palm Cove</b><br>Restaurants: 1.0<br>Average Rating: 4.40/5</div>`)[0];
+                popup_eb65ffba43a699dfe43a480282694686.setContent(html_ef23e2cfe298a070769cc07e3c050421);
+            
+        
+
+        circle_marker_809c92a0663cc0af1567791c5b24cec9.bindPopup(popup_eb65ffba43a699dfe43a480282694686)
+        ;
+
+        
+    
+    
+            var circle_marker_62e9e086a41e2358393f14a5e6d45735 = L.circleMarker(
+                [30.6978586, 76.849258],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_593e2e88e05366545d34db72b16e9ec1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e985c4c097439ea4fb9c28797827a5bc = $(`<div id="html_e985c4c097439ea4fb9c28797827a5bc" style="width: 100.0%; height: 100.0%;"><b>Panchkula</b><br>Restaurants: 1.0<br>Average Rating: 4.20/5</div>`)[0];
+                popup_593e2e88e05366545d34db72b16e9ec1.setContent(html_e985c4c097439ea4fb9c28797827a5bc);
+            
+        
+
+        circle_marker_62e9e086a41e2358393f14a5e6d45735.bindPopup(popup_593e2e88e05366545d34db72b16e9ec1)
+        ;
+
+        
+    
+    
+            var circle_marker_56afacf0590d85f28db99fd067c96821 = L.circleMarker(
+                [14.54144111, 120.97969666666665],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_fc39f508a58733e34ade55fe4b901ee9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_353ecbc26b738253e5284c1b277c758e = $(`<div id="html_353ecbc26b738253e5284c1b277c758e" style="width: 100.0%; height: 100.0%;"><b>Pasay City</b><br>Restaurants: 3.0<br>Average Rating: 4.37/5</div>`)[0];
+                popup_fc39f508a58733e34ade55fe4b901ee9.setContent(html_353ecbc26b738253e5284c1b277c758e);
+            
+        
+
+        circle_marker_56afacf0590d85f28db99fd067c96821.bindPopup(popup_fc39f508a58733e34ade55fe4b901ee9)
+        ;
+
+        
+    
+    
+            var circle_marker_c94863e614c28c5beee7d7915faf27bd = L.circleMarker(
+                [14.570193000000002, 121.05842266666667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_ed092258b384c9bc7af12366531754fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2c52a5d89c701f42634e422076060de0 = $(`<div id="html_2c52a5d89c701f42634e422076060de0" style="width: 100.0%; height: 100.0%;"><b>Pasig City</b><br>Restaurants: 3.0<br>Average Rating: 4.63/5</div>`)[0];
+                popup_ed092258b384c9bc7af12366531754fb.setContent(html_2c52a5d89c701f42634e422076060de0);
+            
+        
+
+        circle_marker_c94863e614c28c5beee7d7915faf27bd.bindPopup(popup_ed092258b384c9bc7af12366531754fb)
+        ;
+
+        
+    
+    
+            var circle_marker_334651e670d23de5c1299bd729587b2e = L.circleMarker(
+                [21.772366481, 72.3576488465],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_5903f2d68f4d0baafe41f39752797711 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36a972fa6c1d8e7519a00389e95221b6 = $(`<div id="html_36a972fa6c1d8e7519a00389e95221b6" style="width: 100.0%; height: 100.0%;"><b>Patna</b><br>Restaurants: 20.0<br>Average Rating: 3.45/5</div>`)[0];
+                popup_5903f2d68f4d0baafe41f39752797711.setContent(html_36a972fa6c1d8e7519a00389e95221b6);
+            
+        
+
+        circle_marker_334651e670d23de5c1299bd729587b2e.bindPopup(popup_5903f2d68f4d0baafe41f39752797711)
+        ;
+
+        
+    
+    
+            var circle_marker_f49db526c3874e6121fb75166f19a6bf = L.circleMarker(
+                [-37.9194154, 147.7227832],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_1e1ba5b127c0f9ee45b255ac6f87327e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6409b43bdafa99125430e631d9a96ba2 = $(`<div id="html_6409b43bdafa99125430e631d9a96ba2" style="width: 100.0%; height: 100.0%;"><b>Paynesville</b><br>Restaurants: 1.0<br>Average Rating: 2.60/5</div>`)[0];
+                popup_1e1ba5b127c0f9ee45b255ac6f87327e.setContent(html_6409b43bdafa99125430e631d9a96ba2);
+            
+        
+
+        circle_marker_f49db526c3874e6121fb75166f19a6bf.bindPopup(popup_1e1ba5b127c0f9ee45b255ac6f87327e)
+        ;
+
+        
+    
+    
+            var circle_marker_6e137935f558c6ecbaa861f411d0209f = L.circleMarker(
+                [-37.379153, 140.837409],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_66bf7a507be9bbe6afd495bf1c0e7873 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e6de50f6a5b86692cbb2a38ef768258c = $(`<div id="html_e6de50f6a5b86692cbb2a38ef768258c" style="width: 100.0%; height: 100.0%;"><b>Penola</b><br>Restaurants: 1.0<br>Average Rating: 3.40/5</div>`)[0];
+                popup_66bf7a507be9bbe6afd495bf1c0e7873.setContent(html_e6de50f6a5b86692cbb2a38ef768258c);
+            
+        
+
+        circle_marker_6e137935f558c6ecbaa861f411d0209f.bindPopup(popup_66bf7a507be9bbe6afd495bf1c0e7873)
+        ;
+
+        
+    
+    
+            var circle_marker_f374406d13604bf1a27398846729e810 = L.circleMarker(
+                [30.395173004999997, -87.198116375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_0da56a9a40cf73974e83179ffae7856d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_262850101f91c235f9db4e80bc61676b = $(`<div id="html_262850101f91c235f9db4e80bc61676b" style="width: 100.0%; height: 100.0%;"><b>Pensacola</b><br>Restaurants: 20.0<br>Average Rating: 4.20/5</div>`)[0];
+                popup_0da56a9a40cf73974e83179ffae7856d.setContent(html_262850101f91c235f9db4e80bc61676b);
+            
+        
+
+        circle_marker_f374406d13604bf1a27398846729e810.bindPopup(popup_0da56a9a40cf73974e83179ffae7856d)
+        ;
+
+        
+    
+    
+            var circle_marker_df88fea53f5414f6980bae6c1e7aa9ae = L.circleMarker(
+                [-38.448307, 145.237813],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_fba751e97df0a0010aa24976e787423c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9fa2aab70d597305a73532ec758af062 = $(`<div id="html_9fa2aab70d597305a73532ec758af062" style="width: 100.0%; height: 100.0%;"><b>Phillip Island</b><br>Restaurants: 1.0<br>Average Rating: 3.70/5</div>`)[0];
+                popup_fba751e97df0a0010aa24976e787423c.setContent(html_9fa2aab70d597305a73532ec758af062);
+            
+        
+
+        circle_marker_df88fea53f5414f6980bae6c1e7aa9ae.bindPopup(popup_fba751e97df0a0010aa24976e787423c)
+        ;
+
+        
+    
+    
+            var circle_marker_4d71ed7adf5352ae638f1c4594ea45a5 = L.circleMarker(
+                [42.867359085, -112.39785958],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_321ed4f08bea9f7c06063ec483df9576 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ccb80bc2638e03ea0b6d10eda09f3439 = $(`<div id="html_ccb80bc2638e03ea0b6d10eda09f3439" style="width: 100.0%; height: 100.0%;"><b>Pocatello</b><br>Restaurants: 20.0<br>Average Rating: 3.49/5</div>`)[0];
+                popup_321ed4f08bea9f7c06063ec483df9576.setContent(html_ccb80bc2638e03ea0b6d10eda09f3439);
+            
+        
+
+        circle_marker_4d71ed7adf5352ae638f1c4594ea45a5.bindPopup(popup_321ed4f08bea9f7c06063ec483df9576)
+        ;
+
+        
+    
+    
+            var circle_marker_87c05eca0eefb12ba7d49571848f3854 = L.circleMarker(
+                [32.613431, -116.704731],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_afb2e90d48ec75f7374072787945d64a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_04ca3cdaa1e19660086b6640ac8a9f99 = $(`<div id="html_04ca3cdaa1e19660086b6640ac8a9f99" style="width: 100.0%; height: 100.0%;"><b>Potrero</b><br>Restaurants: 1.0<br>Average Rating: 3.30/5</div>`)[0];
+                popup_afb2e90d48ec75f7374072787945d64a.setContent(html_04ca3cdaa1e19660086b6640ac8a9f99);
+            
+        
+
+        circle_marker_87c05eca0eefb12ba7d49571848f3854.bindPopup(popup_afb2e90d48ec75f7374072787945d64a)
+        ;
+
+        
+    
+    
+            var circle_marker_70cc9dcf0e7d122be2a2f7ae3bafd393 = L.circleMarker(
+                [-25.7794385265, 28.257865699],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_da086ed76aa21345d2ebaea1fd0c6b1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_38825c041847b5c2e83729110f839ed8 = $(`<div id="html_38825c041847b5c2e83729110f839ed8" style="width: 100.0%; height: 100.0%;"><b>Pretoria</b><br>Restaurants: 20.0<br>Average Rating: 4.19/5</div>`)[0];
+                popup_da086ed76aa21345d2ebaea1fd0c6b1d.setContent(html_38825c041847b5c2e83729110f839ed8);
+            
+        
+
+        circle_marker_70cc9dcf0e7d122be2a2f7ae3bafd393.bindPopup(popup_da086ed76aa21345d2ebaea1fd0c6b1d)
+        ;
+
+        
+    
+    
+            var circle_marker_9172fd1e4c2560f01e3511a9cd41d058 = L.circleMarker(
+                [40.352385, -74.651139],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_9a1f1513eaf0a855e887cac6b8584eae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d672c4dcd2d997db3b4acf654dba830d = $(`<div id="html_d672c4dcd2d997db3b4acf654dba830d" style="width: 100.0%; height: 100.0%;"><b>Princeton</b><br>Restaurants: 1.0<br>Average Rating: 4.00/5</div>`)[0];
+                popup_9a1f1513eaf0a855e887cac6b8584eae.setContent(html_d672c4dcd2d997db3b4acf654dba830d);
+            
+        
+
+        circle_marker_9172fd1e4c2560f01e3511a9cd41d058.bindPopup(popup_9a1f1513eaf0a855e887cac6b8584eae)
+        ;
+
+        
+    
+    
+            var circle_marker_457d8e6ac6ddcfd2d5b3182e11f612d8 = L.circleMarker(
+                [11.936967769999999, 79.83290421550001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_70b3318aa77066f51b4bf4ccacbe0290 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f55504ee0d6161049b5b54af39c8a86 = $(`<div id="html_0f55504ee0d6161049b5b54af39c8a86" style="width: 100.0%; height: 100.0%;"><b>Puducherry</b><br>Restaurants: 20.0<br>Average Rating: 3.73/5</div>`)[0];
+                popup_70b3318aa77066f51b4bf4ccacbe0290.setContent(html_0f55504ee0d6161049b5b54af39c8a86);
+            
+        
+
+        circle_marker_457d8e6ac6ddcfd2d5b3182e11f612d8.bindPopup(popup_70b3318aa77066f51b4bf4ccacbe0290)
+        ;
+
+        
+    
+    
+            var circle_marker_f01c3aa99db4e4dab0b0eba9e33eb515 = L.circleMarker(
+                [18.551124155, 73.8496706975],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_20bb8b29a09411020ee33bc91f9a6b3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7349cfb5ffb91f537e6d6540e4aae9c0 = $(`<div id="html_7349cfb5ffb91f537e6d6540e4aae9c0" style="width: 100.0%; height: 100.0%;"><b>Pune</b><br>Restaurants: 20.0<br>Average Rating: 4.22/5</div>`)[0];
+                popup_20bb8b29a09411020ee33bc91f9a6b3c.setContent(html_7349cfb5ffb91f537e6d6540e4aae9c0);
+            
+        
+
+        circle_marker_f01c3aa99db4e4dab0b0eba9e33eb515.bindPopup(popup_20bb8b29a09411020ee33bc91f9a6b3c)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1b6f9926d4357715ac0c015874276e = L.circleMarker(
+                [14.649503, 121.075419],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_8486af39512ad78d0918e851caffc1e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68efe1592265ca229e8125cca939eb55 = $(`<div id="html_68efe1592265ca229e8125cca939eb55" style="width: 100.0%; height: 100.0%;"><b>Quezon City</b><br>Restaurants: 1.0<br>Average Rating: 4.80/5</div>`)[0];
+                popup_8486af39512ad78d0918e851caffc1e3.setContent(html_68efe1592265ca229e8125cca939eb55);
+            
+        
+
+        circle_marker_4c1b6f9926d4357715ac0c015874276e.bindPopup(popup_8486af39512ad78d0918e851caffc1e3)
+        ;
+
+        
+    
+    
+            var circle_marker_3b7b74d32b35ec9c81d176c1b0b08ce1 = L.circleMarker(
+                [18.6920658765, 68.264918265],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_8d3960ec8ebbfe427f37668bd54aa1fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22a5a2078395cc38c373fb9fa19dbc20 = $(`<div id="html_22a5a2078395cc38c373fb9fa19dbc20" style="width: 100.0%; height: 100.0%;"><b>Ranchi</b><br>Restaurants: 20.0<br>Average Rating: 3.45/5</div>`)[0];
+                popup_8d3960ec8ebbfe427f37668bd54aa1fb.setContent(html_22a5a2078395cc38c373fb9fa19dbc20);
+            
+        
+
+        circle_marker_3b7b74d32b35ec9c81d176c1b0b08ce1.bindPopup(popup_8d3960ec8ebbfe427f37668bd54aa1fb)
+        ;
+
+        
+    
+    
+            var circle_marker_4cffc517b5ed259f990a8f530ae404e5 = L.circleMarker(
+                [-26.14026, 27.991791],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a1ac5e3563fe1033358f88174e46c688 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a2fbcebe785e22e04c7a52b176cc7f0 = $(`<div id="html_8a2fbcebe785e22e04c7a52b176cc7f0" style="width: 100.0%; height: 100.0%;"><b>Randburg</b><br>Restaurants: 1.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_a1ac5e3563fe1033358f88174e46c688.setContent(html_8a2fbcebe785e22e04c7a52b176cc7f0);
+            
+        
+
+        circle_marker_4cffc517b5ed259f990a8f530ae404e5.bindPopup(popup_a1ac5e3563fe1033358f88174e46c688)
+        ;
+
+        
+    
+    
+            var circle_marker_9b9445e920ecc19c1eff70bea3768423 = L.circleMarker(
+                [20.99757324, -157.106178445],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_d4555069f28ca04630ea04202fbc359f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6fa80b41471f9185e31e0daf4ce67553 = $(`<div id="html_6fa80b41471f9185e31e0daf4ce67553" style="width: 100.0%; height: 100.0%;"><b>Rest of Hawaii</b><br>Restaurants: 20.0<br>Average Rating: 4.41/5</div>`)[0];
+                popup_d4555069f28ca04630ea04202fbc359f.setContent(html_6fa80b41471f9185e31e0daf4ce67553);
+            
+        
+
+        circle_marker_9b9445e920ecc19c1eff70bea3768423.bindPopup(popup_d4555069f28ca04630ea04202fbc359f)
+        ;
+
+        
+    
+    
+            var circle_marker_5fce49468ca7cf79d6616c5f71be2b5b = L.circleMarker(
+                [-22.9626178605, -43.2201907225],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_d75aa07516d7160c9e4d6efb365a5a6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2fdd3dbde4e278823e3ccb11cfdb949a = $(`<div id="html_2fdd3dbde4e278823e3ccb11cfdb949a" style="width: 100.0%; height: 100.0%;"><b>Rio de Janeiro</b><br>Restaurants: 20.0<br>Average Rating: 4.26/5</div>`)[0];
+                popup_d75aa07516d7160c9e4d6efb365a5a6a.setContent(html_2fdd3dbde4e278823e3ccb11cfdb949a);
+            
+        
+
+        circle_marker_5fce49468ca7cf79d6616c5f71be2b5b.bindPopup(popup_d75aa07516d7160c9e4d6efb365a5a6a)
+        ;
+
+        
+    
+    
+            var circle_marker_f313cbc83234c2a2f8b62236a01cab31 = L.circleMarker(
+                [14.59617, 121.03585085],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a26d13859dd8ea6953798ede6de4cdc3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7927da39d9d9c270424f1e73644bd86e = $(`<div id="html_7927da39d9d9c270424f1e73644bd86e" style="width: 100.0%; height: 100.0%;"><b>San Juan City</b><br>Restaurants: 2.0<br>Average Rating: 4.25/5</div>`)[0];
+                popup_a26d13859dd8ea6953798ede6de4cdc3.setContent(html_7927da39d9d9c270424f1e73644bd86e);
+            
+        
+
+        circle_marker_f313cbc83234c2a2f8b62236a01cab31.bindPopup(popup_a26d13859dd8ea6953798ede6de4cdc3)
+        ;
+
+        
+    
+    
+            var circle_marker_3964c4f4beb5eef2f11ddc3f0346d0ed = L.circleMarker(
+                [-26.072717750909092, 28.039619141818182],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_7ace4c72f6f1fea13f9c55ff86165214 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ec2886ef538d4b430dd2cfc33344ee2f = $(`<div id="html_ec2886ef538d4b430dd2cfc33344ee2f" style="width: 100.0%; height: 100.0%;"><b>Sandton</b><br>Restaurants: 11.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_7ace4c72f6f1fea13f9c55ff86165214.setContent(html_ec2886ef538d4b430dd2cfc33344ee2f);
+            
+        
+
+        circle_marker_3964c4f4beb5eef2f11ddc3f0346d0ed.bindPopup(popup_7ace4c72f6f1fea13f9c55ff86165214)
+        ;
+
+        
+    
+    
+            var circle_marker_0398df78e99bd8a8b92b5006733702a0 = L.circleMarker(
+                [14.237380485, 121.05681369999999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_e2d99493ee87b0dcc657490ba867c2bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ea4a1392d136efce22d7276b0017b2e = $(`<div id="html_8ea4a1392d136efce22d7276b0017b2e" style="width: 100.0%; height: 100.0%;"><b>Santa Rosa</b><br>Restaurants: 2.0<br>Average Rating: 3.80/5</div>`)[0];
+                popup_e2d99493ee87b0dcc657490ba867c2bc.setContent(html_8ea4a1392d136efce22d7276b0017b2e);
+            
+        
+
+        circle_marker_0398df78e99bd8a8b92b5006733702a0.bindPopup(popup_e2d99493ee87b0dcc657490ba867c2bc)
+        ;
+
+        
+    
+    
+            var circle_marker_417ac70bee2153005e0da0319e98c069 = L.circleMarker(
+                [32.069733235, -81.06866956500001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_d01ae1744c23437d5f044591e92b7df5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_71f5b391906b440e11f2783d44383fe5 = $(`<div id="html_71f5b391906b440e11f2783d44383fe5" style="width: 100.0%; height: 100.0%;"><b>Savannah</b><br>Restaurants: 20.0<br>Average Rating: 4.15/5</div>`)[0];
+                popup_d01ae1744c23437d5f044591e92b7df5.setContent(html_71f5b391906b440e11f2783d44383fe5);
+            
+        
+
+        circle_marker_417ac70bee2153005e0da0319e98c069.bindPopup(popup_d01ae1744c23437d5f044591e92b7df5)
+        ;
+
+        
+    
+    
+            var circle_marker_4f9c96479559b897a7aa71b02897a938 = L.circleMarker(
+                [17.471107, 78.52623845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_c243f7eb5333f0eec5504e6633f3f2b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a8194717bc000bb38980a36334a03213 = $(`<div id="html_a8194717bc000bb38980a36334a03213" style="width: 100.0%; height: 100.0%;"><b>Secunderabad</b><br>Restaurants: 2.0<br>Average Rating: 4.50/5</div>`)[0];
+                popup_c243f7eb5333f0eec5504e6633f3f2b5.setContent(html_a8194717bc000bb38980a36334a03213);
+            
+        
+
+        circle_marker_4f9c96479559b897a7aa71b02897a938.bindPopup(popup_c243f7eb5333f0eec5504e6633f3f2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_43c2c5b68dd0697ea80aa16362972b65 = L.circleMarker(
+                [25.3248995955, 55.397934809000006],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_0395c21948c80d0f66257698e4c4f0a3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_739b580d5024a3f34b8b64e5372d2732 = $(`<div id="html_739b580d5024a3f34b8b64e5372d2732" style="width: 100.0%; height: 100.0%;"><b>Sharjah</b><br>Restaurants: 20.0<br>Average Rating: 4.03/5</div>`)[0];
+                popup_0395c21948c80d0f66257698e4c4f0a3.setContent(html_739b580d5024a3f34b8b64e5372d2732);
+            
+        
+
+        circle_marker_43c2c5b68dd0697ea80aa16362972b65.bindPopup(popup_0395c21948c80d0f66257698e4c4f0a3)
+        ;
+
+        
+    
+    
+            var circle_marker_c35054466cc7151e6e0dbcbf49172b2b = L.circleMarker(
+                [1.2939161034, 103.84873413999999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_4ad1149ab8350e7582257cfea2b0d008 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ddc52257f15c659f2e6c180a7fd65931 = $(`<div id="html_ddc52257f15c659f2e6c180a7fd65931" style="width: 100.0%; height: 100.0%;"><b>Singapore</b><br>Restaurants: 20.0<br>Average Rating: 3.58/5</div>`)[0];
+                popup_4ad1149ab8350e7582257cfea2b0d008.setContent(html_ddc52257f15c659f2e6c180a7fd65931);
+            
+        
+
+        circle_marker_c35054466cc7151e6e0dbcbf49172b2b.bindPopup(popup_4ad1149ab8350e7582257cfea2b0d008)
+        ;
+
+        
+    
+    
+            var circle_marker_63d726c779ecfc23398fdb26c3813659 = L.circleMarker(
+                [42.498723139999996, -96.3789359],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_61f91313cc0f1c62c3fc95c854854d81 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b725c7803c1be7b46431d8a1f0288f08 = $(`<div id="html_b725c7803c1be7b46431d8a1f0288f08" style="width: 100.0%; height: 100.0%;"><b>Sioux City</b><br>Restaurants: 20.0<br>Average Rating: 3.76/5</div>`)[0];
+                popup_61f91313cc0f1c62c3fc95c854854d81.setContent(html_b725c7803c1be7b46431d8a1f0288f08);
+            
+        
+
+        circle_marker_63d726c779ecfc23398fdb26c3813659.bindPopup(popup_61f91313cc0f1c62c3fc95c854854d81)
+        ;
+
+        
+    
+    
+            var circle_marker_c390e242addfb466d865f11c6bc7d748 = L.circleMarker(
+                [21.168826666, 72.787681128],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_c31d1396ebc5b59e5c827443226d1c03 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_795a55d07fc2b1e732c536c3e6a405ba = $(`<div id="html_795a55d07fc2b1e732c536c3e6a405ba" style="width: 100.0%; height: 100.0%;"><b>Surat</b><br>Restaurants: 20.0<br>Average Rating: 3.94/5</div>`)[0];
+                popup_c31d1396ebc5b59e5c827443226d1c03.setContent(html_795a55d07fc2b1e732c536c3e6a405ba);
+            
+        
+
+        circle_marker_c390e242addfb466d865f11c6bc7d748.bindPopup(popup_c31d1396ebc5b59e5c827443226d1c03)
+        ;
+
+        
+    
+    
+            var circle_marker_1262ff7c5b98b781f22eff1d5744e64a = L.circleMarker(
+                [-23.570185067, -46.6620110555],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_75bb6031a71e129a2a2e1a8f14b1923d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2b744054996d9eca667d72c1fc70562 = $(`<div id="html_b2b744054996d9eca667d72c1fc70562" style="width: 100.0%; height: 100.0%;"><b>S��o Paulo</b><br>Restaurants: 20.0<br>Average Rating: 3.53/5</div>`)[0];
+                popup_75bb6031a71e129a2a2e1a8f14b1923d.setContent(html_b2b744054996d9eca667d72c1fc70562);
+            
+        
+
+        circle_marker_1262ff7c5b98b781f22eff1d5744e64a.bindPopup(popup_75bb6031a71e129a2a2e1a8f14b1923d)
+        ;
+
+        
+    
+    
+            var circle_marker_21cd0a5441cf8dccd4ab53017e146ecc = L.circleMarker(
+                [14.101834, 120.951589],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_9f7d13853216b50aaec7fb06ee37327d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64f007c114dadbd6b3ab0354130e6554 = $(`<div id="html_64f007c114dadbd6b3ab0354130e6554" style="width: 100.0%; height: 100.0%;"><b>Tagaytay City</b><br>Restaurants: 1.0<br>Average Rating: 4.50/5</div>`)[0];
+                popup_9f7d13853216b50aaec7fb06ee37327d.setContent(html_64f007c114dadbd6b3ab0354130e6554);
+            
+        
+
+        circle_marker_21cd0a5441cf8dccd4ab53017e146ecc.bindPopup(popup_9f7d13853216b50aaec7fb06ee37327d)
+        ;
+
+        
+    
+    
+            var circle_marker_3e50d5504af592c3d3eaa5f199cc56b2 = L.circleMarker(
+                [14.5488025875, 121.0498307],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_f7cfae7594fa11a0d7a534409575b39b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e80bdc8f946e6b9254a568b864bd78ff = $(`<div id="html_e80bdc8f946e6b9254a568b864bd78ff" style="width: 100.0%; height: 100.0%;"><b>Taguig City</b><br>Restaurants: 4.0<br>Average Rating: 4.53/5</div>`)[0];
+                popup_f7cfae7594fa11a0d7a534409575b39b.setContent(html_e80bdc8f946e6b9254a568b864bd78ff);
+            
+        
+
+        circle_marker_3e50d5504af592c3d3eaa5f199cc56b2.bindPopup(popup_f7cfae7594fa11a0d7a534409575b39b)
+        ;
+
+        
+    
+    
+            var circle_marker_6a67e779d1e5ec750e8d3a867ce36496 = L.circleMarker(
+                [27.898321385000003, -82.568286915],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_074aa3618d6cce171ccade0274bb41f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91c42ef076fc5b818afad72f8467336b = $(`<div id="html_91c42ef076fc5b818afad72f8467336b" style="width: 100.0%; height: 100.0%;"><b>Tampa Bay</b><br>Restaurants: 20.0<br>Average Rating: 4.41/5</div>`)[0];
+                popup_074aa3618d6cce171ccade0274bb41f7.setContent(html_91c42ef076fc5b818afad72f8467336b);
+            
+        
+
+        circle_marker_6a67e779d1e5ec750e8d3a867ce36496.bindPopup(popup_074aa3618d6cce171ccade0274bb41f7)
+        ;
+
+        
+    
+    
+            var circle_marker_2bcc948ddc1eae9e134ef1a1aa9785b6 = L.circleMarker(
+                [-6.2558529445, 106.6894037],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_57b40ab6a385ec9ed98c80b57f3831ab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f5c22d24b9c1e716b534f64f21ebd22 = $(`<div id="html_5f5c22d24b9c1e716b534f64f21ebd22" style="width: 100.0%; height: 100.0%;"><b>Tangerang</b><br>Restaurants: 2.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_57b40ab6a385ec9ed98c80b57f3831ab.setContent(html_5f5c22d24b9c1e716b534f64f21ebd22);
+            
+        
+
+        circle_marker_2bcc948ddc1eae9e134ef1a1aa9785b6.bindPopup(popup_57b40ab6a385ec9ed98c80b57f3831ab)
+        ;
+
+        
+    
+    
+            var circle_marker_028623b0f83482e3ec1f96ba0c95d74a = L.circleMarker(
+                [-34.519619, 138.966064],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_55c3b1e98adb06853efb6579309c351e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6707f3f01a80f723d9f91762b6a704f1 = $(`<div id="html_6707f3f01a80f723d9f91762b6a704f1" style="width: 100.0%; height: 100.0%;"><b>Tanunda</b><br>Restaurants: 1.0<br>Average Rating: 4.40/5</div>`)[0];
+                popup_55c3b1e98adb06853efb6579309c351e.setContent(html_6707f3f01a80f723d9f91762b6a704f1);
+            
+        
+
+        circle_marker_028623b0f83482e3ec1f96ba0c95d74a.bindPopup(popup_55c3b1e98adb06853efb6579309c351e)
+        ;
+
+        
+    
+    
+            var circle_marker_2f4d1c6facfa82d43e9d9f994f08fa15 = L.circleMarker(
+                [-37.396942, 144.41272],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_5d9c4819f3132342b7507b2e9e782d81 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8e498c036fd7dc314a90ebbcaa74d63 = $(`<div id="html_b8e498c036fd7dc314a90ebbcaa74d63" style="width: 100.0%; height: 100.0%;"><b>Trentham East</b><br>Restaurants: 1.0<br>Average Rating: 4.10/5</div>`)[0];
+                popup_5d9c4819f3132342b7507b2e9e782d81.setContent(html_b8e498c036fd7dc314a90ebbcaa74d63);
+            
+        
+
+        circle_marker_2f4d1c6facfa82d43e9d9f994f08fa15.bindPopup(popup_5d9c4819f3132342b7507b2e9e782d81)
+        ;
+
+        
+    
+    
+            var circle_marker_34c5d11a80a10acdc18da81626b1301d = L.circleMarker(
+                [11.155734048, 36.5834827945],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_5b08de773f9b0a315f88b42a55402ef8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8556a5b429523b359032331598235350 = $(`<div id="html_8556a5b429523b359032331598235350" style="width: 100.0%; height: 100.0%;"><b>Vadodara</b><br>Restaurants: 20.0<br>Average Rating: 4.03/5</div>`)[0];
+                popup_5b08de773f9b0a315f88b42a55402ef8.setContent(html_8556a5b429523b359032331598235350);
+            
+        
+
+        circle_marker_34c5d11a80a10acdc18da81626b1301d.bindPopup(popup_5b08de773f9b0a315f88b42a55402ef8)
+        ;
+
+        
+    
+    
+            var circle_marker_b256a4e862f94f5feab753e30f3a99a7 = L.circleMarker(
+                [30.848183210000002, -83.301594095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_5d0ad35f8c97d56d85493349602d9839 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_503e24083479acb005e393d7bd10a19c = $(`<div id="html_503e24083479acb005e393d7bd10a19c" style="width: 100.0%; height: 100.0%;"><b>Valdosta</b><br>Restaurants: 20.0<br>Average Rating: 3.71/5</div>`)[0];
+                popup_5d0ad35f8c97d56d85493349602d9839.setContent(html_503e24083479acb005e393d7bd10a19c);
+            
+        
+
+        circle_marker_b256a4e862f94f5feab753e30f3a99a7.bindPopup(popup_5d0ad35f8c97d56d85493349602d9839)
+        ;
+
+        
+    
+    
+            var circle_marker_217d36f25835f9413804154fe1b49e72 = L.circleMarker(
+                [16.450888249, 53.944929223500004],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_327f6f16b4ae541a621003358b1522b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15bc0829ed7924bb7d200d4447a3ced0 = $(`<div id="html_15bc0829ed7924bb7d200d4447a3ced0" style="width: 100.0%; height: 100.0%;"><b>Varanasi</b><br>Restaurants: 20.0<br>Average Rating: 3.51/5</div>`)[0];
+                popup_327f6f16b4ae541a621003358b1522b6.setContent(html_15bc0829ed7924bb7d200d4447a3ced0);
+            
+        
+
+        circle_marker_217d36f25835f9413804154fe1b49e72.bindPopup(popup_327f6f16b4ae541a621003358b1522b6)
+        ;
+
+        
+    
+    
+            var circle_marker_d9257f154cccd402a8505f8bb20672c5 = L.circleMarker(
+                [45.858667, -123.1954368],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_47661ad2a65a2d45abda3c429d6a9ce3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_35e25cb996e646f43dd5fab1e605d966 = $(`<div id="html_35e25cb996e646f43dd5fab1e605d966" style="width: 100.0%; height: 100.0%;"><b>Vernonia</b><br>Restaurants: 1.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_47661ad2a65a2d45abda3c429d6a9ce3.setContent(html_35e25cb996e646f43dd5fab1e605d966);
+            
+        
+
+        circle_marker_d9257f154cccd402a8505f8bb20672c5.bindPopup(popup_47661ad2a65a2d45abda3c429d6a9ce3)
+        ;
+
+        
+    
+    
+            var circle_marker_e09d664c5847fbe309ceb696b5a67177 = L.circleMarker(
+                [-35.5536609, 138.624316],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_48c70a9eb58337277118d3a8390dc476 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b67b59b6a072fc3d52c0590589c5e609 = $(`<div id="html_b67b59b6a072fc3d52c0590589c5e609" style="width: 100.0%; height: 100.0%;"><b>Victor Harbor</b><br>Restaurants: 1.0<br>Average Rating: 3.60/5</div>`)[0];
+                popup_48c70a9eb58337277118d3a8390dc476.setContent(html_b67b59b6a072fc3d52c0590589c5e609);
+            
+        
+
+        circle_marker_e09d664c5847fbe309ceb696b5a67177.bindPopup(popup_48c70a9eb58337277118d3a8390dc476)
+        ;
+
+        
+    
+    
+            var circle_marker_978742fa623d9d600722ffa86d02b0b7 = L.circleMarker(
+                [43.1868697, -79.3791465],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_e47b92306b48b71b5bd7fb67bc26fcfb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d681c9e0ac5096af7160748e7f707e5 = $(`<div id="html_6d681c9e0ac5096af7160748e7f707e5" style="width: 100.0%; height: 100.0%;"><b>Vineland Station</b><br>Restaurants: 1.0<br>Average Rating: 4.30/5</div>`)[0];
+                popup_e47b92306b48b71b5bd7fb67bc26fcfb.setContent(html_6d681c9e0ac5096af7160748e7f707e5);
+            
+        
+
+        circle_marker_978742fa623d9d600722ffa86d02b0b7.bindPopup(popup_e47b92306b48b71b5bd7fb67bc26fcfb)
+        ;
+
+        
+    
+    
+            var circle_marker_c95c82bce8292230cd29bd7e9ac295db = L.circleMarker(
+                [13.297467825499998, 62.492616916500005],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_460c51a6d1ddc34530df1d2c6cf1a00e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3cf089ccfbe4f18aa43e9fe0c984a05f = $(`<div id="html_3cf089ccfbe4f18aa43e9fe0c984a05f" style="width: 100.0%; height: 100.0%;"><b>Vizag</b><br>Restaurants: 20.0<br>Average Rating: 4.00/5</div>`)[0];
+                popup_460c51a6d1ddc34530df1d2c6cf1a00e.setContent(html_3cf089ccfbe4f18aa43e9fe0c984a05f);
+            
+        
+
+        circle_marker_c95c82bce8292230cd29bd7e9ac295db.bindPopup(popup_460c51a6d1ddc34530df1d2c6cf1a00e)
+        ;
+
+        
+    
+    
+            var circle_marker_fab367f61ecef7cd1177e34b98188f99 = L.circleMarker(
+                [42.511039305000004, -92.408520385],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_6e95e68bbf3eb9ff48e6ab71cad55212 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_694b7b571aff4dc0e6854a16f39fc6e5 = $(`<div id="html_694b7b571aff4dc0e6854a16f39fc6e5" style="width: 100.0%; height: 100.0%;"><b>Waterloo</b><br>Restaurants: 20.0<br>Average Rating: 3.65/5</div>`)[0];
+                popup_6e95e68bbf3eb9ff48e6ab71cad55212.setContent(html_694b7b571aff4dc0e6854a16f39fc6e5);
+            
+        
+
+        circle_marker_fab367f61ecef7cd1177e34b98188f99.bindPopup(popup_6e95e68bbf3eb9ff48e6ab71cad55212)
+        ;
+
+        
+    
+    
+            var circle_marker_a56e491eb7017f12a1564d3f9d15d0ad = L.circleMarker(
+                [40.396043, -80.529488],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_019577bdeb2979f7bfe8b8ce472e1fcd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5ef18b005dda69c097738ab7832bf6e = $(`<div id="html_c5ef18b005dda69c097738ab7832bf6e" style="width: 100.0%; height: 100.0%;"><b>Weirton</b><br>Restaurants: 1.0<br>Average Rating: 3.90/5</div>`)[0];
+                popup_019577bdeb2979f7bfe8b8ce472e1fcd.setContent(html_c5ef18b005dda69c097738ab7832bf6e);
+            
+        
+
+        circle_marker_a56e491eb7017f12a1564d3f9d15d0ad.bindPopup(popup_019577bdeb2979f7bfe8b8ce472e1fcd)
+        ;
+
+        
+    
+    
+            var circle_marker_d52be6c90ea8519cd6110727ce35b437 = L.circleMarker(
+                [-41.293814186, 174.77810018],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_59a7ca9ac73a80f38da6ad801675898b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80a5dc8a3094d76cdae8d98744e61f21 = $(`<div id="html_80a5dc8a3094d76cdae8d98744e61f21" style="width: 100.0%; height: 100.0%;"><b>Wellington City</b><br>Restaurants: 20.0<br>Average Rating: 4.25/5</div>`)[0];
+                popup_59a7ca9ac73a80f38da6ad801675898b.setContent(html_80a5dc8a3094d76cdae8d98744e61f21);
+            
+        
+
+        circle_marker_d52be6c90ea8519cd6110727ce35b437.bindPopup(popup_59a7ca9ac73a80f38da6ad801675898b)
+        ;
+
+        
+    
+    
+            var circle_marker_cda05b1c5482a4771c541db66717553b = L.circleMarker(
+                [43.678998, -124.175346],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_2e16d616a3ba14aa594a5dbe83637a49 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31116f270d5c02afa34a857bcf1bad55 = $(`<div id="html_31116f270d5c02afa34a857bcf1bad55" style="width: 100.0%; height: 100.0%;"><b>Winchester Bay</b><br>Restaurants: 1.0<br>Average Rating: 3.20/5</div>`)[0];
+                popup_2e16d616a3ba14aa594a5dbe83637a49.setContent(html_31116f270d5c02afa34a857bcf1bad55);
+            
+        
+
+        circle_marker_cda05b1c5482a4771c541db66717553b.bindPopup(popup_2e16d616a3ba14aa594a5dbe83637a49)
+        ;
+
+        
+    
+    
+            var circle_marker_53e137f091527f15bcadd62a16c31fa5 = L.circleMarker(
+                [51.2106824, -102.4613173],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_da1043cde4cfc56351d0404b4534a9b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_567272af6ba419190675649113c30923 = $(`<div id="html_567272af6ba419190675649113c30923" style="width: 100.0%; height: 100.0%;"><b>Yorkton</b><br>Restaurants: 1.0<br>Average Rating: 3.30/5</div>`)[0];
+                popup_da1043cde4cfc56351d0404b4534a9b8.setContent(html_567272af6ba419190675649113c30923);
+            
+        
+
+        circle_marker_53e137f091527f15bcadd62a16c31fa5.bindPopup(popup_da1043cde4cfc56351d0404b4534a9b8)
+        ;
+
+        
+    
+    
+            var circle_marker_c20ef154644bd236c4a90aa3b44efad0 = L.circleMarker(
+                [41.029903835000006, 29.016331271428573],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_333b2c04be1ff47ff70c8a7e965fcb75);
+        
+    
+        var popup_a9863351e47db95dec81b2a3caf8b862 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a2e945bbb3d5558cb79efb4f7e4a9be = $(`<div id="html_5a2e945bbb3d5558cb79efb4f7e4a9be" style="width: 100.0%; height: 100.0%;"><b>��stanbul</b><br>Restaurants: 14.0<br>Average Rating: 4.29/5</div>`)[0];
+                popup_a9863351e47db95dec81b2a3caf8b862.setContent(html_5a2e945bbb3d5558cb79efb4f7e4a9be);
+            
+        
+
+        circle_marker_c20ef154644bd236c4a90aa3b44efad0.bindPopup(popup_a9863351e47db95dec81b2a3caf8b862)
+        ;
+
+        
+    
+</script>
+</html>

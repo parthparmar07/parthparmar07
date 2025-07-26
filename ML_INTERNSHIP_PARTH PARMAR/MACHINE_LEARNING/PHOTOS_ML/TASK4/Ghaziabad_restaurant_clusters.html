@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6772d61f90ff6b2d1edd94feec9bbc87 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6772d61f90ff6b2d1edd94feec9bbc87" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6772d61f90ff6b2d1edd94feec9bbc87 = L.map(
+                "map_6772d61f90ff6b2d1edd94feec9bbc87",
+                {
+                    center: [28.6374747812, 77.36246978439999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_46a86f9d10400548ab48e58fb80fd1dc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_46a86f9d10400548ab48e58fb80fd1dc.addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+            var circle_marker_3fa83937f57e0dc24ad30a4965225711 = L.circleMarker(
+                [28.63601389, 77.37444167],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_0d826824e4d3fff2c8a6e6b8d7a6bf2a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8bc7ec9be2e02e1a03172da449dac1a0 = $(`<div id="html_8bc7ec9be2e02e1a03172da449dac1a0" style="width: 100.0%; height: 100.0%;"><b>Chaudhary Ke Mashhoor Paranthe</b><br>Cuisine: North Indian<br>Rating: 2.8/5<br>Cluster: 0</div>`)[0];
+                popup_0d826824e4d3fff2c8a6e6b8d7a6bf2a.setContent(html_8bc7ec9be2e02e1a03172da449dac1a0);
+            
+        
+
+        circle_marker_3fa83937f57e0dc24ad30a4965225711.bindPopup(popup_0d826824e4d3fff2c8a6e6b8d7a6bf2a)
+        ;
+
+        
+    
+    
+            var circle_marker_9ab84b8e578d4d30d2a770bc2dd29db2 = L.circleMarker(
+                [28.63602222, 77.37419167],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_6b2e6afd9e70a0fcd9c12676d6c419a1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a888f3859ee1223c0114ba1c8783736f = $(`<div id="html_a888f3859ee1223c0114ba1c8783736f" style="width: 100.0%; height: 100.0%;"><b>Thakur Bakers</b><br>Cuisine: Bakery<br>Rating: 3.0/5<br>Cluster: 0</div>`)[0];
+                popup_6b2e6afd9e70a0fcd9c12676d6c419a1.setContent(html_a888f3859ee1223c0114ba1c8783736f);
+            
+        
+
+        circle_marker_9ab84b8e578d4d30d2a770bc2dd29db2.bindPopup(popup_6b2e6afd9e70a0fcd9c12676d6c419a1)
+        ;
+
+        
+    
+    
+            var circle_marker_24352783a2c0d3a462a2ad5eea14ce21 = L.circleMarker(
+                [28.635083, 77.369326],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_04247ba475c6ef429706466297f8ab0d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f387914120dbb8ec859156d4a3f6b09c = $(`<div id="html_f387914120dbb8ec859156d4a3f6b09c" style="width: 100.0%; height: 100.0%;"><b>FoodByMom</b><br>Cuisine: North Indian<br>Rating: 3.6/5<br>Cluster: 0</div>`)[0];
+                popup_04247ba475c6ef429706466297f8ab0d.setContent(html_f387914120dbb8ec859156d4a3f6b09c);
+            
+        
+
+        circle_marker_24352783a2c0d3a462a2ad5eea14ce21.bindPopup(popup_04247ba475c6ef429706466297f8ab0d)
+        ;
+
+        
+    
+    
+            var circle_marker_8d12780c9c4674541f37d409c41aa1c4 = L.circleMarker(
+                [28.637449, 77.378751],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_0bfed79f5c166a2f0f56a5d8a873ac78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aed2caddbd50590a4a897f5d99fc9252 = $(`<div id="html_aed2caddbd50590a4a897f5d99fc9252" style="width: 100.0%; height: 100.0%;"><b>Mr. Brown</b><br>Cuisine: Fast Food, Cafe, Desserts, Bakery<br>Rating: 3.9/5<br>Cluster: 0</div>`)[0];
+                popup_0bfed79f5c166a2f0f56a5d8a873ac78.setContent(html_aed2caddbd50590a4a897f5d99fc9252);
+            
+        
+
+        circle_marker_8d12780c9c4674541f37d409c41aa1c4.bindPopup(popup_0bfed79f5c166a2f0f56a5d8a873ac78)
+        ;
+
+        
+    
+    
+            var circle_marker_af024529485c016f7cb0d2c576ddfefa = L.circleMarker(
+                [28.63823809, 77.31548297],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_0332bc1d9564af8a59d46c9787261933 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f51f2d139f127d3f96245ecb54d65fd = $(`<div id="html_1f51f2d139f127d3f96245ecb54d65fd" style="width: 100.0%; height: 100.0%;"><b>Mitalis Kitchen</b><br>Cuisine: North Indian<br>Rating: 0.0/5<br>Cluster: None</div>`)[0];
+                popup_0332bc1d9564af8a59d46c9787261933.setContent(html_1f51f2d139f127d3f96245ecb54d65fd);
+            
+        
+
+        circle_marker_af024529485c016f7cb0d2c576ddfefa.bindPopup(popup_0332bc1d9564af8a59d46c9787261933)
+        ;
+
+        
+    
+    
+            var circle_marker_4f287b23caf63cbddad5775abaa72134 = L.circleMarker(
+                [28.6411332, 77.31069862],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_07edc1bffb9231598314bf6b839ab881 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1def45d546c3cd38d89f15d688790b9d = $(`<div id="html_1def45d546c3cd38d89f15d688790b9d" style="width: 100.0%; height: 100.0%;"><b>The Big Scoop</b><br>Cuisine: Ice Cream<br>Rating: 0.0/5<br>Cluster: None</div>`)[0];
+                popup_07edc1bffb9231598314bf6b839ab881.setContent(html_1def45d546c3cd38d89f15d688790b9d);
+            
+        
+
+        circle_marker_4f287b23caf63cbddad5775abaa72134.bindPopup(popup_07edc1bffb9231598314bf6b839ab881)
+        ;
+
+        
+    
+    
+            var circle_marker_f245227bc5b721916dc50295a46b4530 = L.circleMarker(
+                [28.63423199, 77.36989718],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_616ec076c39a64ac0fe48692755e7848 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5bb333e97c47863d7c9748b9ade46554 = $(`<div id="html_5bb333e97c47863d7c9748b9ade46554" style="width: 100.0%; height: 100.0%;"><b>9 Mars Lounge</b><br>Cuisine: North Indian, Chinese<br>Rating: 2.5/5<br>Cluster: 0</div>`)[0];
+                popup_616ec076c39a64ac0fe48692755e7848.setContent(html_5bb333e97c47863d7c9748b9ade46554);
+            
+        
+
+        circle_marker_f245227bc5b721916dc50295a46b4530.bindPopup(popup_616ec076c39a64ac0fe48692755e7848)
+        ;
+
+        
+    
+    
+            var circle_marker_cc310ede5d29da8f5e410019443f5ed9 = L.circleMarker(
+                [28.63404167, 77.37024722],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_740fb4160048f160289fbe313eecc7ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d4c53834d3610c6adc0f8ffddcf373b = $(`<div id="html_9d4c53834d3610c6adc0f8ffddcf373b" style="width: 100.0%; height: 100.0%;"><b>Barista</b><br>Cuisine: Cafe<br>Rating: 3.4/5<br>Cluster: 0</div>`)[0];
+                popup_740fb4160048f160289fbe313eecc7ad.setContent(html_9d4c53834d3610c6adc0f8ffddcf373b);
+            
+        
+
+        circle_marker_cc310ede5d29da8f5e410019443f5ed9.bindPopup(popup_740fb4160048f160289fbe313eecc7ad)
+        ;
+
+        
+    
+    
+            var circle_marker_781cc27c62b9cb91d7491b9aafc39736 = L.circleMarker(
+                [28.63392778, 77.3704],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_5e6ae38b6fb4bb1836016a9794681376 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_deaade43f21342561a15584d5cbbd5e8 = $(`<div id="html_deaade43f21342561a15584d5cbbd5e8" style="width: 100.0%; height: 100.0%;"><b>Baskin Robbins</b><br>Cuisine: Ice Cream<br>Rating: 3.3/5<br>Cluster: 0</div>`)[0];
+                popup_5e6ae38b6fb4bb1836016a9794681376.setContent(html_deaade43f21342561a15584d5cbbd5e8);
+            
+        
+
+        circle_marker_781cc27c62b9cb91d7491b9aafc39736.bindPopup(popup_5e6ae38b6fb4bb1836016a9794681376)
+        ;
+
+        
+    
+    
+            var circle_marker_8d563e7b99f52cfd140b86f54fbc1898 = L.circleMarker(
+                [28.63388299, 77.36986466],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_ff38128e71f8247f090c08bdcbc24a82 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e4968aa7f45af248bec05bb047a5ab9f = $(`<div id="html_e4968aa7f45af248bec05bb047a5ab9f" style="width: 100.0%; height: 100.0%;"><b>Burger King</b><br>Cuisine: Burger, Fast Food<br>Rating: 3.4/5<br>Cluster: 0</div>`)[0];
+                popup_ff38128e71f8247f090c08bdcbc24a82.setContent(html_e4968aa7f45af248bec05bb047a5ab9f);
+            
+        
+
+        circle_marker_8d563e7b99f52cfd140b86f54fbc1898.bindPopup(popup_ff38128e71f8247f090c08bdcbc24a82)
+        ;
+
+        
+    
+    
+            var circle_marker_c2110e58f3c3aa29d2212fbca0cb7ad2 = L.circleMarker(
+                [28.63404722, 77.37020833],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_e84a4cb2579587811fa539206198797e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f65a6111cc3ec4779ddaa3561c380be2 = $(`<div id="html_f65a6111cc3ec4779ddaa3561c380be2" style="width: 100.0%; height: 100.0%;"><b>Cafe Coffee Day</b><br>Cuisine: Cafe<br>Rating: 3.2/5<br>Cluster: 0</div>`)[0];
+                popup_e84a4cb2579587811fa539206198797e.setContent(html_f65a6111cc3ec4779ddaa3561c380be2);
+            
+        
+
+        circle_marker_c2110e58f3c3aa29d2212fbca0cb7ad2.bindPopup(popup_e84a4cb2579587811fa539206198797e)
+        ;
+
+        
+    
+    
+            var circle_marker_05949e4254dda02adbe4515800d5d8e0 = L.circleMarker(
+                [28.63388299, 77.36986466],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_d6a105eddfd64eca56e32e91c888f419 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de3ad80ae2aaa5dbe291a976e6e88843 = $(`<div id="html_de3ad80ae2aaa5dbe291a976e6e88843" style="width: 100.0%; height: 100.0%;"><b>Chinese X'Press</b><br>Cuisine: Chinese<br>Rating: 2.9/5<br>Cluster: 0</div>`)[0];
+                popup_d6a105eddfd64eca56e32e91c888f419.setContent(html_de3ad80ae2aaa5dbe291a976e6e88843);
+            
+        
+
+        circle_marker_05949e4254dda02adbe4515800d5d8e0.bindPopup(popup_d6a105eddfd64eca56e32e91c888f419)
+        ;
+
+        
+    
+    
+            var circle_marker_f8c938e36b6514cecc66edeea0f31a2f = L.circleMarker(
+                [28.63412753, 77.36972552],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_8ae8e99a6b70506da4c0401461acfe4f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dfb9e6e393c2cea5ec5c041204de3d93 = $(`<div id="html_dfb9e6e393c2cea5ec5c041204de3d93" style="width: 100.0%; height: 100.0%;"><b>Cinch</b><br>Cuisine: North Indian, Chinese, Continental<br>Rating: 2.6/5<br>Cluster: 0</div>`)[0];
+                popup_8ae8e99a6b70506da4c0401461acfe4f.setContent(html_dfb9e6e393c2cea5ec5c041204de3d93);
+            
+        
+
+        circle_marker_f8c938e36b6514cecc66edeea0f31a2f.bindPopup(popup_8ae8e99a6b70506da4c0401461acfe4f)
+        ;
+
+        
+    
+    
+            var circle_marker_4b182223a60473e90ef0624ffdcabc82 = L.circleMarker(
+                [28.634123, 77.370576],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_a2729fec33850c4ce888123957c46835 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4177fded7d75a3e71facb5e31885de1 = $(`<div id="html_c4177fded7d75a3e71facb5e31885de1" style="width: 100.0%; height: 100.0%;"><b>Costa Coffee</b><br>Cuisine: Cafe<br>Rating: 3.3/5<br>Cluster: 0</div>`)[0];
+                popup_a2729fec33850c4ce888123957c46835.setContent(html_c4177fded7d75a3e71facb5e31885de1);
+            
+        
+
+        circle_marker_4b182223a60473e90ef0624ffdcabc82.bindPopup(popup_a2729fec33850c4ce888123957c46835)
+        ;
+
+        
+    
+    
+            var circle_marker_c67c8ef1887237859053a731580d9665 = L.circleMarker(
+                [28.63407809, 77.36981537],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_d4521100470fcd8e4753c80c126e1544 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6c27708f7f0f9fb818f298d11cab5ebd = $(`<div id="html_6c27708f7f0f9fb818f298d11cab5ebd" style="width: 100.0%; height: 100.0%;"><b>Domino's Pizza</b><br>Cuisine: Pizza, Fast Food<br>Rating: 3.2/5<br>Cluster: 0</div>`)[0];
+                popup_d4521100470fcd8e4753c80c126e1544.setContent(html_6c27708f7f0f9fb818f298d11cab5ebd);
+            
+        
+
+        circle_marker_c67c8ef1887237859053a731580d9665.bindPopup(popup_d4521100470fcd8e4753c80c126e1544)
+        ;
+
+        
+    
+    
+            var circle_marker_7df4e759b5b81b2f36fdf64376c91678 = L.circleMarker(
+                [28.63378764, 77.36972786],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_96474b5d23d3401337f6f9bda78eb574 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82ea4d98fa8cb54a8dc1beb0ab8495ff = $(`<div id="html_82ea4d98fa8cb54a8dc1beb0ab8495ff" style="width: 100.0%; height: 100.0%;"><b>Dosa X'press</b><br>Cuisine: South Indian<br>Rating: 3.0/5<br>Cluster: 0</div>`)[0];
+                popup_96474b5d23d3401337f6f9bda78eb574.setContent(html_82ea4d98fa8cb54a8dc1beb0ab8495ff);
+            
+        
+
+        circle_marker_7df4e759b5b81b2f36fdf64376c91678.bindPopup(popup_96474b5d23d3401337f6f9bda78eb574)
+        ;
+
+        
+    
+    
+            var circle_marker_de987134742655291586fa584702b0c3 = L.circleMarker(
+                [28.63383826, 77.36959241],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_97cffda4837079c78be4867ae1691405 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_70946e58123dd79337035d21c3801284 = $(`<div id="html_70946e58123dd79337035d21c3801284" style="width: 100.0%; height: 100.0%;"><b>Kebab Xpress</b><br>Cuisine: North Indian, Mughlai<br>Rating: 2.7/5<br>Cluster: 0</div>`)[0];
+                popup_97cffda4837079c78be4867ae1691405.setContent(html_70946e58123dd79337035d21c3801284);
+            
+        
+
+        circle_marker_de987134742655291586fa584702b0c3.bindPopup(popup_97cffda4837079c78be4867ae1691405)
+        ;
+
+        
+    
+    
+            var circle_marker_99fc3cd6cc43b87a2ab49ed4b9df865b = L.circleMarker(
+                [28.63421758, 77.36971814],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_8ccd0499f4d1aeb5e9e56166187c8c16 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a1f9e44ef8a46926179c5d25da304a9e = $(`<div id="html_a1f9e44ef8a46926179c5d25da304a9e" style="width: 100.0%; height: 100.0%;"><b>Let's Noodle</b><br>Cuisine: Chinese<br>Rating: 2.6/5<br>Cluster: 0</div>`)[0];
+                popup_8ccd0499f4d1aeb5e9e56166187c8c16.setContent(html_a1f9e44ef8a46926179c5d25da304a9e);
+            
+        
+
+        circle_marker_99fc3cd6cc43b87a2ab49ed4b9df865b.bindPopup(popup_8ccd0499f4d1aeb5e9e56166187c8c16)
+        ;
+
+        
+    
+    
+            var circle_marker_4d048d6ba0d145a34e2fd8aa1f04e9dc = L.circleMarker(
+                [28.63401924, 77.37036925],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_f2605808e1f05f9c5b03c2fac1ee6d51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43466fd1cbd1da2bc1a713bdb96e73c3 = $(`<div id="html_43466fd1cbd1da2bc1a713bdb96e73c3" style="width: 100.0%; height: 100.0%;"><b>McDonald's</b><br>Cuisine: Fast Food, Burger<br>Rating: 3.3/5<br>Cluster: 0</div>`)[0];
+                popup_f2605808e1f05f9c5b03c2fac1ee6d51.setContent(html_43466fd1cbd1da2bc1a713bdb96e73c3);
+            
+        
+
+        circle_marker_4d048d6ba0d145a34e2fd8aa1f04e9dc.bindPopup(popup_f2605808e1f05f9c5b03c2fac1ee6d51)
+        ;
+
+        
+    
+    
+            var circle_marker_e67f1201c6d02039dce25cf06689b7a2 = L.circleMarker(
+                [28.63431586, 77.36987706],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_07740cee830a226978394e3c565ce544 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de39b7f76e72630b340059dfe8528eec = $(`<div id="html_de39b7f76e72630b340059dfe8528eec" style="width: 100.0%; height: 100.0%;"><b>Mx Corn</b><br>Cuisine: Fast Food<br>Rating: 3.1/5<br>Cluster: 0</div>`)[0];
+                popup_07740cee830a226978394e3c565ce544.setContent(html_de39b7f76e72630b340059dfe8528eec);
+            
+        
+
+        circle_marker_e67f1201c6d02039dce25cf06689b7a2.bindPopup(popup_07740cee830a226978394e3c565ce544)
+        ;
+
+        
+    
+    
+            var circle_marker_6a85d4a567bbdf18d2aeba946ff03066 = L.circleMarker(
+                [28.634175, 77.37019444],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_5c5692059a89a29ada6121d0e629144e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f4f54137a3dfd2d6481011eed92e234 = $(`<div id="html_1f4f54137a3dfd2d6481011eed92e234" style="width: 100.0%; height: 100.0%;"><b>Dunkin' Donuts</b><br>Cuisine: Burger, Desserts, Fast Food<br>Rating: 3.6/5<br>Cluster: 0</div>`)[0];
+                popup_5c5692059a89a29ada6121d0e629144e.setContent(html_1f4f54137a3dfd2d6481011eed92e234);
+            
+        
+
+        circle_marker_6a85d4a567bbdf18d2aeba946ff03066.bindPopup(popup_5c5692059a89a29ada6121d0e629144e)
+        ;
+
+        
+    
+    
+            var circle_marker_3761c5f628dee52f743245dbbd21bbdf = L.circleMarker(
+                [28.6339389, 77.37023715],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_d4019b8b8b4ab89d97b793d3dc32a6b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2c5c85e935985d4ac306965d71bef57f = $(`<div id="html_2c5c85e935985d4ac306965d71bef57f" style="width: 100.0%; height: 100.0%;"><b>Haldiram's</b><br>Cuisine: North Indian, South Indian, Chinese, Street Food, Fast Food, Mithai, Desserts<br>Rating: 3.6/5<br>Cluster: 0</div>`)[0];
+                popup_d4019b8b8b4ab89d97b793d3dc32a6b8.setContent(html_2c5c85e935985d4ac306965d71bef57f);
+            
+        
+
+        circle_marker_3761c5f628dee52f743245dbbd21bbdf.bindPopup(popup_d4019b8b8b4ab89d97b793d3dc32a6b8)
+        ;
+
+        
+    
+    
+            var circle_marker_294a3c75fc58347c8a260916337ba973 = L.circleMarker(
+                [28.63397039, 77.37016473],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_5d4dabde181dcc38202459971d4ec54f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55259c700724ce7b8d840bc9b6c8ef2a = $(`<div id="html_55259c700724ce7b8d840bc9b6c8ef2a" style="width: 100.0%; height: 100.0%;"><b>Pind Balluchi</b><br>Cuisine: North Indian, Mughlai<br>Rating: 1.8/5<br>Cluster: 0</div>`)[0];
+                popup_5d4dabde181dcc38202459971d4ec54f.setContent(html_55259c700724ce7b8d840bc9b6c8ef2a);
+            
+        
+
+        circle_marker_294a3c75fc58347c8a260916337ba973.bindPopup(popup_5d4dabde181dcc38202459971d4ec54f)
+        ;
+
+        
+    
+    
+            var circle_marker_01ce76fe42d988d8c79e62d611541f97 = L.circleMarker(
+                [28.6698582, 77.3252184],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_0b8e8121707ece217c7fd3205ec4aa4b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1c554e2c8f911098a851d6a2db462505 = $(`<div id="html_1c554e2c8f911098a851d6a2db462505" style="width: 100.0%; height: 100.0%;"><b>Maini Restaurant</b><br>Cuisine: North Indian, Fast Food<br>Rating: 3.3/5<br>Cluster: None</div>`)[0];
+                popup_0b8e8121707ece217c7fd3205ec4aa4b.setContent(html_1c554e2c8f911098a851d6a2db462505);
+            
+        
+
+        circle_marker_01ce76fe42d988d8c79e62d611541f97.bindPopup(popup_0b8e8121707ece217c7fd3205ec4aa4b)
+        ;
+
+        
+    
+    
+            var circle_marker_73fe55b3e7afe814d78f60709ca7cc51 = L.circleMarker(
+                [28.6644658, 77.3231543],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6772d61f90ff6b2d1edd94feec9bbc87);
+        
+    
+        var popup_983b8ff51fef4288e2e3fac51a98391e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f230a804fe3ff10a9a26fc32c49da587 = $(`<div id="html_f230a804fe3ff10a9a26fc32c49da587" style="width: 100.0%; height: 100.0%;"><b>The Dosa King</b><br>Cuisine: South Indian, North Indian, Chinese<br>Rating: 3.2/5<br>Cluster: None</div>`)[0];
+                popup_983b8ff51fef4288e2e3fac51a98391e.setContent(html_f230a804fe3ff10a9a26fc32c49da587);
+            
+        
+
+        circle_marker_73fe55b3e7afe814d78f60709ca7cc51.bindPopup(popup_983b8ff51fef4288e2e3fac51a98391e)
+        ;
+
+        
+    
+</script>
+</html>

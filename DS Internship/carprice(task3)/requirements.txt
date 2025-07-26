@@ -1,0 +1,29 @@
+# Car Price Prediction Analysis - Task 3 Requirements
+# ====================================================
+
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scipy>=1.9.0
+
+# Machine Learning Libraries
+scikit-learn>=1.2.0
+
+# Additional Utilities
+warnings
+datetime
+os
+
+# Optional for Enhanced Analysis
+plotly>=5.0.0  # For interactive visualizations
+jupyter>=1.0.0  # For notebook support
+
+# Development and Testing (Optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Note: This project requires Python 3.8 or higher
+# Install all dependencies with: pip install -r requirements.txt
