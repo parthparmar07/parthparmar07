@@ -2,12 +2,14 @@
   <img src="https://i.ibb.co/8dj4Vsd/tech-banner.gif" alt="AI Tech Banner" width="100%"/>
 </p>
 
+---
+
 ### 🧠 CS Student | Machine Learning Engineer | AI Agent Innovator  
 
-🚀 Building intelligent systems that **analyze, predict, and automate** — turning **data into decisions** and **ideas into impact**.  
+🚀 Building intelligent systems that **analyze, predict, and automate**  turning **data into decisions** and **ideas into impact**.  
+[![trophy](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=darkhub&no-frame=true&no-bg=true&margin-w=4)](https://github.com/parthparmar07)
 
-💡 Passionate about **AI Agents**, **Voice Intelligence**, **Automation**, and **FinTech/AI Systems**.  
-🧩 Currently working on **Datalis**, an AI-powered financial intelligence platform.  
+---
 
 ## 🏅 Achievement Badges Collection 🏅
 
