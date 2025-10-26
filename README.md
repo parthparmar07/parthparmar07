@@ -7,10 +7,11 @@
 
 <div align="center">
 
+<img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tech Photo" width="200" style="border-radius: 50%; border: 5px solid #00FFFF;" />
+
 ### 🧠 CS Student | Machine Learning Engineer | AI Agent Innovator  
 
-🚀 Building intelligent systems that **analyze, predict, and automate** — turning **data into decisions** and **ideas into impact**.  
-<img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tech Photo" width="200" style="border-radius: 50%; border: 5px solid #00FFFF;" />
+🚀 Building intelligent systems that **analyze, predict, and automate** — turning **data into decisions** and **ideas into impact**.
 
 ---
 
@@ -53,7 +54,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=react-dark&hide_border=true&area=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=github&hide_border=true&area=true" width="100%"/>
 </p>
 
 ---
@@ -97,6 +98,8 @@
   <a href="https://www.linkedin.com/in/parthparmar07/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:parthparmar.work@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
+
+
 
 
 
