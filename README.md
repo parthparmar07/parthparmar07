@@ -1,6 +1,6 @@
-<!-- 🌌 Tech Banner -->
+<!-- 🌌 Custom Banner -->
 <p align="center">
-  <img src="https://i.ibb.co/8dj4Vsd/tech-banner.gif" alt="AI Tech Banner" width="100%"/>
+  <img src="banner.jpg" alt="Custom Banner" width="100%"/>
 </p>
 
 ---
@@ -22,8 +22,6 @@
 | **Quickdraw** | <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw"> | Closed an issue or a pull request within 5 minutes of opening | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
 | **Pull Shark** | <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark"> | Opened a pull request that has been merged | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
 | **YOLO** | <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO"> | Merged a pull request without a review | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
-| **Starstruck** | <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="60px" alt="Starstruck"> | Created a repository that has many stars | $(https://img.shields.io/badge/Tier-Silver-C0C0C0?style=flat-square) |
-
 ---
 
 </div>
@@ -79,7 +77,7 @@
 
 ---
 
-#### � **ChainFund — Cross-Chain Grant & ESG Platform**
+####  **ChainFund — Cross-Chain Grant & ESG Platform**
 > A decentralized ecosystem connecting funders and impact-driven projects across chains with transparency and verifiable metrics.  
 🌍 *Built with Solidity + React + On-chain sentiment dashboard*
 
@@ -91,7 +89,7 @@
 
 ---
 
-### � Connect With Me
+###  Connect With Me
 
 <p align="center">
   <a href="https://github.com/parthparmar07" target="_blank"><img src="https://img.shields.io/badge/GitHub-121013?style=for-the-badge&logo=github&logoColor=white"/></a>
@@ -99,7 +97,4 @@
   <a href="mailto:parthparmar.work@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
-
-
-
-
+---
