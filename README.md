@@ -1,6 +1,22 @@
+<!-- 🌌 Tech Banner -->
+<p align="center">
+  <img src="https://i.ibb.co/8dj4Vsd/tech-banner.gif" alt="AI Tech Banner" width="100%"/>
+</p>
+
+---
+
+<div align="center">
+
+<!-- Typing Animation (Fixed) -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Hey+there+👋;I'm+Parth+Parmar;AI+Agent+Innovator+%7C+Machine+Learning+Engineer;Turning+Data+into+Decisions+⚡" alt="Typing SVG"/>
+</p>
+
 ### 🧠 CS Student | Machine Learning Engineer | AI Agent Innovator  
 
-🚀 Building intelligent systems that **analyze, predict, and automate**  turning **data into decisions** and **ideas into impact**.  
+🚀 Building intelligent systems that **analyze, predict, and automate** — turning **data into decisions** and **ideas into impact**.  
+[![trophy](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=darkhub&no-frame=true&no-bg=true&margin-w=4)](https://github.com/parthparmar07)
+
 ---
 
 ## 🏅 Achievement Badges Collection 🏅
@@ -10,9 +26,11 @@
 | **Quickdraw** | <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw"> | Closed an issue or a pull request within 5 minutes of opening | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
 | **Pull Shark** | <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark"> | Opened a pull request that has been merged | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
 | **YOLO** | <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO"> | Merged a pull request without a review | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
-| **Starstruck** | <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="60px" alt="Starstruck"> | Created a repository that has many stars | ![](https://img.shields.io/badge/Tier-Silver-C0C0C0?style=flat-square) |
+| **Starstruck** | <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="60px" alt="Starstruck"> | Created a repository that has many stars | $(https://img.shields.io/badge/Tier-Silver-C0C0C0?style=flat-square) |
 
 ---
+
+</div>
 
 ## ✨ Highlights Badges ✨
 
@@ -86,3 +104,19 @@
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=parthparmar07&label=Profile+Views&color=blueviolet&style=flat" alt="profile views"/>
+</p>
+
+| Achievement | Badge | Description | Tier |
+|:---:|:---:|:---:|:---:|
+| **Quickdraw** | <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw"> | Closed an issue or a pull request within 5 minutes of opening | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
+| **Pull Shark** | <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark"> | Opened a pull request that has been merged | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
+| **YOLO** | <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO"> | Merged a pull request without a review | ![](https://img.shields.io/badge/Tier-Bronze-CD7F32?style=flat-square) |
+| **Starstruck** | <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="60px" alt="Starstruck"> | Created a repository that has many stars | ![](https://img.shields.io/badge/Tier-Silver-C0C0C0?style=flat-square) |
+
+
+
+
+
