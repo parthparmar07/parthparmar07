@@ -24,7 +24,7 @@
 
 </div>
 
-## ✨ Highlights Badges ✨
+##  Highlights Badges 
 
 <div align="center">
 
@@ -55,39 +55,39 @@
 
 ---
 
-### 💬 Quotes that keep me going
-> *"The best way to predict the future is to invent it."* — Alan Kay  
+###  Quotes that keep me going
+> *"The best way to predict the future is to invent it."*  Alan Kay  
 > *"AI won’t replace people, but people who use AI will replace those who don’t."*
 
 ---
 
-### 🚀 Featured Projects
+###  Featured Projects
 
-#### 🧮 **Datalis — AI Financial Intelligence Platform**
+####  **Datalis — AI Financial Intelligence Platform**
 > An AI-powered system with agents for **consulting, tax, and audit automation**, enabling smart financial analysis using live data and NLP.  
 � [www.datalis.in](https://www.datalis.in) | 🧠 *Built with FastAPI, Groq, Deepgram, Plivo*
 
 ---
 
-#### 🔊 **Vocacity — AI Voice Agent for Restaurants**
-> Real-time conversational AI that handles reservations, orders, and feedback via voice — designed for the Indian F&B ecosystem.  
-🎙️ *Integrates with Twilio/Plivo + Whisper + Groq* | 🌐 [vocacity.in](https://vocacity.in)
+####  **Vocacity — AI Voice Agent for Restaurants**
+> Real-time conversational AI that handles reservations, orders, and feedback via voice  designed for the Indian F&B ecosystem.  
+🎙️ *Integrates with Twilio/Plivo + Whisper + Groq* |  [vocacity.in](https://vocacity.in)
 
 ---
 
 #### � **ChainFund — Cross-Chain Grant & ESG Platform**
 > A decentralized ecosystem connecting funders and impact-driven projects across chains with transparency and verifiable metrics.  
-🌍 *Built with Solidity + React + On-chain sentiment dashboard*
+ *Built with Solidity + React + Rust + On-chain sentiment dashboard*
 
 ---
 
-#### 🧩 **AI-Powered Dynamic Pricing Model (Research)**
+####  **AI-Powered Dynamic Pricing Model (Research)**
 > Combines **Reinforcement Learning** and **Behavioral Economics** for sustainable e-commerce inventory management.  
-📄 *Focus: Responsible AI for commerce sustainability.*
+ *Focus: Responsible AI for commerce sustainability.*
 
 ---
 
-### � Connect With Me
+###  Connect With Me
 
 <p align="center">
   <a href="https://github.com/parthparmar07" target="_blank"><img src="https://img.shields.io/badge/GitHub-121013?style=for-the-badge&logo=github&logoColor=white"/></a>
