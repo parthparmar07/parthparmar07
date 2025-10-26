@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="https://i.ibb.co/8dj4Vsd/tech-banner.gif" alt="AI Tech Banner" width="100%"/>
-</p>
-
----
-
 ### 🧠 CS Student | Machine Learning Engineer | AI Agent Innovator  
 
 🚀 Building intelligent systems that **analyze, predict, and automate**  turning **data into decisions** and **ideas into impact**.  
