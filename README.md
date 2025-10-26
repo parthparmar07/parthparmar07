@@ -7,8 +7,6 @@
 
 <div align="center">
 
-<img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tech Photo" width="200" style="border-radius: 50%; border: 5px solid #00FFFF;" />
-
 ### 🧠 CS Student | Machine Learning Engineer | AI Agent Innovator  
 
 🚀 Building intelligent systems that **analyze, predict, and automate** — turning **data into decisions** and **ideas into impact**.
@@ -77,7 +75,7 @@
 
 ---
 
-####  **ChainFund — Cross-Chain Grant & ESG Platform**
+#### � **ChainFund — Cross-Chain Grant & ESG Platform**
 > A decentralized ecosystem connecting funders and impact-driven projects across chains with transparency and verifiable metrics.  
 🌍 *Built with Solidity + React + On-chain sentiment dashboard*
 
@@ -89,7 +87,7 @@
 
 ---
 
-###  Connect With Me
+### � Connect With Me
 
 <p align="center">
   <a href="https://github.com/parthparmar07" target="_blank"><img src="https://img.shields.io/badge/GitHub-121013?style=for-the-badge&logo=github&logoColor=white"/></a>
@@ -97,4 +95,7 @@
   <a href="mailto:parthparmar.work@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
----
+
+
+
+
