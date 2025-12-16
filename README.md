@@ -75,7 +75,7 @@
 
 ---
 
-#### � **ChainFund — Cross-Chain Grant & ESG Platform**
+####  **ChainFund — Cross-Chain Grant & ESG Platform**
 > A decentralized ecosystem connecting funders and impact-driven projects across chains with transparency and verifiable metrics.  
  *Built with Solidity + React + Rust + On-chain sentiment dashboard* | https://chainfundd.vercel.app/
 
