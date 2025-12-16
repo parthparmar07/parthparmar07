@@ -65,7 +65,7 @@
 
 ####  **Datalis — AI Financial Intelligence Platform**
 > An AI-powered system with agents for **consulting, tax, and audit automation**, enabling smart financial analysis using live data and NLP.  
-� [www.datalis.in](https://www.datalis.in) | 🧠 *Built with FastAPI, Groq, Deepgram, Plivo*
+� [www.datalis.in](https://www.datalis.in) |  *Built with FastAPI, Groq, Deepgram, Plivo*
 
 ---
 
