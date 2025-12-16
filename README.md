@@ -65,13 +65,13 @@
 
 ####  **Datalis — AI Financial Intelligence Platform**
 > An AI-powered system with agents for **consulting, tax, and audit automation**, enabling smart financial analysis using live data and NLP.  
-� [www.datalis.in](https://www.datalis.in) |  *Built with FastAPI, Groq, Deepgram, Plivo*
+ [www.datalis.in](https://www.datalis.in) |  *Built with FastAPI, Groq, Deepgram, Plivo*
 
 ---
 
 ####  **Vocacity — AI Voice Agent for Restaurants**
 > Real-time conversational AI that handles reservations, orders, and feedback via voice  designed for the Indian F&B ecosystem.  
-🎙️ *Integrates with Twilio/Plivo + Whisper + Groq* |  [vocacity.in](https://vocacity.in)
+ *Integrates with Twilio/Plivo + Whisper + Groq* |  [vocacity.in](https://vocacity.in)
 
 ---
 
