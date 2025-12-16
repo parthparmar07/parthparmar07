@@ -7,7 +7,7 @@
 
 <div align="center">
 
-### 🧠 CS Student | Machine Learning Engineer | AI Agent Innovator  
+###  CS Student | Machine Learning Engineer | AI Agent Innovator  
 
 🚀 Building intelligent systems that **analyze, predict, and automate**  turning **data into decisions** and **ideas into impact**.
 
