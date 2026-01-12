@@ -16,20 +16,23 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 📊 GitHub Stats
+## 🔥 Highlights
 
 <div align="center">
 
-<img height="165"
-     src="https://stats-github-readme.vercel.app/api?username=parthparmar07&show_icons=true&include_all_commits=true&count_private=true&theme=radical"
-     alt="GitHub Stats" />
-
-<img height="165"
-     src="https://streak-stats.demolab.com/?user=parthparmar07&theme=radical"
-     alt="GitHub Streak Stats" />
+![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/parthparmar07?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/parthparmar07?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Data%20Science-brightgreen?style=for-the-badge)
+![Lives](https://img.shields.io/badge/Lives-India-success?style=for-the-badge)
 
 </div>
 
+---
+
+## 📊 GitHub Activity
+
+<!-- ✅ THIS ONE WORKS -->
 <p align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=radical&area=true"
@@ -37,12 +40,19 @@ turning **data into decisions** and **ideas into impact**.
   />
 </p>
 
+---
+
+## 🧠 Most Used Languages (Filtered)
+
+<!-- ✅ FILTERED TO BE ACCURATE -->
 <p align="center">
   <img
-    src="https://stats-github-readme.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=radical"
+    src="https://stats-github-readme.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=radical&hide=html,css&exclude_repo=chainfundd,portfolio-website"
     alt="Top Languages"
   />
 </p>
+
+> ⚠️ Calculated by **repo size**, not skill or frequency.
 
 ---
 
