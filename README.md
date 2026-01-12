@@ -1,6 +1,6 @@
 <!-- 🌌 Custom Banner -->
 <p align="center">
-  <img src="https://your-hosted-banner-link.jpg" alt="Custom Banner" width="100%"/>
+  <img src="banner.jpg" alt="Custom Banner" width="100%"/>
 </p>
 
 ---
@@ -30,30 +30,41 @@ turning **data into decisions** and **ideas into impact**.
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&label=Profile%20Views&style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/parthparmar07?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/parthparmar07?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Science-brightgreen?style=for-the-badge)
-![Location](https://img.shields.io/badge/India-IN-success?style=for-the-badge)
+![Lives](https://img.shields.io/badge/Lives-India-success?style=for-the-badge)
 
 ![Status](https://img.shields.io/badge/Status-Student-yellow?style=for-the-badge)
 ![Learning](https://img.shields.io/badge/Always-Learning-ff69b4?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-blue?style=for-the-badge)
+![Open%20Source](https://img.shields.io/badge/Open%20Source-Contributor-blue?style=for-the-badge)
 ![Projects](https://img.shields.io/badge/Projects-15+-purple?style=for-the-badge)
 
 </div>
 
 ---
 
-## ⚡ GitHub Stats
+## 📊 GitHub Activity & Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=radical&hide_border=true"/>
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=radical&hide_border=true"/>
+
+<!-- Overall Stats -->
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true"/>
+
+<!-- Streak Stats -->
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=radical&hide_border=true"/>
+
 </div>
 
+<!-- Daily Commit Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=radical&hide_border=true&area=true"/>
+</p>
+
+<!-- Languages -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=radical&hide_border=true"/>
 </p>
 
 ---
@@ -61,35 +72,35 @@ turning **data into decisions** and **ideas into impact**.
 ## 💡 Quotes That Keep Me Going
 
 > **“The best way to predict the future is to invent it.”** — *Alan Kay*  
-> **“AI won’t replace people, but people who use AI will.”**
+> **“AI won’t replace people, but people who use AI will replace those who don’t.”*
 
 ---
 
 ## 🚀 Featured Projects
 
 ### **Datalis — AI Financial Intelligence Platform**
-AI agents for **consulting, tax, and audit automation** using live data and NLP.  
+AI agents for **consulting, tax, and audit automation**, enabling smart financial analysis using live data and NLP.  
 🔗 https://www.datalis.in  
 *FastAPI · Groq · Deepgram · Plivo*
 
 ---
 
 ### **Vocacity — AI Voice Agent for Restaurants**
-Real-time conversational AI for reservations, orders, and feedback.  
+Real-time conversational AI that handles reservations, orders, and feedback via voice — built for the Indian F&B ecosystem.  
 🔗 https://vocacity.in  
 *Plivo/Twilio · Whisper · Groq*
 
 ---
 
 ### **ChainFund — Cross-Chain Grant & ESG Platform**
-Decentralized funding ecosystem with on-chain transparency.  
+A decentralized ecosystem connecting funders and impact-driven projects with on-chain transparency.  
 🔗 https://chainfundd.vercel.app  
 *Solidity · React · Rust*
 
 ---
 
-### **AI-Powered Dynamic Pricing (Research)**
-Hybrid **Reinforcement Learning + Behavioral Economics** model for sustainable e-commerce.
+### **AI-Powered Dynamic Pricing Model (Research)**
+Hybrid **Reinforcement Learning + Behavioral Economics** approach for sustainable e-commerce inventory management.
 
 ---
 
