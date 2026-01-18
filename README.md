@@ -52,7 +52,7 @@ turning **data into decisions** and **ideas into impact**.
   />
 </p>
 
-> ⚠️ Calculated by **repo size**, not skill or frequency.
+> Calculated by **repo size**, not skill or frequency.
 
 ---
 
