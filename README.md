@@ -30,7 +30,7 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 📊 GitHub Activity
+## GitHub Activity
 
 <!-- ✅ THIS ONE WORKS -->
 <p align="center">
