@@ -16,7 +16,7 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 🔥 Highlights
+## Highlights
 
 <div align="center">
 
