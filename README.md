@@ -69,7 +69,7 @@ https://chainfundd.vercel.app
 
 ---
 
-## 🤝 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://github.com/parthparmar07">
