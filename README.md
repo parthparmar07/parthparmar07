@@ -56,7 +56,7 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### **Datalis — AI Financial Intelligence Platform**
 https://www.datalis.in  
