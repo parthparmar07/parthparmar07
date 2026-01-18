@@ -42,7 +42,7 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 🧠 Most Used Languages (Filtered)
+## Most Used Languages (Filtered)
 
 <!-- ✅ FILTERED TO BE ACCURATE -->
 <p align="center">
