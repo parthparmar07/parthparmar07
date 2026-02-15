@@ -54,6 +54,7 @@ turning **data into decisions** and **ideas into impact**.
 
 > Calculated by **repo size**, not skill or frequency.
 
+<img src="https://counter.kuber.studio/parthparmar07/hacker/count.svg" alt="Profile views" />
 ---
 
 ## Featured Projects
