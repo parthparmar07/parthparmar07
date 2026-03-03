@@ -18,6 +18,8 @@ turning **data into decisions** and **ideas into impact**.
 
 ## 🚀 SYSTEM STATUS
 
+<div align="center">
+
 ```
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                                                                           ║
@@ -26,12 +28,12 @@ turning **data into decisions** and **ideas into impact**.
 ║   │ ████████████████████████████████████████████          [92%]     │    ║
 ║   └─────────────────────────────────────────────────────────────────┘    ║
 ║                                                                           ║
-║   ██████╗  █████╗ ██████╗ ████████╗██╗  ██╗                              ║
-║   ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║                              ║
-║   ██████╔╝███████║██████╔╝   ██║   ███████║                              ║
-║   ██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║                              ║
-║   ██║     ██║  ██║██║  ██║   ██║   ██║  ██║                              ║
-║   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝                              ║
+║                    ██████╗  █████╗ ██████╗ ████████╗██╗  ██╗             ║
+║                    ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║             ║
+║                    ██████╔╝███████║██████╔╝   ██║   ███████║             ║
+║                    ██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║             ║
+║                    ██║     ██║  ██║██║  ██║   ██║   ██║  ██║             ║
+║                    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝             ║
 ║                                                                           ║
 ║   ROLE: AI Engineer & Systems Architect                                  ║
 ║   SPECIALIZATION: High-performance ML systems at scale                   ║
@@ -39,6 +41,8 @@ turning **data into decisions** and **ideas into impact**.
 ║                                                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
+
+</div>
 
 ---
 
@@ -59,49 +63,6 @@ turning **data into decisions** and **ideas into impact**.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=ffffff&hide=html,css&exclude_repo=chainfundd,portfolio-website&langs_count=10" width="49%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=parthparmar07&theme=github_dark&utcOffset=5.5" width="49%"/>
-</p>
-
----
-
-## 🔥 Highlights
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/parthparmar07?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/parthparmar07?style=for-the-badge)
-![Focus](https://img.shields.io/badge/Focus-Data%20Science-brightgreen?style=for-the-badge)
-![Lives](https://img.shields.io/badge/Lives-India-success?style=for-the-badge)
-
-</div>
-
----
-
-## 📈 GitHub Activity (Alternate Theme)
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=radical&area=true"
-    alt="GitHub Activity Graph"
-  />
-</p>
-
----
-
-## 💻 Most Used Languages (Filtered)
-
-<p align="center">
-  <img
-    src="https://stats-github-readme.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=radical&hide=html,css&exclude_repo=chainfundd,portfolio-website"
-    alt="Top Languages"
-  />
-</p>
-
-> Calculated by **repository size**, not skill level.
-
-<p align="center">
-  <img src="https://counter.kuber.studio/parthparmar07/hacker/count.svg" alt="Profile views" />
 </p>
 
 ---
@@ -127,5 +88,8 @@ https://chainfundd.vercel.app
   </a>
   <a href="https://linkedin.com/in/parthparmar07">
     <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="https://parth-woad.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel"/>
   </a>
 </p>
