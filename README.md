@@ -31,6 +31,10 @@
 
 ## SYSTEM STATUS
 
+```bash
+parth@ml-engine:~$ cat engineer.py
+```
+
 ```python
 class Engineer:
     def __init__(self):
@@ -61,110 +65,72 @@ class Engineer:
 parth = Engineer()
 ```
 
+```bash
+parth@ml-engine:~$ python engineer.py
+> Initializing ML Engineer...
+> Status: Production.LIVE
+> Current Focus: Multi-Agent Systems, Financial ML, Voice AI, DeFi
+> Ready to build.
+```
+
 **Portfolio:** [parth-woad.vercel.app](https://parth-woad.vercel.app/)
 
 ---
 
+<div align="center">
+
 ## LIVE PRODUCTION SYSTEMS
+
+<br>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" align="center">
 
 ### DATALIS
-**AI Financial Intelligence Platform**
+**AI Financial Intelligence**
 
-![STATUS](https://img.shields.io/badge/STATUS-PRODUCTION-00FF00?style=flat-square&logo=statuspage)
+![LIVE](https://img.shields.io/badge/STATUS-LIVE-00FF00?style=flat-square)
 
-```yaml
-Architecture:
-  NLP: BERT + Custom Sentiment Models
-  Time Series: LSTM + Transformers
-  LLM: GPT-4 Integration
-  Processing: Kafka + Redis Streaming
-  Scale: 10K+ documents/day
-  
-Tech:
-  - PyTorch, TensorFlow
-  - FastAPI, PostgreSQL
-  - Docker, AWS
-  - Vector DB for embeddings
-```
+BERT • LSTM • GPT-4  
+Kafka • Redis • Vector DB  
+10K+ docs/day
 
-[datalis.in](https://www.datalis.in)
+[datalis.in →](https://www.datalis.in)
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" align="center">
 
 ### VOCACITY
-**AI Voice Agent for Restaurants**
+**AI Voice Agent**
 
-![STATUS](https://img.shields.io/badge/STATUS-PRODUCTION-00FF00?style=flat-square&logo=statuspage)
+![LIVE](https://img.shields.io/badge/STATUS-LIVE-00FF00?style=flat-square)
 
-```yaml
-Architecture:
-  STT: Whisper
-  NLU: Custom Intent + GPT-4 Fallback
-  Dialog: State Machine + Context
-  TTS: ElevenLabs Synthesis
-  Accuracy: 95%+
-  
-Tech:
-  - Transformers, LangChain
-  - FastAPI, Twilio
-  - Redis, MongoDB
-  - Multi-language support
-```
+Whisper • LangChain  
+State Machine • TTS  
+95%+ accuracy
 
-[vocacity.in](https://vocacity.in)
+[vocacity.in →](https://vocacity.in)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" align="center">
 
 ### CHAINFUND
-**Cross-Chain Grant Platform**
+**Cross-Chain Grants**
 
-![STATUS](https://img.shields.io/badge/STATUS-BETA-FFA500?style=flat-square&logo=statuspage)
+![BETA](https://img.shields.io/badge/STATUS-BETA-FFA500?style=flat-square)
 
-```yaml
-Architecture:
-  Smart Contracts: Solidity
-  Cross-chain: Multi-EVM bridges
-  Security: Multi-sig + Timelock
-  Storage: IPFS Decentralized
-  
-Tech:
-  - Solidity, Web3.js
-  - Next.js, ethers.js
-  - Hardhat, RainbowKit
-```
+Solidity • Web3.js  
+Multi-sig • IPFS  
+Decentralized
 
-[chainfundd.vercel.app](https://chainfundd.vercel.app)
-
-</td>
-<td width="50%" valign="top">
-
-### RESEARCH LAB
-**Experimental Projects**
-
-![STATUS](https://img.shields.io/badge/STATUS-ACTIVE-00D9FF?style=flat-square)
-
-```bash
-$ ls -la ~/research/
-drwxr-xr-x  DeNovo/
-drwxr-xr-x  UNIDATA/
-drwxr-xr-x  Liquidation-Engine/
-drwxr-xr-x  [32 more repositories]
-
-Total: 35+ active projects
-Focus: RAG, Multi-Agent, DeFi ML
-```
+[chainfundd.vercel.app →](https://chainfundd.vercel.app)
 
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
@@ -246,91 +212,61 @@ Focus: RAG, Multi-Agent, DeFi ML
 
 </div>
 
-<br>
+---
 
 <div align="center">
 
-```diff
-@@ REPOSITORY ANALYTICS @@
-+ 35 Public Repositories
-+ 14 Followers
-+ 3 Production Systems
-+ Daily Contributions
+## CURRENT RESEARCH
+
+<br>
+
+```bash
+parth@ml-engine:~$ cat research_log.txt
 ```
 
 </div>
 
----
-
-## CURRENT RESEARCH
-
 ```python
-research_areas = {
+research_pipeline = {
     "advanced_rag": {
-        "focus": ["GraphRAG", "Agentic RAG", "Multi-hop Reasoning"],
-        "tools": ["LangChain", "LlamaIndex", "Vector DBs"],
-        "goal": "Build context-aware retrieval systems"
+        "techniques": ["GraphRAG", "Agentic RAG", "Multi-hop Reasoning"],
+        "stack": ["LangChain", "LlamaIndex", "Pinecone", "Weaviate"],
+        "status": "Active experimentation"
     },
     
     "multi_agent_systems": {
-        "focus": ["Agent Collaboration", "Tool Use", "Memory Systems"],
         "frameworks": ["AutoGen", "CrewAI", "LangGraph"],
-        "applications": ["Autonomous research", "Code generation"]
+        "focus": ["Agent collaboration", "Tool orchestration", "Memory"],
+        "status": "Production prototypes"
     },
     
     "financial_ml": {
-        "focus": ["Time Series Forecasting", "Sentiment Analysis", "Anomaly Detection"],
         "models": ["LSTM", "Transformers", "XGBoost"],
-        "deployment": ["Real-time inference", "Low latency"]
+        "tasks": ["Time series forecasting", "Sentiment analysis", "Anomaly detection"],
+        "status": "Deployed at scale"
     },
     
     "defi_automation": {
-        "focus": ["Smart Contract ML", "On-chain Analytics", "Liquidation Engines"],
-        "tech": ["Solidity", "Web3", "Subgraphs"],
-        "innovation": "ML-powered DeFi strategies"
+        "tech": ["Solidity", "Web3", "Subgraphs", "The Graph"],
+        "innovation": ["ML-powered strategies", "On-chain analytics", "Smart contract optimization"],
+        "status": "Research & development"
     }
 }
 ```
 
----
-
-## ARCHITECTURE PATTERNS
-
-<div align="center">
-
-```mermaid
-graph LR
-    A[Data Ingestion] -->|Kafka/Redis| B[Preprocessing]
-    B -->|Feature Engineering| C[Model Training]
-    C -->|PyTorch/TF| D[Model Registry]
-    D -->|Docker/K8s| E[Inference API]
-    E -->|FastAPI| F[Production]
-    F -->|Monitoring| G[Feedback Loop]
-    G -->|MLOps| A
-    
-    style A fill:#1f6feb
-    style B fill:#58a6ff
-    style C fill:#388bfd
-    style D fill:#1f6feb
-    style E fill:#58a6ff
-    style F fill:#2ea043
-    style G fill:#58a6ff
+```bash
+> Research areas: 4 active
+> Production deployments: 3 systems
+> Experimental repos: 35+ projects
 ```
 
-</div>
-
-**Key Principles:**
-- Microservices architecture for ML systems
-- Real-time inference with <100ms latency
-- Automated retraining pipelines
-- Production monitoring and A/B testing
-- Distributed training on GPU clusters
-
 ---
+
+<div align="center">
 
 ## SYSTEM ACCESS
 
-<div align="center">
+<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parthparmar07)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parthparmar07)
@@ -343,9 +279,11 @@ graph LR
 
 ---
 
+<div align="center">
+
 ## PERFORMANCE METRICS
 
-<div align="center">
+<br>
 
 ![](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=nord&no-frame=true&no-bg=true&margin-w=4&column=7)
 
