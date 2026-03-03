@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Machine%20Learning%20Engineer&fontSize=42&fontAlignY=30&animation=twinkling&fontColor=fff" width="100%"/>
+
 ```ascii
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                                                                           ║
@@ -21,15 +23,17 @@
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Machine%20Learning%20Engineer&fontSize=42&fontAlignY=30&animation=twinkling&fontColor=fff" width="100%"/>
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=80&lines=Transforming+complex+data+into+intelligent+solutions;From+prototype+to+production+in+record+time;Building+AI+that+scales)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
+<div align="center">
+
 ## SYSTEM STATUS
+
+</div>
 
 ```bash
 parth@ml-engine:~$ cat engineer.py
@@ -73,7 +77,11 @@ parth@ml-engine:~$ python engineer.py
 > Ready to build.
 ```
 
+<div align="center">
+
 **Portfolio:** [parth-woad.vercel.app](https://parth-woad.vercel.app/)
+
+</div>
 
 ---
 
@@ -134,9 +142,11 @@ Decentralized
 
 ---
 
+<div align="center">
+
 ## TECHNICAL INFRASTRUCTURE
 
-<div align="center">
+<br>
 
 ### Deep Learning & Neural Networks
 
@@ -196,9 +206,11 @@ Decentralized
 
 ---
 
+<div align="center">
+
 ## SYSTEM METRICS
 
-<div align="center">
+<br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff" width="98%"/>
 
@@ -218,13 +230,11 @@ Decentralized
 
 ## CURRENT RESEARCH
 
-<br>
+</div>
 
 ```bash
 parth@ml-engine:~$ cat research_log.txt
 ```
-
-</div>
 
 ```python
 research_pipeline = {
@@ -255,9 +265,11 @@ research_pipeline = {
 ```
 
 ```bash
+parth@ml-engine:~$ python research_log.txt
 > Research areas: 4 active
 > Production deployments: 3 systems
 > Experimental repos: 35+ projects
+> Status: Continuously shipping
 ```
 
 ---
