@@ -1,14 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Machine%20Learning%20Engineer&fontSize=42&fontAlignY=30&animation=twinkling&fontColor=fff" width="100%"/>
+<!-- Neutral Professional Header -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=40&section=header" width="100%"/>
 
+<!-- Matrix Green Scrolling Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=80&pause=0&color=00FF41&background=0D111700&center=true&vCenter=true&repeat=true&width=1200&height=30&lines=█+▓+▒+░+INITIALIZING+NEURAL+ARCHITECTURE+░+▒+▓+█;█+▓+▒+░+COMPILING+ML+PIPELINES+░+▒+▓+█;█+▓+▒+░+DEPLOYING+PRODUCTION+SYSTEMS+░+▒+▓+█;█+▓+▒+░+LOADING+AI+ENGINE+░+▒+▓+█" alt="System Status Animation"/>
+
+<!-- Enhanced ASCII Art Block with Status -->
 ```ascii
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                                                                           ║
-║   > ssh parth@neural.network                                              ║
-║   > loading ml_pipelines...                   [████████████] 100%         ║
-║   > compiling production_systems...           [████████████] 100%         ║
-║   > deploying chaos_v2.0...                   [████████████] 100%         ║
+║   STATUS: ONLINE    │    LATENCY: <50ms    │    UPTIME: 99.9%            ║
+║   ┌─────────────────────────────────────────────────────────────────┐    ║
+║   │ ████████████████████████████████████████████          [92%]     │    ║
+║   └─────────────────────────────────────────────────────────────────┘    ║
 ║                                                                           ║
 ║   ██████╗  █████╗ ██████╗ ████████╗██╗  ██╗                              ║
 ║   ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║                              ║
@@ -17,13 +22,18 @@
 ║   ██║     ██║  ██║██║  ██║   ██║   ██║  ██║                              ║
 ║   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝                              ║
 ║                                                                           ║
-║            AI Engineer & Systems Architect                                ║
-║         Designing high-performance ML systems at scale                    ║
+║   ROLE: AI Engineer & Systems Architect                                  ║
+║   SPECIALIZATION: High-performance ML systems at scale                   ║
+║   STACK: PyTorch | TensorFlow | LangChain | Kubernetes                   ║
 ║                                                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=80&lines=Transforming+complex+data+into+intelligent+solutions;From+prototype+to+production+in+record+time;Building+AI+that+scales)](https://git.io/typing-svg)
+<!-- Green Matrix Theme Value Props -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=2000&color=00FF41&background=0D111700&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=50&lines=Building+production-grade+AI+systems;Deploying+ML+models+at+scale;Architecting+intelligent+automation;Transforming+data+into+decisions" alt="Core Value Proposition"/>
+
+<!-- Neutral Professional Footer -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=40&section=footer" width="100%"/>
 
 </div>
 
@@ -98,7 +108,7 @@ parth@ml-engine:~$ python engineer.py
 ### DATALIS
 **AI Financial Intelligence**
 
-![LIVE](https://img.shields.io/badge/STATUS-LIVE-00FF00?style=flat-square)
+![LIVE](https://img.shields.io/badge/STATUS-LIVE-00FF41?style=flat-square)
 
 BERT • LSTM • GPT-4  
 Kafka • Redis • Vector DB  
@@ -112,7 +122,7 @@ Kafka • Redis • Vector DB
 ### VOCACITY
 **AI Voice Agent**
 
-![LIVE](https://img.shields.io/badge/STATUS-LIVE-00FF00?style=flat-square)
+![LIVE](https://img.shields.io/badge/STATUS-LIVE-00FF41?style=flat-square)
 
 Whisper • LangChain  
 State Machine • TTS  
@@ -212,14 +222,14 @@ Decentralized
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=github-compact&hide_border=true&area=true&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff" width="98%"/>
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true&include_all_commits=true" width="49.5%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" width="49.5%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff&count_private=true&include_all_commits=true" width="49.5%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff" width="49.5%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide=html,css&exclude_repo=chainfundd,portfolio-website&langs_count=10" width="49.5%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=ffffff&hide=html,css&exclude_repo=chainfundd,portfolio-website&langs_count=10" width="49.5%"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=parthparmar07&theme=github_dark&utcOffset=5.5" width="49.5%"/>
 
 </div>
@@ -283,7 +293,7 @@ parth@ml-engine:~$ python research_log.txt
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parthparmar07)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parthparmar07)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://parth-woad.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:parthparmar4105@gmail.com)
 
 **Open for:** ML Engineering | AI Research | Technical Collaboration
 
@@ -297,13 +307,13 @@ parth@ml-engine:~$ python research_log.txt
 
 <br>
 
-![](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=nord&no-frame=true&no-bg=true&margin-w=4&column=7)
+![](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7)
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&color=58a6ff&style=flat-square&label=Systems+Accessed)
-![GitHub Stars](https://img.shields.io/github/stars/parthparmar07?style=flat-square&color=58a6ff)
-![Last Commit](https://img.shields.io/github/last-commit/parthparmar07/parthparmar07?style=flat-square&color=2ea043&label=Last+Deploy)
+![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&color=00ff41&style=flat-square&label=Systems+Accessed)
+![GitHub Stars](https://img.shields.io/github/stars/parthparmar07?style=flat-square&color=00ff41)
+![Last Commit](https://img.shields.io/github/last-commit/parthparmar07/parthparmar07?style=flat-square&color=00ff41&label=Last+Deploy)
 
 </div>
 
@@ -311,10 +321,11 @@ parth@ml-engine:~$ python research_log.txt
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<!-- Matrix Green Status Bar -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=40&section=footer" width="100%"/>
 
 ```
-STATUS: LIVE | UPTIME: 99.9% | RESPONSE TIME: <100ms
+STATUS: ████████████ LIVE | UPTIME: 99.9% | LATENCY: <50ms | SYSTEMS: OPERATIONAL
 ```
 
 **Last System Update:** March 2026  
