@@ -3,10 +3,10 @@
 ```ascii
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                                                                           ║
-║   > system.boot()                                                         ║
-║   > loading neural_networks...                    [████████████] 100%    ║
-║   > initializing chaos_engine...                  [████████████] 100%    ║
-║   > deploying production @ 3am...                 [████████████] 100%    ║
+║   > ssh parth@neural.network                                              ║
+║   > loading ml_pipelines...                   [████████████] 100%         ║
+║   > compiling production_systems...           [████████████] 100%         ║
+║   > deploying chaos_v2.0...                   [████████████] 100%         ║
 ║                                                                           ║
 ║   ██████╗  █████╗ ██████╗ ████████╗██╗  ██╗                              ║
 ║   ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║                              ║
@@ -15,182 +15,152 @@
 ║   ██║     ██║  ██║██║  ██║   ██║   ██║  ██║                              ║
 ║   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝                              ║
 ║                                                                           ║
-║            🎯 ML Engineer × AI Builder × Chaos Deployer                   ║
-║         "Turning caffeine into production-grade AI systems"               ║
+║            AI Engineer & Systems Architect                                ║
+║         Designing high-performance ML systems at scale                    ║
 ║                                                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Welcome%20to%20the%20Lab&fontSize=42&fontAlignY=30&animation=twinkling&fontColor=fff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Machine%20Learning%20Engineer&fontSize=42&fontAlignY=30&animation=twinkling&fontColor=fff" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=100&lines=Building+AI+that+doesn't+just+work%E2%80%94it+THINKS;From+idea+to+production+in+record+time;Deploying+chaos%2C+one+commit+at+a+time+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=80&lines=Transforming+complex+data+into+intelligent+solutions;From+prototype+to+production+in+record+time;Building+AI+that+scales)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## 🧬 `$ whoami`
+## SYSTEM STATUS
 
 ```python
-class ParthParmar:
+class Engineer:
     def __init__(self):
-        self.username = "parthparmar07"
-        self.role = "Machine Learning Engineer"
-        self.location = "🇮🇳 India"
-        self.education = "Computer Science Student"
-        self.life_motto = "Ship fast. Break things. Learn faster. Repeat."
+        self.name = "Parth Parmar"
+        self.role = "ML Engineer & AI Systems Architect"
+        self.location = "India"
+        self.status = "Production.LIVE"
         
     @property
-    def current_stack(self):
+    def tech_stack(self):
         return {
-            "languages": ["Python", "TypeScript", "JavaScript", "Solidity"],
-            "ml_frameworks": ["PyTorch", "TensorFlow", "Hugging Face", "LangChain"],
-            "specialization": ["NLP", "LLMs", "AI Agents", "Financial ML"],
-            "building": ["Voice AI", "Multi-Agent Systems", "DeFi Solutions"]
+            "core": ["Python", "TypeScript", "JavaScript", "Solidity"],
+            "ml_frameworks": ["PyTorch", "TensorFlow", "Transformers", "LangChain"],
+            "deep_learning": ["CNN", "LSTM", "BERT", "GPT", "ViT", "ResNet", "U-Net"],
+            "nlp": ["BERT", "Embeddings", "RAG", "Fine-tuning", "Attention"],
+            "ml_ops": ["Docker", "Kubernetes", "Airflow", "MLOps", "CI/CD"],
+            "infra": ["AWS", "GCP", "Azure", "Redis", "Kafka", "RabbitMQ"],
+            "databases": ["PostgreSQL", "MongoDB", "Vector DB"],
+            "apis": ["FastAPI", "Flask", "Django", "gRPC"],
+            "computer_vision": ["YOLO", "OpenCV", "CUDA"],
+            "ml_tools": ["Scikit", "XGBoost", "Pandas", "NumPy", "SHAP"],
+            "specialized": ["Vertex AI", "Celery", "Nginx", "Gunicorn"]
         }
     
-    @property  
-    def daily_routine(self):
-        return """
-        while coffee.available():
-            ideate_solution()
-            build_prototype()
-            push_to_prod()  # YOLO
-            if bug_detected():
-                debug_at_3am()
-            celebrate_small_wins()
-        """
-    
-    def reach_me(self):
-        return {
-            "linkedin": "parthparmar07",
-            "email": "your.email@example.com",
-            "portfolio": "datalis.in"
-        }
+    def current_focus(self):
+        return ["Multi-Agent Systems", "Financial ML", "Voice AI", "DeFi"]
 
-# Initialize
-parth = ParthParmar()
-parth.deploy_chaos()  # 🚀
+parth = Engineer()
 ```
 
-<div align="center">
-
-### 💡 **"The best ML model is the one in production"**
-
-</div>
+**Portfolio:** [parth-woad.vercel.app](https://parth-woad.vercel.app/)
 
 ---
 
-## 🚀 Production Systems Running Right Now
+## LIVE PRODUCTION SYSTEMS
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<div align="center">
+### DATALIS
+**AI Financial Intelligence Platform**
 
-### 💼 **[DATALIS](https://www.datalis.in)**
-#### AI Financial Intelligence Platform
-
-<img src="https://img.shields.io/badge/STATUS-LIVE-00FF00?style=for-the-badge&logo=statuspage&logoColor=white"/>
-
-</div>
+![STATUS](https://img.shields.io/badge/STATUS-PRODUCTION-00FF00?style=flat-square&logo=statuspage)
 
 ```yaml
-Tech Stack:
-  - NLP & Sentiment Analysis
-  - Time Series Forecasting
-  - LLM Integration (GPT-4, Claude)
-  - Real-time Market Data Processing
-
-Impact:
-  - Processes 10K+ financial documents daily
-  - Real-time market sentiment analysis
-  - Automated trading signal generation
+Architecture:
+  NLP: BERT + Custom Sentiment Models
+  Time Series: LSTM + Transformers
+  LLM: GPT-4 Integration
+  Processing: Kafka + Redis Streaming
+  Scale: 10K+ documents/day
+  
+Tech:
+  - PyTorch, TensorFlow
+  - FastAPI, PostgreSQL
+  - Docker, AWS
+  - Vector DB for embeddings
 ```
 
-**🎯 Mission:** Transform financial chaos into actionable intelligence
+[datalis.in](https://www.datalis.in)
 
 </td>
 <td width="50%" valign="top">
 
-<div align="center">
+### VOCACITY
+**AI Voice Agent for Restaurants**
 
-### 🎙️ **[VOCACITY](https://vocacity.in)**
-#### AI Voice Agent for Restaurants
-
-<img src="https://img.shields.io/badge/STATUS-LIVE-00FF00?style=for-the-badge&logo=statuspage&logoColor=white"/>
-
-</div>
+![STATUS](https://img.shields.io/badge/STATUS-PRODUCTION-00FF00?style=flat-square&logo=statuspage)
 
 ```yaml
-Tech Stack:
-  - Speech-to-Text (Whisper)
-  - Natural Language Understanding
-  - Dialog Management Systems
-  - Text-to-Speech Synthesis
-
-Impact:
-  - 24/7 automated customer service
-  - 95%+ conversation accuracy
+Architecture:
+  STT: Whisper
+  NLU: Custom Intent + GPT-4 Fallback
+  Dialog: State Machine + Context
+  TTS: ElevenLabs Synthesis
+  Accuracy: 95%+
+  
+Tech:
+  - Transformers, LangChain
+  - FastAPI, Twilio
+  - Redis, MongoDB
   - Multi-language support
 ```
 
-**🎯 Mission:** Teaching AI to take dinner orders better than humans
+[vocacity.in](https://vocacity.in)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<div align="center">
+### CHAINFUND
+**Cross-Chain Grant Platform**
 
-### ⛓️ **[CHAINFUND](https://chainfundd.vercel.app)**
-#### Cross-Chain Grant Platform
-
-<img src="https://img.shields.io/badge/STATUS-BETA-FFA500?style=for-the-badge&logo=statuspage&logoColor=white"/>
-
-</div>
+![STATUS](https://img.shields.io/badge/STATUS-BETA-FFA500?style=flat-square&logo=statuspage)
 
 ```yaml
-Tech Stack:
-  - Solidity Smart Contracts
-  - Web3.js / Ethers.js
-  - Cross-chain Bridges
-  - IPFS for Decentralized Storage
-
-Impact:
-  - Transparent grant distribution
-  - Multi-chain compatibility
-  - ESG impact tracking
+Architecture:
+  Smart Contracts: Solidity
+  Cross-chain: Multi-EVM bridges
+  Security: Multi-sig + Timelock
+  Storage: IPFS Decentralized
+  
+Tech:
+  - Solidity, Web3.js
+  - Next.js, ethers.js
+  - Hardhat, RainbowKit
 ```
 
-**🎯 Mission:** Blockchain-powered social impact at scale
+[chainfundd.vercel.app](https://chainfundd.vercel.app)
 
 </td>
 <td width="50%" valign="top">
 
-<div align="center">
+### RESEARCH LAB
+**Experimental Projects**
 
-### 🔬 **RESEARCH LAB**
-#### Experimental Projects
-
-<img src="https://img.shields.io/badge/STATUS-ACTIVE-00D9FF?style=for-the-badge&logo=experiment&logoColor=white"/>
-
-</div>
+![STATUS](https://img.shields.io/badge/STATUS-ACTIVE-00D9FF?style=flat-square)
 
 ```bash
-$ tree ~/projects -L 1
-.
-├── DeNovo/              # AI research
-├── UNIDATA/             # Data platform  
-├── Liquidation-Engine/  # DeFi automation
-└── [32 more repos...]   # Chaos experiments
+$ ls -la ~/research/
+drwxr-xr-x  DeNovo/
+drwxr-xr-x  UNIDATA/
+drwxr-xr-x  Liquidation-Engine/
+drwxr-xr-x  [32 more repositories]
 
-Total: 35+ repositories
+Total: 35+ active projects
+Focus: RAG, Multi-Agent, DeFi ML
 ```
-
-**🎯 Mission:** Fail fast, learn faster, ship fastest
 
 </td>
 </tr>
@@ -198,221 +168,210 @@ Total: 35+ repositories
 
 ---
 
-## ⚡ Tech Arsenal & Weapons of Choice
+## TECHNICAL INFRASTRUCTURE
 
 <div align="center">
 
-### 🔤 **Programming Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🤖 **AI/ML Frameworks**
+### Deep Learning & Neural Networks
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/🦜🔗%20LangChain-121212?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
-### 🛠️ **Development & Infrastructure**
+### NLP & Language Models
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge)
+![BERT](https://img.shields.io/badge/BERT-8A2BE2?style=for-the-badge)
+![GPT](https://img.shields.io/badge/GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
+
+### MLOps & Infrastructure
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 
-### 🔗 **Web3 & Blockchain**
+### Cloud & Deployment
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+### Backend & APIs
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge)
+
+### Computer Vision
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge)
+
+### Data Science
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge)
+
+### Blockchain
 
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Web3](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 GitHub Analytics & Battle Stats
+## SYSTEM METRICS
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=38bdae&line=70a5fd&point=bf91f3&custom_title=⚡%20Contribution%20Chaos%20Timeline" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff" width="98%"/>
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae&count_private=true&include_all_commits=true" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=tokyonight&hide_border=true&background=1a1b27&stroke=38bdae&ring=70a5fd&fire=bf91f3&currStreakLabel=70a5fd" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true&include_all_commits=true" width="49.5%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" width="49.5%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae&hide=html,css&exclude_repo=chainfundd,portfolio-website&langs_count=10" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=parthparmar07&theme=tokyonight&utcOffset=5.5" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide=html,css&exclude_repo=chainfundd,portfolio-website&langs_count=10" width="49.5%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=parthparmar07&theme=github_dark&utcOffset=5.5" width="49.5%"/>
 
 </div>
+
+<br>
 
 <div align="center">
 
 ```diff
-@@                      CURRENT STATS                      @@
-
-+ 🗂️  35+ Public Repositories
-+ 👥  14 Followers → ∞ (exponential growth mode)
-+ ⭐  Multiple starred projects
-+ 🚀  3 Production Systems LIVE
-+ 💻  Contributions: Daily
-+ 🔥  Current Streak: Making GitHub green since 2024
-! 🐛  Bugs created: Classified
-! 🔧  Bugs fixed: Also classified
+@@ REPOSITORY ANALYTICS @@
++ 35 Public Repositories
++ 14 Followers
++ 3 Production Systems
++ Daily Contributions
 ```
 
 </div>
 
 ---
 
-## 🎯 Development Philosophy
+## CURRENT RESEARCH
+
+```python
+research_areas = {
+    "advanced_rag": {
+        "focus": ["GraphRAG", "Agentic RAG", "Multi-hop Reasoning"],
+        "tools": ["LangChain", "LlamaIndex", "Vector DBs"],
+        "goal": "Build context-aware retrieval systems"
+    },
+    
+    "multi_agent_systems": {
+        "focus": ["Agent Collaboration", "Tool Use", "Memory Systems"],
+        "frameworks": ["AutoGen", "CrewAI", "LangGraph"],
+        "applications": ["Autonomous research", "Code generation"]
+    },
+    
+    "financial_ml": {
+        "focus": ["Time Series Forecasting", "Sentiment Analysis", "Anomaly Detection"],
+        "models": ["LSTM", "Transformers", "XGBoost"],
+        "deployment": ["Real-time inference", "Low latency"]
+    },
+    
+    "defi_automation": {
+        "focus": ["Smart Contract ML", "On-chain Analytics", "Liquidation Engines"],
+        "tech": ["Solidity", "Web3", "Subgraphs"],
+        "innovation": "ML-powered DeFi strategies"
+    }
+}
+```
+
+---
+
+## ARCHITECTURE PATTERNS
 
 <div align="center">
-
-> ### **"Code is poetry, bugs are just plot twists, and 3 AM deploys are the climax"**
-> *— Parth Parmar*
-
-</div>
 
 ```mermaid
-graph TB
-    A[💡 Wild Idea] -->|3 AM Epiphany| B[🔨 Rapid Prototyping]
-    B -->|Move Fast| C[🧪 Test in Prod]
-    C -->|Inevitable| D[💥 Things Break]
-    D -->|Debug Session| E[📚 Learn Everything]
-    E -->|Extract Wisdom| F[🎓 Document Lessons]
-    F -->|Refactor| G[🚀 Ship v2.0]
-    G -->|Repeat| A
+graph LR
+    A[Data Ingestion] -->|Kafka/Redis| B[Preprocessing]
+    B -->|Feature Engineering| C[Model Training]
+    C -->|PyTorch/TF| D[Model Registry]
+    D -->|Docker/K8s| E[Inference API]
+    E -->|FastAPI| F[Production]
+    F -->|Monitoring| G[Feedback Loop]
+    G -->|MLOps| A
     
-    D -.->|Emergency Fix| H[☕ More Coffee]
-    H -.->|Fuel| E
-    
-    style A fill:#ffd700,stroke:#000,stroke-width:2px,color:#000
-    style B fill:#4CAF50,stroke:#000,stroke-width:2px
-    style C fill:#2196F3,stroke:#000,stroke-width:2px
-    style D fill:#f44336,stroke:#000,stroke-width:2px
-    style E fill:#9C27B0,stroke:#000,stroke-width:2px
-    style F fill:#FF9800,stroke:#000,stroke-width:2px
-    style G fill:#00BCD4,stroke:#000,stroke-width:2px
-    style H fill:#795548,stroke:#000,stroke-width:2px
+    style A fill:#1f6feb
+    style B fill:#58a6ff
+    style C fill:#388bfd
+    style D fill:#1f6feb
+    style E fill:#58a6ff
+    style F fill:#2ea043
+    style G fill:#58a6ff
 ```
 
+</div>
+
+**Key Principles:**
+- Microservices architecture for ML systems
+- Real-time inference with <100ms latency
+- Automated retraining pipelines
+- Production monitoring and A/B testing
+- Distributed training on GPU clusters
+
 ---
 
-## 🏆 GitHub Trophies
+## SYSTEM ACCESS
 
 <div align="center">
 
-![](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parthparmar07)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parthparmar07)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://parth-woad.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+
+**Open for:** ML Engineering | AI Research | Technical Collaboration
 
 </div>
 
 ---
 
-## 🤝 Let's Build Something Amazing Together
+## PERFORMANCE METRICS
 
 <div align="center">
 
-### 💬 **I'm Always Open To:**
-
-🎯 **Collaborating** on AI/ML projects  
-🚀 **Contributing** to open-source  
-💼 **Opportunities** in ML Engineering  
-🧠 **Discussing** latest in AI research  
-☕ **Chat** about tech, startups, or chaos  
+![](https://github-profile-trophy.vercel.app/?username=parthparmar07&theme=nord&no-frame=true&no-bg=true&margin-w=4&column=7)
 
 <br>
 
-### 📬 **Reach Out Via:**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parthparmar07)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parthparmar07)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.datalis.in)
-
-<br>
-
-**📍 Based in India** | **🕐 Timezone: IST (UTC+5:30)** | **💬 Languages: English, हिंदी**
+![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&color=58a6ff&style=flat-square&label=Systems+Accessed)
+![GitHub Stars](https://img.shields.io/github/stars/parthparmar07?style=flat-square&color=58a6ff)
+![Last Commit](https://img.shields.io/github/last-commit/parthparmar07/parthparmar07?style=flat-square&color=2ea043&label=Last+Deploy)
 
 </div>
 
 ---
 
-## 💭 Random Dev Wisdom
-
 <div align="center">
 
-> *"Any sufficiently advanced technology is indistinguishable from magic... until you read the error logs"*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
-> *"It works on my machine" — Famous last words before 3 AM debugging*
-
-> *"AI will not replace developers. But developers who use AI will replace those who don't"*
-
-<br>
-
-**Personal Motto:**
-### 🔥 "Build. Break. Learn. Repeat." 🔥
-
-</div>
-
----
-
-## 🎮 Fun Facts
-
-```javascript
-const funFacts = {
-    "☕ Coffee": "5-7 cups/day (yes, I have a problem)",
-    "🌙 Peak Hours": "11 PM - 4 AM (when magic happens)",
-    "🎵 Coding Music": "Lo-fi hip hop & Synthwave",
-    "😅 Oops Moment": "Deployed to prod instead of staging",
-    "🍕 Fuel": "Pizza + Energy drinks + Coffee",
-    "🎯 Current Obsession": "Multi-agent AI systems",
-    "🔮 Hot Take": "AGI by 2027"
-};
+```
+STATUS: LIVE | UPTIME: 99.9% | RESPONSE TIME: <100ms
 ```
 
----
-
-## 📊 Profile Metrics
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=parthparmar07&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/parthparmar07?style=for-the-badge&color=blue)
-![GitHub Stars](https://img.shields.io/github/stars/parthparmar07?style=for-the-badge&color=yellow)
-
-</div>
+**Last System Update:** March 2026  
+**Current Version:** v2.0.production
 
 ---
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
-
-### 🔥 Remember: The best code is shipped code 🔥
-
-**Last Updated:** March 2026  
-**Status:** 🟢 Actively deploying chaos  
-**Next Deploy:** Probably at 3 AM tonight
-
----
-
-<sub>⚡ Crafted with coffee, code, and controlled chaos by [Parth Parmar](https://github.com/parthparmar07)</sub>
-
-<br>
-
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
-![Powered by Coffee](https://img.shields.io/badge/Powered%20by-☕-brown?style=for-the-badge)
-![Built at 3AM](https://img.shields.io/badge/Built%20at-3AM-blueviolet?style=for-the-badge)
+Built with PyTorch • TensorFlow • FastAPI • Deployed on AWS
 
 </div>
