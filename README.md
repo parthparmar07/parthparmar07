@@ -16,7 +16,7 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 🚀 SYSTEM STATUS
+## SYSTEM STATUS
 
 <div align="center">
 
@@ -46,7 +46,7 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 📊 SYSTEM METRICS
+## SYSTEM METRICS
 
 <br>
 
@@ -67,7 +67,7 @@ turning **data into decisions** and **ideas into impact**.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### **Datalis — AI Financial Intelligence Platform**
 https://www.datalis.in  
@@ -80,7 +80,7 @@ https://chainfundd.vercel.app
 
 ---
 
-## 🤝 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://github.com/parthparmar07">
