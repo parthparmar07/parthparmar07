@@ -1,10 +1,9 @@
 <div align="center">
 
-<!-- Neutral Professional Header -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=40&section=header" width="100%"/>
-
-<!-- Matrix Green Scrolling Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=80&pause=0&color=00FF41&background=0D111700&center=true&vCenter=true&repeat=true&width=1200&height=30&lines=█+▓+▒+░+INITIALIZING+NEURAL+ARCHITECTURE+░+▒+▓+█;█+▓+▒+░+COMPILING+ML+PIPELINES+░+▒+▓+█;█+▓+▒+░+DEPLOYING+PRODUCTION+SYSTEMS+░+▒+▓+█;█+▓+▒+░+LOADING+AI+ENGINE+░+▒+▓+█" alt="System Status Animation"/>
+<!-- Matrix Neural System Animation -->
+<img 
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2500&pause=800&color=00FF41&background=0D111700&center=true&vCenter=true&repeat=true&width=1000&height=30&lines=INITIALIZING+NEURAL+ARCHITECTURE...;COMPILING+ML+PIPELINES...;DEPLOYING+PRODUCTION+SYSTEMS...;AI+ENGINE+ONLINE+✓" 
+alt="System Status Animation"/>
 
 <!-- Enhanced ASCII Art Block with Status -->
 ```ascii
