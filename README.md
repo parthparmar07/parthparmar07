@@ -9,7 +9,7 @@
 
 ### Computer Science Student | Machine Learning Engineer | AI Agent Builder  
 
-Building intelligent systems that **analyze, predict, and automate** —  
+Building intelligent systems that **analyze, predict, and automate**   
 turning **data into decisions** and **ideas into impact**.
 
 </div>
