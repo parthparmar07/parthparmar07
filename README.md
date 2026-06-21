@@ -72,7 +72,7 @@ turning **data into decisions** and **ideas into impact**.
 ### **Datalis — AI Financial Intelligence Platform**
 https://www.datalis.in  
 
-### **Vocacity — AI Voice Agent for Restaurants**
+### **Vocacity — AI Voice Agent for Real Estate**
 https://vocacity.in  
 
 ### **ChainFund — Cross-Chain Grant & ESG Platform**
