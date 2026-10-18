@@ -1,95 +1,51 @@
-<!-- 🌌 Custom Banner -->
 <p align="center">
-  <img src="banner.jpg" alt="Custom Banner" width="100%"/>
-</p>
-
----
-
-<div align="center">
-
-### Computer Science Student | Machine Learning Engineer | AI Agent Builder  
-
-Building intelligent systems that **analyze, predict, and automate**   
-turning **data into decisions** and **ideas into impact**.
-
-</div>
-
----
-
-## SYSTEM STATUS
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                                                                           ║
-║   STATUS: ONLINE    │    LATENCY: <50ms    │    UPTIME: 99.9%            ║
-║   ┌─────────────────────────────────────────────────────────────────┐    ║
-║   │ ████████████████████████████████████████████          [92%]     │    ║
-║   └─────────────────────────────────────────────────────────────────┘    ║
-║                                                                           ║
-║                    ██████╗  █████╗ ██████╗ ████████╗██╗  ██╗             ║
-║                    ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║             ║
-║                    ██████╔╝███████║██████╔╝   ██║   ███████║             ║
-║                    ██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║             ║
-║                    ██║     ██║  ██║██║  ██║   ██║   ██║  ██║             ║
-║                    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝             ║
-║                                                                           ║
-║   ROLE: AI Engineer & Systems Architect                                  ║
-║   SPECIALIZATION: High-performance ML systems at scale                   ║
-║   STACK: PyTorch | TensorFlow | LangChain | Kubernetes                   ║
-║                                                                           ║
-╚═══════════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-## SYSTEM METRICS
-
-<br>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=github-compact&hide_border=true&area=true&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff" width="98%"/>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff&count_private=true&include_all_commits=true" width="49%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&theme=dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff" width="49%"/>
+  <img src="./assets/hero.svg?v=1" alt="Parth Parmar — AI Systems Engineer" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=ffffff&hide=html,css&exclude_repo=chainfundd,portfolio-website&langs_count=10" width="49%"/>
+  <img src="./assets/about-life.svg?v=1" alt="What I build and where I'm building" width="100%"/>
 </p>
 
----
-
-## Featured Projects
-
-### **Datalis — AI Financial Intelligence Platform**
-https://www.datalis.in  
-
-### **Vocacity — AI Voice Agent for Real Estate**
-https://vocacity.in  
-
-### **ChainFund — Cross-Chain Grant & ESG Platform**
-https://chainfundd.vercel.app  
-
----
-
-## Connect With Me
+<p align="center">
+  <img src="./assets/stack.svg?v=1" alt="Tech stack" width="100%"/>
+</p>
 
 <p align="center">
-  <a href="https://github.com/parthparmar07">
-    <img src="https://img.shields.io/badge/GitHub-121013?style=for-the-badge&logo=github"/>
-  </a>
-  <a href="https://linkedin.com/in/parthparmar07">
-    <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="https://parth-woad.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel"/>
-  </a>
+  <img src="./assets/id-dashboard.svg?v=1" alt="ID card and verified metrics" width="100%"/>
+</p>
+
+## `SYSTEM METRICS`
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthparmar07&theme=github-compact&hide_border=true&area=true&bg_color=0A0A0A&color=b4b4bd&line=10b981&point=ffffff&area_color=10b981&radius=16" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=parthparmar07&show_icons=true&hide_border=true&border_radius=16&bg_color=0A0A0A&title_color=ffffff&icon_color=10b981&text_color=b4b4bd&count_private=true&include_all_commits=true" width="49%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parthparmar07&hide_border=true&border_radius=16&background=0A0A0A&stroke=27272a&ring=10b981&fire=10b981&currStreakLabel=ffffff&sideLabels=b4b4bd&currStreakNum=ffffff&sideNums=ffffff&dates=b4b4bd" width="49%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthparmar07&layout=compact&hide_border=true&border_radius=16&bg_color=0A0A0A&title_color=ffffff&text_color=b4b4bd&hide=html,css&exclude_repo=chainfundd,portfolio-website&langs_count=10" width="49%"/>
+</p>
+
+## `SELECTED WORK`
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[Vocacity](https://vocacity.in)** | Enterprise voice AI — 10k+ automated calls/month at sub-500ms latency | FastAPI · WebSockets · LLMs · ElevenLabs · AssemblyAI |
+| **[Datalis](https://www.datalis.in)** | AI financial intelligence — RAG over financial documents + autonomous market-research agents | Python · LangChain · RAG · PostgreSQL · React |
+| **[ChainFund](https://chainfundd.vercel.app)** | Cross-chain grant & ESG funding platform | Blockchain · Web3 |
+
+<p align="center">
+  <img src="./assets/connect.svg?v=1" alt="Connect" width="100%"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/parthparmar07"><img src="https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/parthparmar04"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://x.com/parthparmar07"><img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=white"/></a>
+  <a href="mailto:parthparmar4105@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://cal.com/parthparmar"><img src="https://img.shields.io/badge/Book_a_call-10b981?style=for-the-badge&logo=googlecalendar&logoColor=white"/></a>
+  <a href="https://parthparmarr.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=netlify&logoColor=black"/></a>
 </p>
