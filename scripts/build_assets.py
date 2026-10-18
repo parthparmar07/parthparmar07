@@ -288,7 +288,7 @@ def id_dashboard(gh):
 
 
 # ---------------------------------------------------------------- achievements
-GOLD, SILVER = "#fbbf24", "#d4d4d8"  # portfolio's amber-400 / zinc-300 trophy tiers
+GOLD = "#fbbf24"  # portfolio amber-400 trophy accent
 TROPHY = "M7 3h10v5a5 5 0 0 1-10 0zM7 5H3v1a4 4 0 0 0 4 4M17 5h4v1a4 4 0 0 1-4 4M12 13v4M8 21h8l-1-4H9z"
 
 
@@ -303,10 +303,10 @@ def achievements():
   <rect x="{x}" y="108" width="202" height="122" rx="16" fill="{BG2}" stroke="{BORDER}"/>
   <text class="d" x="{x+22}" y="170" font-size="46" letter-spacing="-1.5" fill="{FG}">{v}</text>
   <text class="m" x="{x+22}" y="204" font-size="12" fill="{FG2}">{esc(l)}</text></g>"""
-    wall = [("Code 4 Compassion", "WON · AI CATEGORY", GOLD, "Featured in Free Press Journal &amp; The Hans India"),
-            ("HEAT Hackathon 1.0", "WINNER", GOLD, "Predictive food-decision agent with Swiggy MCP"),
-            ("NIT Goa Blockchain", "RUNNER UP · TOP 15 INDIA", SILVER, "National blockchain hackathon"),
-            ("BNB Chain Hackathon", "RUNNER UP", SILVER, "Blockchain track")]
+    wall = [("Code 4 Compassion", "", GOLD, "Featured in Free Press Journal &amp; The Hans India"),
+            ("HEAT Hackathon 1.0", "", GOLD, "Predictive food-decision agent with Swiggy MCP"),
+            ("NIT Goa Blockchain", "", GOLD, "National blockchain hackathon"),
+            ("BNB Chain Hackathon", "", GOLD, "Blockchain track")]
     rows = ""
     for i, (t, r, c, d) in enumerate(wall):
         y = 296 + i * 50
@@ -315,7 +315,7 @@ def achievements():
   <path transform="translate(613 {y-9}) scale(.75)" d="{TROPHY}" fill="none" stroke="{c}" stroke-width="2" stroke-linejoin="round"/>
   <text class="s" x="652" y="{y-2}" font-size="17" fill="{FG}">{t}</text>
   <text class="m" x="652" y="{y+16}" font-size="11" fill="{FG2}">{d}</text>
-  <text class="m" x="1112" y="{y+5}" font-size="11" letter-spacing="1.5" text-anchor="end" fill="{c}">{r}</text></g>"""
+</g>"""
     chips_l = ["GSSoC · 8th globally", "Google Student Ambassador", "OS Connect Global Mentor '26",
                "ISDC 2025 · Top 25", "Mumbai Hacks · Top 100", "2 research papers"]
     chips, x, y = "", 440, 524

@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/achievements.svg?v=2" alt="Achievements: 4x hackathon wins, Young Entrepreneur Award 2025-26, 2 startups to Pvt Ltd, DevHub 1,600+ members, gwava.dev 300+ users" width="100%"/>
+  <img src="./assets/achievements.svg?v=3" alt="Achievements: 4x hackathon wins, Young Entrepreneur Award 2025-26, 2 startups to Pvt Ltd, DevHub 1,600+ members, gwava.dev 300+ users" width="100%"/>
 </p>
 
 ## `SYSTEM METRICS`
@@ -38,7 +38,6 @@
 | Project | What it is | Stack |
 |---|---|---|
 | **[gwava.dev](https://gwava.dev)** | Currently building — 300+ users | — |
-| **[Vocacity](https://vocacity.in)** | Enterprise voice AI — 10k+ automated calls/month at sub-500ms latency | FastAPI · WebSockets · LLMs · ElevenLabs · AssemblyAI |
 | **[Datalis](https://www.datalis.in)** | AI financial intelligence — RAG over financial documents + autonomous market-research agents | Python · LangChain · RAG · PostgreSQL · React |
 | **[ChainFund](https://chainfundd.vercel.app)** | Cross-chain grant & ESG funding platform | Blockchain · Web3 |
 
