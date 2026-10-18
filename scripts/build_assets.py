@@ -143,7 +143,7 @@ def about():
     slides = [("NOW", "Mar 2025 → Present", "Vocacity", "Tech Team Lead · Voice AI",
                ["10,000+ automated calls / month", "&lt;500ms voice latency", "Team of 5 engineers"]),
               ("NOW", "Feb 2026 → Present", "DevHub", "Founder's Office · Growth",
-               ["Community 900+ → 1,800+ members", "Mumbai Tech Week – AI Festival 2026", "Buildverse technical lead"]),
+               ["Community scaled to 1,600+ members", "Mumbai Tech Week – AI Festival 2026", "Buildverse technical lead"]),
               ("PREVIOUSLY", "Apr 2026 → Jul 2026", "Ventura Securities", "AI/ML Intern · Financial Systems",
                ["60–70% less manual analysis time", "Financial ML models on market data", "Automated reporting pipelines"])]
     cap_svg = "".join(f"""<g class="fade" style="animation-delay:{.15*i:.2f}s">
@@ -236,10 +236,10 @@ def id_dashboard(gh):
     bars = "".join(f'<rect x="{126+i*7}" y="476" width="{(1, 3, 2, 1, 4, 2)[i % 6]}" height="34" fill="{FG}"/>' for i, _ in enumerate(range(14)))
     metrics = [("10,000+", "automated calls / month", "Vocacity · 2026"),
                ("&lt;500ms", "voice pipeline latency", "Vocacity · 2026"),
-               ("1,800+", "community members scaled", "DevHub · 2026"),
+               ("3", "major production releases", "Vocacity · 2026"),
                ("60–70%", "manual analysis time cut", "Ventura · Jul 2026"),
                (str(gh["public_repos"]), "public repositories", f"GitHub · {gh['date']}"),
-               (str(gh["followers"]), "followers", f"GitHub · {gh['date']}")]
+               ("10+", "awards &amp; selections", "2024 – 2026")]
     m_svg = ""
     for i, (v, l, src) in enumerate(metrics):
         x, y = 520 + (i % 2) * 320, 120 + (i // 2) * 130
@@ -287,6 +287,88 @@ def id_dashboard(gh):
     svg("id-dashboard.svg", 1200, 560, css, body, p)
 
 
+# ---------------------------------------------------------------- achievements
+GOLD, SILVER = "#fbbf24", "#d4d4d8"  # portfolio's amber-400 / zinc-300 trophy tiers
+TROPHY = "M7 3h10v5a5 5 0 0 1-10 0zM7 5H3v1a4 4 0 0 0 4 4M17 5h4v1a4 4 0 0 1-4 4M12 13v4M8 21h8l-1-4H9z"
+
+
+def achievements():
+    p = "ac"
+    stats = [("4×", "hackathon wins"), ("2", "startups → Pvt Ltd"),
+             ("1,600+", "DevHub community"), ("300+", "gwava.dev users"), ("#8", "GSSoC global rank")]
+    tiles = ""
+    for i, (v, l) in enumerate(stats):
+        x = 64 + i * 218
+        tiles += f"""<g class="up" style="animation-delay:{.1+i*.1:.1f}s">
+  <rect x="{x}" y="108" width="202" height="122" rx="16" fill="{BG2}" stroke="{BORDER}"/>
+  <text class="d" x="{x+22}" y="170" font-size="46" letter-spacing="-1.5" fill="{FG}">{v}</text>
+  <text class="m" x="{x+22}" y="204" font-size="12" fill="{FG2}">{esc(l)}</text></g>"""
+    wall = [("Code 4 Compassion", "WON · AI CATEGORY", GOLD, "Featured in Free Press Journal &amp; The Hans India"),
+            ("HEAT Hackathon 1.0", "WINNER", GOLD, "Predictive food-decision agent with Swiggy MCP"),
+            ("NIT Goa Blockchain", "RUNNER UP · TOP 15 INDIA", SILVER, "National blockchain hackathon"),
+            ("BNB Chain Hackathon", "RUNNER UP", SILVER, "Blockchain track")]
+    rows = ""
+    for i, (t, r, c, d) in enumerate(wall):
+        y = 296 + i * 50
+        rows += f"""<g class="side" style="animation-delay:{.6+i*.12:.2f}s">
+  <circle cx="{622}" cy="{y}" r="16" fill="none" stroke="{c}" stroke-opacity=".45"/>
+  <path transform="translate(613 {y-9}) scale(.75)" d="{TROPHY}" fill="none" stroke="{c}" stroke-width="2" stroke-linejoin="round"/>
+  <text class="s" x="652" y="{y-2}" font-size="17" fill="{FG}">{t}</text>
+  <text class="m" x="652" y="{y+16}" font-size="11" fill="{FG2}">{d}</text>
+  <text class="m" x="1112" y="{y+5}" font-size="11" letter-spacing="1.5" text-anchor="end" fill="{c}">{r}</text></g>"""
+    chips_l = ["GSSoC · 8th globally", "Google Student Ambassador", "OS Connect Global Mentor '26",
+               "ISDC 2025 · Top 25", "Mumbai Hacks · Top 100", "2 research papers"]
+    chips, x, y = "", 440, 524
+    for i, c in enumerate(chips_l):
+        w = 22 + len(c) * 7.8
+        if x + w > 1136:
+            x, y = 440, y + 40
+        chips += f'<g class="up" style="animation-delay:{1.1+i*.08:.2f}s"><rect x="{x}" y="{y}" width="{w:.0f}" height="30" rx="15" fill="{BG2}" stroke="{BORDER}"/><text class="m" x="{x+w/2:.0f}" y="{y+20}" font-size="12" text-anchor="middle" fill="{FG}">{esc(c)}</text></g>'
+        x += w + 8
+    css = f"""
+  .{p} .up{{animation:{p}up .7s ease-out both}}
+  .{p} .side{{animation:{p}side .7s ease-out both}}
+  .{p} .sweep{{animation:{p}sweep 4s 1s ease-in-out infinite}}
+  .{p} .pulse{{animation:{p}pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}}
+  .{p} .float{{animation:{p}float 4s ease-in-out infinite}}
+  @keyframes {p}up{{from{{opacity:0;transform:translateY(14px)}}}}
+  @keyframes {p}side{{from{{opacity:0;transform:translateX(14px)}}}}
+  @keyframes {p}sweep{{0%{{transform:translateX(-260px)}}45%,100%{{transform:translateX(620px)}}}}
+  @keyframes {p}pulse{{50%{{transform:scale(2.4);opacity:0}}}}
+  @keyframes {p}float{{50%{{transform:translateY(-6px)}}}}"""
+    body = f"""
+<defs>
+  <clipPath id="{p}-award"><rect x="64" y="254" width="496" height="234" rx="18"/></clipPath>
+  <linearGradient id="{p}-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{GOLD}" stop-opacity=".16"/><stop offset=".6" stop-color="{GOLD}" stop-opacity="0"/></linearGradient>
+  <linearGradient id="{p}-sheen" x1="0" x2="1"><stop offset="0" stop-color="{FG}" stop-opacity="0"/><stop offset=".5" stop-color="{FG}" stop-opacity=".09"/><stop offset="1" stop-color="{FG}" stop-opacity="0"/></linearGradient>
+</defs>
+<text class="m" x="64" y="76" font-size="13" letter-spacing="3" fill="{FG2}">05 / ACHIEVEMENTS</text>
+{tiles}
+<g class="up" style="animation-delay:.5s">
+  <rect x="64" y="254" width="496" height="234" rx="18" fill="{BG2}" stroke="{GOLD}" stroke-opacity=".35"/>
+  <g clip-path="url(#{p}-award)">
+    <rect x="64" y="254" width="496" height="234" fill="url(#{p}-gold)"/>
+    <rect class="sweep" x="64" y="254" width="180" height="234" fill="url(#{p}-sheen)" transform="skewX(-14)"/>
+  </g>
+  <g class="float"><path transform="translate(452 286) scale(3.4)" d="{TROPHY}" fill="none" stroke="{GOLD}" stroke-width=".9" stroke-linejoin="round"/></g>
+  <text class="m" x="96" y="304" font-size="12" letter-spacing="3" fill="{GOLD}">AWARD · 2025–26</text>
+  <text class="d" x="94" y="364" font-size="46" letter-spacing="-1.5" fill="{FG}">Young</text>
+  <text class="d" x="94" y="412" font-size="46" letter-spacing="-1.5" fill="{FG}">Entrepreneur</text>
+  <text class="m" x="96" y="456" font-size="13" fill="{FG2}">Two startups scaled from bootstrap → Pvt Ltd</text>
+</g>
+<rect x="584" y="254" width="552" height="234" rx="18" fill="{BG2}" stroke="{BORDER}"/>
+{rows}
+<g class="up" style="animation-delay:1s">
+  <rect x="64" y="512" width="352" height="96" rx="16" fill="{BG2}" stroke="{ACC}" stroke-opacity=".35"/>
+  <circle class="pulse" cx="92" cy="541" r="5" fill="{ACC}"/><circle cx="92" cy="541" r="5" fill="{ACC}"/>
+  <text class="m" x="106" y="545" font-size="11" letter-spacing="2.5" fill="{ACC}">CURRENTLY BUILDING</text>
+  <text class="d" x="86" y="588" font-size="32" letter-spacing="-1" fill="{FG}">gwava.dev</text>
+  <text class="s" x="392" y="588" font-size="17" text-anchor="end" fill="{FG2}">300+ users</text>
+</g>
+{chips}"""
+    svg("achievements.svg", 1200, 640, css, body, p)
+
+
 # ---------------------------------------------------------------- connect
 SOCIALS = [("github", "GitHub", "@parthparmar07"),
            ("linkedin", "LinkedIn", "in/parthparmar04"),
@@ -329,7 +411,7 @@ def connect():
   <clipPath id="{p}-t"><rect x="0" y="300" width="460" height="80"/></clipPath>
 </defs>
 <g clip-path="url(#{p}-t)"><text class="d rise" x="56" y="372" font-size="68" letter-spacing="-3" fill="{FG}">LET'S BUILD.</text></g>
-<text class="m" x="470" y="48" font-size="13" letter-spacing="3" fill="{FG2}">05 / CONNECT</text>
+<text class="m" x="470" y="48" font-size="13" letter-spacing="3" fill="{FG2}">06 / CONNECT</text>
 {cards}"""
     svg("connect.svg", 1200, 400, css, body, p)
 
@@ -339,4 +421,4 @@ if __name__ == "__main__":
     u = json.loads(get("https://api.github.com/users/parthparmar07"))
     gh = {"public_repos": u["public_repos"], "followers": u["followers"],
           "date": datetime.date.today().strftime("%b %Y")}
-    hero(); about(); stack(); id_dashboard(gh); connect()
+    hero(); about(); stack(); id_dashboard(gh); achievements(); connect()

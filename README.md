@@ -1,17 +1,21 @@
 <p align="center">
-  <img src="./assets/hero.svg?v=1" alt="Parth Parmar — AI Systems Engineer" width="100%"/>
+  <img src="./assets/hero.svg?v=2" alt="Parth Parmar — AI Systems Engineer" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="./assets/about-life.svg?v=1" alt="What I build and where I'm building" width="100%"/>
+  <img src="./assets/about-life.svg?v=2" alt="What I build and where I'm building" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="./assets/stack.svg?v=1" alt="Tech stack" width="100%"/>
+  <img src="./assets/stack.svg?v=2" alt="Tech stack" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="./assets/id-dashboard.svg?v=1" alt="ID card and verified metrics" width="100%"/>
+  <img src="./assets/id-dashboard.svg?v=2" alt="ID card and verified metrics" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="./assets/achievements.svg?v=2" alt="Achievements: 4x hackathon wins, Young Entrepreneur Award 2025-26, 2 startups to Pvt Ltd, DevHub 1,600+ members, gwava.dev 300+ users" width="100%"/>
 </p>
 
 ## `SYSTEM METRICS`
@@ -33,12 +37,13 @@
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[gwava.dev](https://gwava.dev)** | Currently building — 300+ users | — |
 | **[Vocacity](https://vocacity.in)** | Enterprise voice AI — 10k+ automated calls/month at sub-500ms latency | FastAPI · WebSockets · LLMs · ElevenLabs · AssemblyAI |
 | **[Datalis](https://www.datalis.in)** | AI financial intelligence — RAG over financial documents + autonomous market-research agents | Python · LangChain · RAG · PostgreSQL · React |
 | **[ChainFund](https://chainfundd.vercel.app)** | Cross-chain grant & ESG funding platform | Blockchain · Web3 |
 
 <p align="center">
-  <img src="./assets/connect.svg?v=1" alt="Connect" width="100%"/>
+  <img src="./assets/connect.svg?v=2" alt="Connect" width="100%"/>
 </p>
 
 <p align="center">
