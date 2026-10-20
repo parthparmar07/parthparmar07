@@ -37,9 +37,9 @@
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[gwava.dev](https://gwava.dev)** | Currently building — 300+ users | — |
+| **[Gwava](https://gwava.dev)** | Placement platform for developers — roadmaps, AI mock interviews, job matching across 9,000+ live roles. **300+ users** | AI · Full-stack |
+| **[Drezza](https://drezza.vercel.app/)** | AI stylist — decodes your daily outfit, builds your closet, picks looks by occasion & weather. Private beta | AI · Computer vision |
 | **[Datalis](https://www.datalis.in)** | AI financial intelligence — RAG over financial documents + autonomous market-research agents | Python · LangChain · RAG · PostgreSQL · React |
-| **[ChainFund](https://chainfundd.vercel.app)** | Cross-chain grant & ESG funding platform | Blockchain · Web3 |
 
 <p align="center">
   <img src="./assets/connect.svg?v=2" alt="Connect" width="100%"/>
