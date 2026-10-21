@@ -374,7 +374,7 @@ SOCIALS = [("github", "GitHub", "@parthparmar07"),
            ("linkedin", "LinkedIn", "in/parthparmar04"),
            ("x", "X / Twitter", "@parthparmar07"),
            ("gmail", "Email", "parthparmar4105@gmail.com"),
-           ("cal", "Book a call", "cal.com/parthparmar"),
+           ("cal", "Book a call", "calendly.com/parthparmar4105"),
            ("netlify", "Portfolio", "parthparmarr.netlify.app")]
 
 
