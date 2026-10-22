@@ -42,14 +42,15 @@
 | **[Datalis](https://www.datalis.in)** | AI financial intelligence — RAG over financial documents + autonomous market-research agents | Python · LangChain · RAG · PostgreSQL · React |
 
 <p align="center">
-  <img src="./assets/connect.svg?v=3" alt="Connect" width="100%"/>
+  <img src="./assets/connect.svg?v=4" alt="Connect" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/parthparmar07"><img src="https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/parthparmar04"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://x.com/parthparmar07"><img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=white"/></a>
+  <a href="https://x.com/partthh07"><img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=white"/></a>
   <a href="mailto:parthparmar4105@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://calendly.com/parthparmar4105/discovery-call-with-parth"><img src="https://img.shields.io/badge/Book_a_call-10b981?style=for-the-badge&logo=googlecalendar&logoColor=white"/></a>
+  <a href="https://linktr.ee/parthparmar04"><img src="https://img.shields.io/badge/Linktree-0A0A0A?style=for-the-badge&logo=linktree&logoColor=white"/></a>
   <a href="https://parthparmarr.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=netlify&logoColor=black"/></a>
 </p>
